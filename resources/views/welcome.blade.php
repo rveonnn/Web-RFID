@@ -27,6 +27,8 @@
      <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css"/> --}}
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     </head>
+
+
 <body class="home prohajj" data-scroll-position="0">
 
 <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
@@ -67,40 +69,41 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-5 col-xs-12">
-                <img src="https://ep.erhj.net/img/prohajj/kaaba.webp" alt="banner" />
+                <img src="{{ asset('images/RFIDReader.png') }}" alt="Reader">
             </div>
             <div class="col-sm-7 col-xs-12">
-                <div id="banner-title-1">Digitalisasi Travel Umrah & Haji Anda Dengan Mudah Dan Murah Bersama ProHajj</div>
-                <div id="banner-title-2">Sistem informasi manajemen bisnis travel umrah & haji yang mengedepankan kemudahan, kecepatan, & ketepatan, untuk meningkatkan penjualan & memaksimalkan potensi bisnis travel Anda di era yang serba digital</div>
+                <div id="banner-title-1">Digitalisasi pengelolaan asset dan dokumen anda lebih mudah dan terkontrol dengan teknologi RFID.</div>
+                <div id="banner-title-2">RFID memudahkan proses identifikasi, pencatatan, dan pemeliharaan aset yang Anda kelola. Setiap perubahan status, penambahan, distribusi, hingga pemeliharaan aset dapat terdokumentasi secara otomatis dan akurat.</div>
                 <div id="banner-title-3">
                     <a onclick="toggleWhatsapp()" class="btn btn-primary btn-ph-white">Hubungi Kami</a>&nbsp;&nbsp;
-                    <a href="#go-coba-gratis" class="btn btn-primary internal-link btn-ph-white btn-outline">Coba Gratis</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
     <div id="ph-front-intro" class="ph-front-section">
     <div class="container center">
-        <a class="ph-subheading-title">Solusi Bisnis Travel Umrah & Haji Anda</a>
-        <h4 class="ph-heading">Membantu Bisnis Travel Umrah & Haji Anda Beradaptasi & Bersaing Di Era Digital</h4>
-        <p class="center">Di era digital saat ini, tentu pengelolaan jamaah umrah dengan menggunakan cara manual akan sangat merepotkan, ditambah lagi dengan jumlah peningkatan signifikan dari jamaah umrah yang ingin berangkat ke tanah suci. Selain itu juga semakin banyaknya travel umrah & haji sebagai kompetitor Anda, maka dibutuhkan pelayanan yang prima, lengkap, cepat, efektif dan efisien adalah jawaban paling tepat untuk manajemen travel umrah Anda.</p>
-        <p class="center">Bersaing di era digital bukan sebatas mendigitalkan data, tapi menstrukturkan dan mengelola data secara digital dengan cepat, tepat, dan akurat. Kuncinya adalah dengan cara : <b>BERSINERGI & BERKOLABORASI dengan teknologi</b></p>
+        <a class="ph-subheading-title">Solusi pengelolaan asset dan dokumen anda</a>
+        <h4 class="ph-heading">Membantu pengelolaan aset dan dokumen Anda secara efisien
+</h4>
+        <p class="center">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, hingga pengelolaan acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci utama. Teknologi RFID (Radio Frequency Identification) hadir sebagai solusi modern yang mampu menggantikan sistem manual yang lambat dan rentan kesalahan. Melalui kemampuan membaca data secara otomatis tanpa perlu kontak langsung, RFID memungkinkan proses identifikasi dan pelacakan berlangsung lebih cepat, akurat, dan hemat tenaga.</p>
+        <p class="center">Keunggulan lain dari RFID adalah kemampuannya menyimpan informasi yang lebih banyak dibandingkan barcode, serta fleksibilitas penggunaannya di berbagai kondisi lingkungan. Dengan mengadopsi RFID, sebuah sistem tidak hanya menjadi lebih canggih, tetapi juga lebih responsif terhadap kebutuhan zaman yang serba cepat dan dinamis.</p>
     </div>
 </div>
     <div id="ph-front-solution" class="ph-bg-gray">
     <div class="container center">
         <a class="ph-subheading-title">Telah Hadir Solusi Untuk Anda</a>
-        <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Bisnis Travel Umrah & Haji Anda</h4>
+        <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Pengelolaan Asset & Dokumen</h4>
 
         <div class="row">
             <div class="col-md-6">
-                <img src="https://ep.erhj.net/img/prohajj/heading-image.png" class="mb10" alt="ProHajj">
+                <img src="{{ asset('images/Mockup.png') }}" alt="Mockup">
             </div>
             <div class="col-md-6">
                 <h4 class="align-left">SATU SISTEM BERBAGAI SOLUSI!</h4>
-                <p>ProHajj merupakan sistem digital berbasis cloud computing, yang dikembangkan khusus untuk meningkatkan penjualan & memaksimalkan potensi bisnis travel Anda dalam beradaptasi, bersaing, dan terus berkembang di era digital. ProHajj membantu Anda untuk bersinergi dengan teknologi digital dalam mengelola berbagai transaksi di travel Anda secara tersistem dan rapi.</p>
-                <p>Didukung dengan teknologi mutakhir dan fitur terlengkap yang dapat meningkatkan performa bisnis Anda dalam melayani jamaah Anda dengan mudah dan dengan waktu yang sangat singkat.</p>
+                <p>PT Partnership menghadirkan solusi digital berbasis teknologi RFID yang dirancang khusus untuk mempermudah pengelolaan aset dan dokumen secara efisien, akurat, dan terintegrasi. Dengan sistem yang mendukung digitalisasi penuh, perusahaan Anda dapat beradaptasi lebih cepat, meningkatkan kontrol operasional, dan bersaing di era yang serba dinamis.</p>
+                <p>Kami menggabungkan RFID dengan solusi manajemen cerdas untuk memastikan setiap aset dan dokumen tercatat secara real-time, aman, dan transparan. Didukung teknologi mutakhir dan fitur lengkap, layanan kami membantu Anda mencatat setiap proses mulai dari pelacakan, distribusi, hingga pemeliharaan, secara otomatis dan terstruktur. Sehiingga mendorong produktivitas dan efisiensi menyeluruh.</p>
             </div>
         </div>
     </div>
@@ -142,7 +145,7 @@
 
         <div class="row">
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-cubes"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Manajemen Transaksi Lengkap</div>
@@ -154,7 +157,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-tablet"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Dilengkapi Aplikasi Mobile</div>
@@ -166,7 +169,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-credit-card"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Integrasi Payment Gateway</div>
@@ -178,7 +181,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-server"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Manajemen Dokumen Standar ISO</div>
@@ -190,7 +193,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-lock"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Sistem Keamanan Berlapis</div>
@@ -202,7 +205,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-gears"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Pengaturan Custom & Fleksibel</div>
@@ -214,7 +217,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-money"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Dukungan Metode Pembayaran</div>
@@ -226,7 +229,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-clipboard"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Laporan Transaksi Sesuai Kebutuhan</div>
@@ -238,7 +241,7 @@
             </div>
 
             <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item mkrwgthaqnbfxknirzrj">
+                <div class="ph-benefit-item benefit-card">
                     <i class="fa fa-laptop"></i>
                     <div class="ph-benefit-description">
                         <div class="ph-benefit-title">Website Responsif & Custom</div>
@@ -256,7 +259,7 @@
 <script>
     $(document).ready(function () {
         setTimeout(function () {
-            setEqualHeight('mkrwgthaqnbfxknirzrj');
+            setEqualHeight('benefit-card');
         }, 1000);
     })
 </script>
@@ -345,7 +348,7 @@
         </div>
 
         <p class="center mb10">Untuk memastikan seluruh produk dan layanan yang Anda dapatkan dapat digunakan secara maksimal, ProHajj didukung oleh tim yang kompeten di bidangnya masing-masing, sehingga dapat membantu bisnis Anda bertransformasi digital secara menyeluruh dengan mudah dan cepat</p>
-<div id="orszbaejoofrshwmescs">
+<div id="photo-slider">
             <a id="xaf333ce68272fbad71f7fda178c8b0e01d5e6fc1" href="https://prohajj.co.id/super-team#xb6692ea5df920cad691c20319a6fffd7a4a766b8" class="list-super-team-front">
             <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/ZPOtSv51KbPZd9AtdDSJsOo34EcYTRwcO7gwlgaE.webp')" src="https://ep.erhj.net/img/super-team.png" alt="super-team">
             <div class="lstf-nama">YUSUF</div>
@@ -443,10 +446,10 @@
 
 <script>
     $(document).ready(function () {
-        var widths = $('#orszbaejoofrshwmescs').outerWidth();
+        var widths = $('#photo-slider').outerWidth();
         var count = parseInt(widths / 210);
 
-        $('#orszbaejoofrshwmescs').slick({
+        $('#photo-slider').slick({
             slidesToShow: count,
             slidesToScroll: 1,
             autoplay: true,
@@ -458,164 +461,172 @@
 
     </div>
 </section>
-
 <div id="ph-front-faq" class="ph-front-section">
     <div class="container center">
         <a class="ph-subheading-title">Pertanyaan Tentang ProHajj</a>
         <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
 
         <div id="ph-faq" class="box">
-                                        <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="efb324ea176025682ae86743581f0701">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#05be1fa6a9b2a60d9c9c1cabb1b0cd25"
-                               aria-expanded="true" aria-controls="05be1fa6a9b2a60d9c9c1cabb1b0cd25"><span>Apa kelebihan Prohajj dengan sistem travel lainnya?</span></a>
-                        </h4>
-                    </div>
-                    <div id="05be1fa6a9b2a60d9c9c1cabb1b0cd25" class="panel-collapse collapse in"
-                         role="tabpanel" aria-labelledby="efb324ea176025682ae86743581f0701">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Prohajj memiliki berbagai modul transaksi dan manajemen yang dapat memaksimalkan kinerja perusahaan anda, dan terus dikembangkan untuk menjadi lebih baik dari waktu ke waktu. Prohajj merupakan satu solusi untuk berbagai masalah administrasi yang dihadapi oleh perusahaan. Prohajj secara khusus dikembangkan untuk memaksimalkan kinerja perusahaan travel, sistem kami dapat beradaptasi dengan berbagai kebutuhan dari perusahaan travel baik domestik maupun internasional.</span></p>
-                        </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-kelebihan-prohajj">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-kelebihan-prohajj"
+                           aria-expanded="true" aria-controls="collapse-kelebihan-prohajj"><span>Apa kelebihan Prohajj dengan sistem travel lainnya?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-kelebihan-prohajj" class="panel-collapse collapse in"
+                     role="tabpanel" aria-labelledby="heading-kelebihan-prohajj">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Prohajj memiliki berbagai modul transaksi dan manajemen yang dapat memaksimalkan kinerja perusahaan anda, dan terus dikembangkan untuk menjadi lebih baik dari waktu ke waktu. Prohajj merupakan satu solusi untuk berbagai masalah administrasi yang dihadapi oleh perusahaan. Prohajj secara khusus dikembangkan untuk memaksimalkan kinerja perusahaan travel, sistem kami dapat beradaptasi dengan berbagai kebutuhan dari perusahaan travel baik domestik maupun internasional.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="d12fcd69aae75b5088f5770f15abd557">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#92325df6d2d3d31123c1bd0f98c9d78f"
-                               aria-expanded="false" aria-controls="92325df6d2d3d31123c1bd0f98c9d78f"><span>Dapatkah saya merubah tampilan Prohajj?</span></a>
-                        </h4>
-                    </div>
-                    <div id="92325df6d2d3d31123c1bd0f98c9d78f" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="d12fcd69aae75b5088f5770f15abd557">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Anda dapat merubah tampilan halaman depan Prohajj sesuai dengan kebutuhan anda, baik mulai dari layout halaman hingga pewarnaan. Semua perubahan ini dapat anda lakukan secara mandiri dengan mudah tanpa harus bergantung kepada kami, melalui panel konfigurasi tampilan yang kami sediakan. Anda tidak perlu memahami kode-kode program untuk merubah tampilan, karena kami telah menyediakan berbagai komponen yang dapat anda atur sesuai keinginan dan kebutuhan anda.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-ubah-tampilan">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-ubah-tampilan"
+                           aria-expanded="false" aria-controls="collapse-ubah-tampilan"><span>Dapatkah saya merubah tampilan Prohajj?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-ubah-tampilan" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-ubah-tampilan">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Anda dapat merubah tampilan halaman depan Prohajj sesuai dengan kebutuhan anda, baik mulai dari layout halaman hingga pewarnaan. Semua perubahan ini dapat anda lakukan secara mandiri dengan mudah tanpa harus bergantung kepada kami, melalui panel konfigurasi tampilan yang kami sediakan. Anda tidak perlu memahami kode-kode program untuk merubah tampilan, karena kami telah menyediakan berbagai komponen yang dapat anda atur sesuai keinginan dan kebutuhan anda.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="a6cf4d645b4a5d7d529ad4c4e1964186">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#192ade14ab6b40040a6cb4410a9a4b42"
-                               aria-expanded="false" aria-controls="192ade14ab6b40040a6cb4410a9a4b42"><span>Apakah data saya aman tersimpan di Prohajj?</span></a>
-                        </h4>
-                    </div>
-                    <div id="192ade14ab6b40040a6cb4410a9a4b42" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="a6cf4d645b4a5d7d529ad4c4e1964186">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Data anda tersimpan dengan aman di server kami. Kami menggunakan sistem backup data secara berkala setiap jam, terenkripsi, dan terdistribusi ke beberapa data penyimpanan kami yang terpisah, sehingga dapat meminimalisir terjadinya hal-hal yang tidak diinginkan apabila terjadi kesalahan pada program atau server.&nbsp; Kami tidak memperjual belikan data anda kepada pihak manapun dengan alasan apapun, karena privasi dan keamanan data perusahaan anda adalah prioritas kami.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-keamanan-data">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-keamanan-data"
+                           aria-expanded="false" aria-controls="collapse-keamanan-data"><span>Apakah data saya aman tersimpan di Prohajj?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-keamanan-data" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-keamanan-data">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Data anda tersimpan dengan aman di server kami. Kami menggunakan sistem backup data secara berkala setiap jam, terenkripsi, dan terdistribusi ke beberapa data penyimpanan kami yang terpisah, sehingga dapat meminimalisir terjadinya hal-hal yang tidak diinginkan apabila terjadi kesalahan pada program atau server.&nbsp; Kami tidak memperjual belikan data anda kepada pihak manapun dengan alasan apapun, karena privasi dan keamanan data perusahaan anda adalah prioritas kami.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="7c72f7a1c9198809e41e557f18a206f4">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#a959026cbc8c499a2b751c5a8e90de1f"
-                               aria-expanded="false" aria-controls="a959026cbc8c499a2b751c5a8e90de1f"><span>Mengapa harga Prohajj sangat murah jika dibandingkan sistem lainnya?</span></a>
-                        </h4>
-                    </div>
-                    <div id="a959026cbc8c499a2b751c5a8e90de1f" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="7c72f7a1c9198809e41e557f18a206f4">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Karena sistem Prohajj dikembangkan dengan mengimplementasikan teknologi Software as a Service dengan sangat optimal, diperkuat dengan optimasi tingkat lanjut, agar mencapai sistem yang efektif &amp; efisien. Disamping itu, di sistem Prohajj banyak mengimplementasikan bot dan kecerdasan buatan untuk membantu menangani hal-hal terkait monitoring sistem, perbaikan sistem, penanganan terkait keamanan, dan lain sebagainya, sehingga dapat meminimalisir biaya yang timbul dari sisi operasional.</span></p>
-<p><span style="font-weight: 400;">Optimasi dan otomasi tingkat lanjut ini menghasilkan biaya yang jauh lebih rendah, dan performa yang jauh lebih maksimal apabila dibandingkan dengan sistem sejenis selain Prohajj. Dengan menggunakan Prohajj, performa perusahaan Anda akan lebih meningkat, dan biaya operasional perusahaan Anda akan lebih hemat, karena Prohajj juga mengoptimalkan kinerja tim dalam perusahaan Anda.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-harga-murah">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-harga-murah"
+                           aria-expanded="false" aria-controls="collapse-harga-murah"><span>Mengapa harga Prohajj sangat murah jika dibandingkan sistem lainnya?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-harga-murah" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-harga-murah">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Karena sistem Prohajj dikembangkan dengan mengimplementasikan teknologi Software as a Service dengan sangat optimal, diperkuat dengan optimasi tingkat lanjut, agar mencapai sistem yang efektif &amp; efisien. Disamping itu, di sistem Prohajj banyak mengimplementasikan bot dan kecerdasan buatan untuk membantu menangani hal-hal terkait monitoring sistem, perbaikan sistem, penanganan terkait keamanan, dan lain sebagainya, sehingga dapat meminimalisir biaya yang timbul dari sisi operasional.</span></p>
+                        <p><span style="font-weight: 400;">Optimasi dan otomasi tingkat lanjut ini menghasilkan biaya yang jauh lebih rendah, dan performa yang jauh lebih maksimal apabila dibandingkan dengan sistem sejenis selain Prohajj. Dengan menggunakan Prohajj, performa perusahaan Anda akan lebih meningkat, dan biaya operasional perusahaan Anda akan lebih hemat, karena Prohajj juga mengoptimalkan kinerja tim dalam perusahaan Anda.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="e03d19a501962f5ecc0f5dbd0d97553b">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#cba327f7cde9c71a3738ed3088db0356"
-                               aria-expanded="false" aria-controls="cba327f7cde9c71a3738ed3088db0356"><span>Dapatkah saya mengubah alur kerja sistem Prohajj?</span></a>
-                        </h4>
-                    </div>
-                    <div id="cba327f7cde9c71a3738ed3088db0356" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="e03d19a501962f5ecc0f5dbd0d97553b">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Anda dapat mengubah alur kerja Prohajj sesuai dengan kebutuhan perusahaan anda. Anda dapat request pada kami untuk menyesuaikan alur Prohajj agar dapat sesuai dengan keinginan dan kebutuhan perusahaan anda.&nbsp;</span></p>
-<p><span style="font-weight: 400;">Sistem Prohajj bersifat fleksibel, tetapi tetap mengikuti kaidah dan aturan yang baku sesuai dengan kaidah ilmu di bidangnya, atau mengikuti hukum dan undang-undang yang berlaku tentang transaksi di Indonesia</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-ubah-alur-kerja">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-ubah-alur-kerja"
+                           aria-expanded="false" aria-controls="collapse-ubah-alur-kerja"><span>Dapatkah saya mengubah alur kerja sistem Prohajj?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-ubah-alur-kerja" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-ubah-alur-kerja">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Anda dapat mengubah alur kerja Prohajj sesuai dengan kebutuhan perusahaan anda. Anda dapat request pada kami untuk menyesuaikan alur Prohajj agar dapat sesuai dengan keinginan dan kebutuhan perusahaan anda.&nbsp;</span></p>
+                        <p><span style="font-weight: 400;">Sistem Prohajj bersifat fleksibel, tetapi tetap mengikuti kaidah dan aturan yang baku sesuai dengan kaidah ilmu di bidangnya, atau mengikuti hukum dan undang-undang yang berlaku tentang transaksi di Indonesia</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="1503066f101685e509993b79f8c83ab9">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#53adedb07cb671aafc78a2439ea12289"
-                               aria-expanded="false" aria-controls="53adedb07cb671aafc78a2439ea12289"><span>Dapatkah saya menambahkan sistem baru yang belum ada di Prohajj?</span></a>
-                        </h4>
-                    </div>
-                    <div id="53adedb07cb671aafc78a2439ea12289" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="1503066f101685e509993b79f8c83ab9">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Anda dapat melakukan request pada kami untuk menambahkan kebutuhan anda yang belum diakomodir oleh Prohajj. Sistem Prohajj dikembangkan dengan teknologi terbaru dan sistem pengembangan software secara modular, sehingga sangat memungkinan untuk dikembangkan secara berkala dan terus menerus untuk dapat mengakomodir seluruh kebutuhan perusahaan.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-tambah-sistem">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-tambah-sistem"
+                           aria-expanded="false" aria-controls="collapse-tambah-sistem"><span>Dapatkah saya menambahkan sistem baru yang belum ada di Prohajj?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-tambah-sistem" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-tambah-sistem">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Anda dapat melakukan request pada kami untuk menambahkan kebutuhan anda yang belum diakomodir oleh Prohajj. Sistem Prohajj dikembangkan dengan teknologi terbaru dan sistem pengembangan software secara modular, sehingga sangat memungkinan untuk dikembangkan secara berkala dan terus menerus untuk dapat mengakomodir seluruh kebutuhan perusahaan.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="a792d0717a2285d682f567cbba662dd1">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#460c28d0c7a5e1b07df8c131a30ce4c5"
-                               aria-expanded="false" aria-controls="460c28d0c7a5e1b07df8c131a30ce4c5"><span>Apakah Prohajj memberikan garansi layanannya?</span></a>
-                        </h4>
-                    </div>
-                    <div id="460c28d0c7a5e1b07df8c131a30ce4c5" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="a792d0717a2285d682f567cbba662dd1">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Kami memberikan garansi life time untuk segala jenis kesalahan pada sistem yang disebabkan oleh kesalahan pada internal program kami atau server Prohajj. Termasuk didalamnya apabila terdapat kesalahan dalam kalkulasi atau tampilan data, inkonsistensi data, dan berbagai kesalahan teknis dari program lainnya. Garansi tidak berlaku untuk kesalahan yang disebabkan oleh faktor human error, seperti kesalahan pada entri data, pengubahan data, maupun penghapusan data.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-garansi-layanan">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-garansi-layanan"
+                           aria-expanded="false" aria-controls="collapse-garansi-layanan"><span>Apakah Prohajj memberikan garansi layanannya?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-garansi-layanan" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-garansi-layanan">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Kami memberikan garansi life time untuk segala jenis kesalahan pada sistem yang disebabkan oleh kesalahan pada internal program kami atau server Prohajj. Termasuk didalamnya apabila terdapat kesalahan dalam kalkulasi atau tampilan data, inkonsistensi data, dan berbagai kesalahan teknis dari program lainnya. Garansi tidak berlaku untuk kesalahan yang disebabkan oleh faktor human error, seperti kesalahan pada entri data, pengubahan data, maupun penghapusan data.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="f188cb2242bf90b372784d7bdec7a391">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#d30d430ddbd17422d52d231f221db687"
-                               aria-expanded="false" aria-controls="d30d430ddbd17422d52d231f221db687"><span>Dapatkan saya mendapatkan source code Prohajj?</span></a>
-                        </h4>
-                    </div>
-                    <div id="d30d430ddbd17422d52d231f221db687" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="f188cb2242bf90b372784d7bdec7a391">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Prohajj hanya menjual layanan dan program dalam bentuk jadi dan siap pakai, sehingga kami tidak menjual source code Prohajj, kecuali dengan kesepakatan dan batasan tertentu antara pihak pembeli dengan Prohajj. Hal ini ditujukan untuk menghindari adanya kesalahan pada program yang diakibatkan oleh pengembangan program diluar pengembangan resmi dari Prohajj.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-source-code">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-source-code"
+                           aria-expanded="false" aria-controls="collapse-source-code"><span>Dapatkan saya mendapatkan source code Prohajj?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-source-code" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-source-code">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Prohajj hanya menjual layanan dan program dalam bentuk jadi dan siap pakai, sehingga kami tidak menjual source code Prohajj, kecuali dengan kesepakatan dan batasan tertentu antara pihak pembeli dengan Prohajj. Hal ini ditujukan untuk menghindari adanya kesalahan pada program yang diakibatkan oleh pengembangan program diluar pengembangan resmi dari Prohajj.</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="da4a1417d25b0828b0804c60528bb939">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#aa262edc3af49062704d361498935da7"
-                               aria-expanded="false" aria-controls="aa262edc3af49062704d361498935da7"><span>Apakah Prohajj menyediakan training terkait penggunaan sistemnya?</span></a>
-                        </h4>
-                    </div>
-                    <div id="aa262edc3af49062704d361498935da7" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="da4a1417d25b0828b0804c60528bb939">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Ya, Prohajj menyediakan training gratis kepada pengguna Prohajj. Adapun rincian training dari Prohajj adalah sebagai berikut:</span></p>
-<p><strong>Training Sistem</strong></p>
-<p><span style="font-weight: 400;">Materi : Pembuatan paket, transaksi, pembayaran, laporan transaksi, setting data pemberangkatan, dan kuesioner.<br /></span><span style="font-weight: 400;">Peserta : Staf yang melayani transaksi dan pembuatan paket</span></p>
-<p><span style="font-weight: 400;">Training dari Prohajj, dapat dilakukan secara online melalui Zoom, atau bisa juga training secara langsung di perusahaan Anda. Disamping training, kami juga menyediakan panduan berupa video dan eBook yang berisi tutorial penggunaan sistem Prohajj, yang dapat diakses dengan mudah, kapanpun, dan dimanapun. Sehingga akan jauh memudahkan Anda dalam menggunakan sistem Prohajj</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-training-sistem">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-training-sistem"
+                           aria-expanded="false" aria-controls="collapse-training-sistem"><span>Apakah Prohajj menyediakan training terkait penggunaan sistemnya?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-training-sistem" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-training-sistem">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Ya, Prohajj menyediakan training gratis kepada pengguna Prohajj. Adapun rincian training dari Prohajj adalah sebagai berikut:</span></p>
+                        <p><strong>Training Sistem</strong></p>
+                        <p><span style="font-weight: 400;">Materi : Pembuatan paket, transaksi, pembayaran, laporan transaksi, setting data pemberangkatan, dan kuesioner.<br /></span><span style="font-weight: 400;">Peserta : Staf yang melayani transaksi dan pembuatan paket</span></p>
+                        <p><span style="font-weight: 400;">Training dari Prohajj, dapat dilakukan secara online melalui Zoom, atau bisa juga training secara langsung di perusahaan Anda. Disamping training, kami juga menyediakan panduan berupa video dan eBook yang berisi tutorial penggunaan sistem Prohajj, yang dapat diakses dengan mudah, kapanpun, dan dimanapun. Sehingga akan jauh memudahkan Anda dalam menggunakan sistem Prohajj</span></p>
                     </div>
                 </div>
-                                            <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="1bbf28e473bab168fa085d7c05943480">
-                        <h4 class="panel-title accordion-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#367d93a3333e52ec3673ebabca41d954"
-                               aria-expanded="false" aria-controls="367d93a3333e52ec3673ebabca41d954"><span>Bagaimana terkait keamanan di sistem Prohajj?</span></a>
-                        </h4>
-                    </div>
-                    <div id="367d93a3333e52ec3673ebabca41d954" class="panel-collapse collapse "
-                         role="tabpanel" aria-labelledby="1bbf28e473bab168fa085d7c05943480">
-                        <div class="panel-body">
-                            <p><span style="font-weight: 400;">Di sistem Prohajj, kami menggunakan metode keamanan yang berlapis dari berbagai sisi, baik sisi aplikasi, database, jaringan, maupun server. Prohajj juga didukung oleh tim pengembang yang berpengalaman di bidang keamanan data, untuk memastikan data Anda aman dari penyalahgunaan Data oleh pihak manapun.</span></p>
-<p><span style="font-weight: 400;">Dari sisi aplikasi, Prohajj mengimplementasikan anti brute-force, anti SQL Injection, anti remote-injection, sistem log monitoring aktivitas user, dan lain sebagainya. Prohajj juga dilengkapi sistem yang mendeteksi apakah email yang digunakan merupakan email SPAM, mencegah transaksi yang dilakukan oleh bot, dan mengimplementasikan fraud detection yang menggunakan kecerdasan buatan yang ditanamkan dalam sistem untuk mendeteksi adanya gangguan dari pihak luar.</span></p>
-<p><span style="font-weight: 400;">Dari sisi jaringan, sistem Prohajj menggunakan SSL 256 bit encryption, sehingga mengamankan data Anda dari penyadapan atau manipulasi data yang menggunakan metode man in the middle (MITM). Disisi lain, dengan menggunakan SSL, sistem Anda akan terdeteksi sebagai sistem yang aman oleh seluruh web browser, sehingga menghindari adanya injeksi iklan atau script yang dapat merugikan sistem Anda, dan juga dapat meningkatkan reputasi sistem Anda dari sudut pandang client Anda.</span></p>
-<p><span style="font-weight: 400;">Dari sisi database, sistem Prohajj mengimplementasikan backup otomatis secara berkala setiap jam, terdistribusi secara otomatis di 4 lokasi penyimpanan yang berbeda. Disamping itu, database transaksi Anda juga terpisah dengan database file Anda, sehingga dapat meminimalisir berbagai resiko yang mungkin timbul akibat dari aktivitas hacking maupun penyalahgunaan Data.</span></p>
-<p><span style="font-weight: 400;">Dari sisi server, sistem Prohajj menggunakan anti DDOS dari CloudFlare, sehingga akan lebih mengamankan sistem Anda dari pihak-pihak yang bertujuan untuk mengganggu kestabilan sistem Anda.</span></p>
-<p><span style="font-weight: 400;">Kami berusaha ekstra untuk terus meningkatkan keamanan dari sisi manapun, sehingga Anda dapat lebih tenang dalam menjalankan manajemen perusahaan Anda melalui sistem Prohajj.</span></p>
-                        </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading-sistem-keamanan">
+                    <h4 class="panel-title accordion-title">
+                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-sistem-keamanan"
+                           aria-expanded="false" aria-controls="collapse-sistem-keamanan"><span>Bagaimana terkait keamanan di sistem Prohajj?</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-sistem-keamanan" class="panel-collapse collapse"
+                     role="tabpanel" aria-labelledby="heading-sistem-keamanan">
+                    <div class="panel-body">
+                        <p><span style="font-weight: 400;">Di sistem Prohajj, kami menggunakan metode keamanan yang berlapis dari berbagai sisi, baik sisi aplikasi, database, jaringan, maupun server. Prohajj juga didukung oleh tim pengembang yang berpengalaman di bidang keamanan data, untuk memastikan data Anda aman dari penyalahgunaan Data oleh pihak manapun.</span></p>
+                        <p><span style="font-weight: 400;">Dari sisi aplikasi, Prohajj mengimplementasikan anti brute-force, anti SQL Injection, anti remote-injection, sistem log monitoring aktivitas user, dan lain sebagainya. Prohajj juga dilengkapi sistem yang mendeteksi apakah email yang digunakan merupakan email SPAM, mencegah transaksi yang dilakukan oleh bot, dan mengimplementasikan fraud detection yang menggunakan kecerdasan buatan yang ditanamkan dalam sistem untuk mendeteksi adanya gangguan dari pihak luar.</span></p>
+                        <p><span style="font-weight: 400;">Dari sisi jaringan, sistem Prohajj menggunakan SSL 256 bit encryption, sehingga mengamankan data Anda dari penyadapan atau manipulasi data yang menggunakan metode man in the middle (MITM). Disisi lain, dengan menggunakan SSL, sistem Anda akan terdeteksi sebagai sistem yang aman oleh seluruh web browser, sehingga menghindari adanya injeksi iklan atau script yang dapat merugikan sistem Anda, dan juga dapat meningkatkan reputasi sistem Anda dari sudut pandang client Anda.</span></p>
+                        <p><span style="font-weight: 400;">Dari sisi database, sistem Prohajj mengimplementasikan backup otomatis secara berkala setiap jam, terdistribusi secara otomatis di 4 lokasi penyimpanan yang berbeda. Disamping itu, database transaksi Anda juga terpisah dengan database file Anda, sehingga dapat meminimalisir berbagai resiko yang mungkin timbul akibat dari aktivitas hacking maupun penyalahgunaan Data.</span></p>
+                        <p><span style="font-weight: 400;">Dari sisi server, sistem Prohajj menggunakan anti DDOS dari CloudFlare, sehingga akan lebih mengamankan sistem Anda dari pihak-pihak yang bertujuan untuk mengganggu kestabilan sistem Anda.</span></p>
+                        <p><span style="font-weight: 400;">Kami berusaha ekstra untuk terus meningkatkan keamanan dari sisi manapun, sehingga Anda dapat lebih tenang dalam menjalankan manajemen perusahaan Anda melalui sistem Prohajj.</span></p>
                     </div>
                 </div>
-                                    </div>
+            </div>
+        </div>
     </div>
 </div>
 
