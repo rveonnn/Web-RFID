@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html prefix="og: https://ogp.me/ns#">
 <head>
-    <title>ProHajj - Sistem Manajemen Travel Umrah &amp; Haji Terintegrasi &amp; Terlengkap No #1 Di Dunia</title>
+    <title>RFID</title>
 
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -14,19 +14,24 @@
     <link href="https://ep.erhj.net/img/favicon-prohajj.png" rel="apple-touch-icon">
     <script src="https://ep.erhj.net/script/jquery-3.6.0.min.js"></script>
 
-    
+
     <link rel="stylesheet" data-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="preconnect" data-href="https://fonts.googleapis.com">
         <link rel="preconnect" data-href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap">
         <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family=Roboto">
-    
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
             <link rel="stylesheet" href="https://ep.erhj.net/css/000-76ef7fbcd36c96ebf14f981bb2bc090a.css"/>
                 {{-- <link rel="stylesheet" href="https://ep.erhj.net/css/general-lp.css"/>
        <link rel="stylesheet" href="https://ep.erhj.net/css/prohajj.css"/>
      <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css"/> --}}
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     </head>
+
 <body class="home prohajj" data-scroll-position="0">
 
 <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
@@ -44,11 +49,12 @@
     <div id="ph-main-heading-tree"></div>
     <div id="ph-main-heading-bottom"></div>
 </div>
+
 <nav id="main-top-navbar" class="">
     <div class="container">
         <a id="main-logo" href="https://prohajj.co.id">
-            <img src="https://ep.erhj.net/img/prohajj/logo-prohajj-white.png" alt="ProHajj" id="logo-white" />
-            <img src="https://ep.erhj.net/img/prohajj/logo-prohajj.png" alt="ProHajj" id="logo-color" />
+            {{-- <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="ProHajj" id="logo-white" /> --}}
+            <img src="/image/PARTNERSHIP-LOGO-07.png" alt="ProHajj" id="logo-color" />
         </a>
 
         <ul id="nav-menu" class="hidden-xs">
@@ -61,7 +67,11 @@
     </div>
 </nav>
 
-        <h1 style="color: transparent; z-index: -1; position: fixed; width: 0; height: 0;">Aplikasi Travel Umrah & Haji Terbaik</h1>
+{{-- <div class="background-blur-layer"></div> --}}
+
+    <div id="page-title-container">
+        <h1>Aplikasi Travel Umrah & Haji Terbaik</h1>
+    </div>
 
     <div id="ph-front-welcome">
     <div class="container">
@@ -88,7 +98,7 @@
         <p class="center">Bersaing di era digital bukan sebatas mendigitalkan data, tapi menstrukturkan dan mengelola data secara digital dengan cepat, tepat, dan akurat. Kuncinya adalah dengan cara : <b>BERSINERGI & BERKOLABORASI dengan teknologi</b></p>
     </div>
 </div>
-    <div id="ph-front-solution" class="ph-bg-gray">
+    <div id="ph-front-solution">
     <div class="container center">
         <a class="ph-subheading-title">Telah Hadir Solusi Untuk Anda</a>
         <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Bisnis Travel Umrah & Haji Anda</h4>
@@ -135,7 +145,7 @@
         </div>
     </div>
 </div>
-    <div id="feature-section" class="ph-bg-gray">
+    <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
         <a class="ph-subheading-title">Fitur Terbaik Untuk Bisnis Travel Anda</a>
         <h4 class="ph-heading">Mengapa Anda Membutuhkan ProHajj Untuk Travel Umrah & Haji Anda?</h4>
@@ -647,7 +657,7 @@
         }
     </script>
 
-    
+
 
 <footer id='footer'>
     <div id="footer-ornament-left"></div>
