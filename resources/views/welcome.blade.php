@@ -61,7 +61,6 @@
             <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link active">Fitur & Layanan</a></li>
             <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Pemesanan & Harga</a></li>
             <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Dukungan Layanan</a></li>
-            <li><a onclick="closeResponsiveMenu();" id="btn-trial" href="#go-coba-gratis" class="internal-link">Coba Gratis</a></li>
         </ul>
         <a onclick="frontResponsiveToggler()" id="responsive-toggler" class="hidden-lg hidden-md hidden-sm"><i class="fa fa-bars"></i></a>
     </div>
@@ -90,7 +89,7 @@
     </div>
 </div>
 
-    <div id="ph-front-intro" class="ph-front-section">
+    <div id="ph-front-intro" class="ph-front-section bg-white">
     <div class="container center">
         <a class="ph-subheading-title">Solusi pengelolaan asset dan dokumen anda</a>
         <h4 class="ph-heading">Membantu pengelolaan aset dan dokumen Anda secara efisien
