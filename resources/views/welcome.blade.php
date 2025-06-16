@@ -9,8 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
 
-    <link rel="canonical" href="https://prohajj.co.id" />
-    <link rel='icon' href="https://ep.erhj.net/img/favicon-prohajj.png" type='image/x-icon'>
+    <link rel='icon' href="/image/favicon.ico" type='image/x-icon'>
     <link href="https://ep.erhj.net/img/favicon-prohajj.png" rel="apple-touch-icon">
     <script src="https://ep.erhj.net/script/jquery-3.6.0.min.js"></script>
 
@@ -51,13 +50,14 @@
 </div>
 
 <nav id="main-top-navbar" class="">
+
     <div class="container">
         <a id="main-logo" href="https://prohajj.co.id">
             {{-- <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="ProHajj" id="logo-white" /> --}}
             <img src="/image/PARTNERSHIP-LOGO-07.png" alt="ProHajj" id="logo-color" />
         </a>
 
-        <ul id="nav-menu" class="hidden-xs">
+        <ul id="nav-menu">
             <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link active">Fitur & Layanan</a></li>
             <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Pemesanan & Harga</a></li>
             <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Dukungan Layanan</a></li>
@@ -66,7 +66,6 @@
     </div>
 </nav>
 
-{{-- <div class="background-blur-layer"></div> --}}
 
     <div id="page-title-container">
         <h1>Aplikasi Travel Umrah & Haji Terbaik</h1>
@@ -89,8 +88,9 @@
     </div>
 </div>
 
-    <div id="ph-front-intro" class="ph-front-section bg-white">
+    <div id="ph-front-intro" class="ph-front-section ">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Solusi pengelolaan asset dan dokumen anda</a>
         <h4 class="ph-heading">Membantu pengelolaan aset dan dokumen Anda secara efisien
 </h4>
@@ -98,8 +98,10 @@
         <p class="center">Keunggulan lain dari RFID adalah kemampuannya menyimpan informasi yang lebih banyak dibandingkan barcode, serta fleksibilitas penggunaannya di berbagai kondisi lingkungan. Dengan mengadopsi RFID, sebuah sistem tidak hanya menjadi lebih canggih, tetapi juga lebih responsif terhadap kebutuhan zaman yang serba cepat dan dinamis.</p>
     </div>
 </div>
+</div>
     <div id="ph-front-solution">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Telah Hadir Solusi Untuk Anda</a>
         <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Pengelolaan Asset & Dokumen</h4>
 
@@ -114,9 +116,11 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
     <div id="ph-front-easy-step" class="ph-front-section">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Transformasi Digital Mudah & Cepat</a>
         <h4 class="ph-heading">3 Langkah Mudah Transformasi Digital Dengan ProHajj</h4>
 
@@ -144,9 +148,11 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
     <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Fitur Terbaik Untuk Bisnis Travel Anda</a>
         <h4 class="ph-heading">Mengapa Anda Membutuhkan ProHajj Untuk Travel Umrah & Haji Anda?</h4>
 
@@ -261,6 +267,7 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
 
 <script>
@@ -272,6 +279,7 @@
 </script>
     <div id="ph-front-advantages" class="ph-front-section">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Keunggulan ProHajj</a>
         <h4 class="ph-heading">Bersama Kami Maksimalkan Performa Bisnis Travel Anda</h4>
 
@@ -297,6 +305,7 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
     <div id="go-pemesanan-harga">
     <div id="go-pemesanan-harga-pattern"></div>
@@ -313,6 +322,7 @@
 
     <section id="eh-training" class="ph-front-section">
     <div class="container">
+        <div class="card">
         <div class="center">
             <a class="ph-subheading-title">Dukungan Layanan Sistem</a>
             <h4 class="ph-heading">Mudah Transformasi Digital Dengan ProHajj</h4>
@@ -345,10 +355,12 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
 
 <section id="front-super-team" class="ph-front-section">
     <div class="container">
+        <div class="card">
         <div class="center">
             <a class="ph-subheading-title">ProHajj Super Team</a>
             <h4 class="ph-heading">Dukungan Profesional Dari Tim Yang Handal</h4>
@@ -431,6 +443,7 @@
             <div class="lstf-nama">ZAHRA</div>
             <div class="lstf-label">-</div>
         </a>
+    </div>
     </div>
 
 <style>
@@ -637,22 +650,7 @@
     </div>
 </div>
 
-    <div id="go-coba-gratis">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
-                <a class="ph-subheading-title">Coba Gratis Sekarang</a>
-                <h4 class="ph-heading">100% GRATIS Tanpa Instalasi, Akses Instan, Dapat Dibatalkan Kapanpun</h4>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <p>Daftarkan perusahaan Anda untuk mencoba 7 hari gratis dan lihat bagaimana fitur kami dapat memberikan keuntungan untuk bisnis Anda.</p>
-                <p style="margin-bottom: 30px;">Maksimalkan performa perusahaan Anda dan dapatkan berbagai keuntungan dengan menggunakan sistem komputer terintegrasi dari ProHajj.</p>
-                <a target="_blank" href="https://demo.prohajj.co.id" class="btn btn-primary">Akses Demo Sistem</a>&nbsp;&nbsp;
-                <a href="https://prohajj.co.id/trial" class="btn btn-primary btn-outline">Coba Gratis Sekarang</a>
-            </div>
-        </div>
-    </div>
-</div>
+
 
     <input type="hidden" name="is_home" id="is_home" value="1">
 
@@ -667,108 +665,114 @@
 
 
 
-<footer id='footer'>
-    <div id="footer-ornament-left"></div>
-    <div id="footer-ornament-right"></div>
-    <div class='container'>
-        <div class="row">
-            <div class='footer-item col-md-3 col-sm-3 col-xs-12'>
-                <h4>Hubungi Kami</h4>
-                <ul id="footer-hubungi-kami" class="footer-list">
-                    <li><i class="fa fa-phone-square"></i> 0812 9695 2901</li>
 
-                    <li><i class="fa fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aac3c4ccc5eadad8c5c2cbc0c084c9c584c3ce">[email&#160;protected]</a></li>
-                </ul>
-            </div>
+        <!-- Main Footer -->
+        <footer>
+            <div class=" bg-black h-100" style="height: 70svh; color: #FFFFFF;padding-bottom: 40px">
+                <div class="card-footer">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 pb-2 mb-2">
+                    <div class="col-12 col-md-5 mb-3">
+                        <a href="https://partnership.co.id"
+                            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                            <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="logo_main" height="32px">
+                        </a>
+                        <p class="text-secondary"><strong>Kantor Pusat</strong></p>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <p><strong>Partnership Head Office<br></strong>Jl. Golf Bar. III No.1, Sukamiskin, Kec.
+                                    Arcamanik, Kota Bandung, Jawa Barat 40293</p>
+                            </li>
+                        </ul>
+                        <p class="text-secondary"><strong>Workshop</strong></p>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <p><strong>Partner Workshop<br></strong>Jl. Cingised No.2 Arcamanik, Kota
+                                    Bandung, Jawa Barat 40291</p>
+                            </li>
+                        </ul>
+                        <p class="text-secondary"><strong>Partner Care</strong></p>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://wa.me/6281318554360" target="_blank"
+                                    class="nav-link p-0 text-white"><i class="fa-brands fa-whatsapp fa-xl me-2"></i>
+                                    0813 1855 4360 - Admin</a>
+                            </li>
+                        </ul>
+                    </div>
 
-            <div class='footer-item col-md-3 col-sm-3 col-xs-12'>
-                <h4>Sosial Media</h4>
-                <ul class="footer-list">
-                    <li class="sosmed-list">
-        <a target="_blank" href="https://www.facebook.com/prohajj.co.id">
-            <img src="https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/6kCSm76D2T3qZ74194G61hxo3xfObLvjDNBx4BAU.webp" alt="Facebook" class="sosmed-icon">
-            Facebook
-        </a>
-    </li>
-    <li class="sosmed-list">
-        <a target="_blank" href="https://www.instagram.com/prohajj.co.id/">
-            <img src="https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/y8PwUjxslnfGQkMh0u1X09t2qUxLaRVf3PCSdkyQ.webp" alt="Instagram" class="sosmed-icon">
-            Instagram
-        </a>
-    </li>
-    <li class="sosmed-list">
-        <a target="_blank" href="https://twitter.com/prohajjcoid">
-            <img src="https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/tGdq3ORvVoY0s0MRpSI2ovAtEylfznxocVsf03oT.webp" alt="Twitter" class="sosmed-icon">
-            Twitter
-        </a>
-    </li>
+                    <div class="col-md-1"></div>
 
-                </ul>
-            </div>
+                    <div class="col-4 col-md-2 mb-3">
+                        <h5 style="color: #0055FF"><strong>Info Perusahaan</strong></h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://partnership.co.id/about-us"
+                                    class="nav-link p-0 text-white">Tentang
+                                    kami</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="https://partnership.co.id/our-product"
+                                    class="nav-link p-0 text-white">Produk &
+                                    Layanan</a>
+                            </li>
 
-            <div class='footer-item col-md-3 col-sm-3 col-xs-12'>
-                <h4>Informasi Layanan</h4>
-                <ul class="footer-list">
-                    <li><a href="https://prohajj.co.id/bantuan">Tanya Jawab</a></li>
-                    <li><a target="_blank" href="https://blog.prohajj.co.id">Blog ProHajj</a></li>
-                    <li><a href='https://prohajj.co.id/halaman/informasi-keamanan'>Informasi Keamanan</a></li>
-                    <li><a href='https://erahajj.co.id/karir'>Informasi Karir</a></li>
-                    <li><a onclick="displayPopupSubscriber(1)">Berlangganan Informasi</a></li>
-                </ul>
-            </div>
+                        </ul>
+                    </div>
 
-            <div id='item-subscribe' class='footer-item col-md-3 col-sm-3 col-xs-12'>
-                <h4>Tentang ProHajj</h4>
-                <ul class="footer-list">
-                    <li><a href="https://prohajj.co.id/halaman/tentang-kami">Tentang Kami</a></li>
-                    <li><a href="https://prohajj.co.id/halaman/kebijakan-mutu">Kebijakan Mutu</a></li>
-                    <li><a href="https://prohajj.co.id/super-team">Tim Support</a></li>
-                    <li><a href="https://prohajj.co.id/halaman/syarat-ketentuan">Syarat dan Ketentuan</a></li>
-                    <li><a href="https://prohajj.co.id/halaman/kebijakan-privasi">Kebijakan Privasi</a></li>
-                    <li><a href="https://prohajj.co.id/hubungi-kami">Hubungi Kami</a></li>
-                </ul>
-            </div>
-        </div>
+                    <div class="col-4 col-md-2 mb-3">
+                        <h5 style="color: #0055FF"><strong>Partnership</strong></h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://partnership.co.id/project/gallery"
+                                    class="nav-link p-0 text-white">Project
+                                    Gallery</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="https://partnership.co.id/project/references"
+                                    class="nav-link p-0 text-white">Project
+                                    References</a>
+                            </li>
 
-        <div class="row">
-            <div class='footer-item col-md-3 col-sm-3 col-xs-12'>
-                <div id="footer-pse-img" >
-                    <img src="https://ep.erhj.net/img/logo-pse.png" alt="logo-pse">
-                    Telah terdaftar di sistem PSE KOMINFO dengan Nomor PB UMKU 912020795117500000001
+                        </ul>
+                    </div>
+
+                    <div class="col-4 col-md-2 mb-3">
+                        <h5 style="color: #0055FF"><strong>Get in touch</strong></h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://partnership.co.id/contact-us"
+                                    class="nav-link p-0 text-white">Hubungi
+                                    kami</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row pb-3 pt-4">
+                    <div class="col-12 text-md-end text-center">
+                        <a href="https://www.instagram.com/partnership.co.id/" target="_blank" class="text-white"
+                            style="margin-left: 12px"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="https://www.youtube.com/@partnershipsolution" target="_blank" class="text-white"
+                            style="margin-left: 12px"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="row py-3 text-white border-top mt-2">
+                    <small class="col-12 col-md-5 text-white text-md-start text-center">&copy; 2025 PT Partnership
+                        Procurement
+                        Solution. All
+                        rights
+                        reserved</small>
+
+                    <a href="https://partnership.co.id"
+                        class="col-12 col-md-2 d-flex align-items-center justify-content-center mb-3 pt-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                        <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main" height="32px">
+                    </a>
+
+                    <div class="col-12 col-md-5 text-md-end text-center">
+                        <a href="#" class="text-white" style="text-decoration:none"><small>Syarat &
+                                Ketentuan</small></a>
+                        <a href="#" class="text-white"
+                            style="text-decoration:none; margin-left: 12px"><small>Kebijakan
+                                Privasi</small></a>
+                    </div>
                 </div>
             </div>
-
-            <div class='footer-item col-md-3 col-sm-3 col-xs-12'>
-                <div id="footer-pse-img" >
-                    <img src="https://ep.erhj.net/img/logo-norton.png" alt="logo-norton">
-                    Telah terverifikasi aman oleh Norton Safe Web <a style="color: #ffffffb8 !important;" href="https://safeweb.norton.com/report/show?url=https%3A%2F%2Fprohajj.co.id" target="_blank">[Detail Verifikasi]</a>
-                </div>
             </div>
-
-            <div class='footer-item col-md-6 col-sm-6 col-xs-12'>
-                <div id="footer-erahajj-group" >
-    <h4>Erahajj Group</h4>
-    <ul>
-        <li>
-            <a target="_blank" title="Erahajj" href="https://erahajj.co.id"><img src="https://ep.erhj.net/img/logo-erahajj-invert.png" alt="Erahajj" /></a>
-        </li>
-        <li>
-            <a target="_blank" title="Safar" href="https://safar.co.id"><img src="https://ep.erhj.net/img/logo-safar-invert.png" alt="Safar" /></a>
-        </li>
-        <li>
-            <a target="_blank" title="ProHajj" href="https://prohajj.co.id"><img src="https://ep.erhj.net/img/logo-prohajj-invert.png" alt="ProHajj" /></a>
-        </li>
-        <li>
-            <a target="_blank" title="TravelSys" href="https://travelsys.co.id"><img src="https://ep.erhj.net/img/logo-travelsys-invert.png" alt="TravelSys" /></a>
-        </li>
-    </ul>
-</div>
-            </div>
-        </div>
-    </div>
-
-    <div id='copyright'>Copyright ProHajj &copy; 2025 - Powered By Erahajj</div>
-</footer>
+        </footer>
 
 <input type="hidden" name="_token" value="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
 <input type="hidden" name="base_currency" id="base_currency" value="idr">

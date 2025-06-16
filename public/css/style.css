@@ -6,7 +6,7 @@ div {
     line-height: 1.5;
 }
 
-#copyright {
+/* #copyright {
     background: rgba(0, 0, 0, 0.4);
     color: #bdbdbd;
     padding-top: 10px;
@@ -15,11 +15,7 @@ div {
     margin-top: 40px;
     position: relative;
     z-index: 1;
-}
-
-.footer-list li a {
-    color: #fafafa !important;
-}
+} */
 
 p {
     text-align: justify;
@@ -68,15 +64,25 @@ p {
     max-width: 1100px;
 }
 
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-footer {
+    background-image: url("/image/Pattern-Dark.jpg");
+    /* border-radius: 15px; */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
 body {
     font-size: 14px;
     line-height: 1.42857143;
     font-weight: 400;
     background-image: url("/image/Pattern-Light.jpg");
-    background-size: 500px auto; /* Ukuran lebih kecil (lebar 150px, tinggi otomatis) */
-    background-repeat: repeat; /* Gambar diulang (loop) ke semua arah) */
-    background-position: top left; /* Mulai dari pojok kiri atas */
-    background-color: #ffffff; /* Warna latar belakang kalau ada sela */
     color: #4a4a4a;
 }
 
@@ -118,7 +124,7 @@ body {
     background-position: center;
 }
 
-#ph-main-heading:before {
+/* #ph-main-heading:before {
     content: " ";
     display: block;
     width: 100%;
@@ -126,24 +132,21 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    /* background: linear-gradient(178deg, rgb(0 0 0) 0%, rgb(86 86 86) 100%); */
-    z-index: 0;
-    opacity: 0.9;
-}
+    /* background: linear-gradient(178deg, rgb(0 0 0) 0%, rgb(86 86 86) 100%);
+}*/
 
-#ph-main-heading:after {
+/* #ph-main-heading:after {
     content: " ";
     display: block;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
-
     position: absolute;
     z-index: 2;
     opacity: 0.1;
     background-size: 400px;
-}
+} */
 
 #ph-main-heading-bottom {
     /* background-image: url(../img/prohajj/ph-bottom-background-image.png); */
@@ -165,7 +168,7 @@ body {
     background-size: 500px;
     padding: 10px 0;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 10px 25px 0 rgb(18 18 18 / 5%);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 10px 25px 0 rgb(18 18 18 / 5%);
     z-index: 5;
 }
@@ -278,8 +281,9 @@ h4.ph-heading {
     font-size: 30px;
     margin: 10px 0 30px 0;
     line-height: 1.3;
-    font-family: "Cinzel", serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .ph-bg-gray {
@@ -288,7 +292,7 @@ h4.ph-heading {
 
 .ph-bg-gray:before {
     content: " ";
-    background-image: url("../img/prohajj/bottom-background-image.png");
+    /* background-image: url("../img/prohajj/bottom-background-image.png"); */
     height: 112px;
     width: 100%;
     display: block;
@@ -299,7 +303,7 @@ h4.ph-heading {
 
 .ph-bg-gray:after {
     content: " ";
-    background-image: url("../img/prohajj/bottom-background-image.png");
+    /* background-image: url("../img/prohajj/bottom-background-image.png"); */
     height: 112px;
     width: 100%;
     display: block;
@@ -324,7 +328,7 @@ h4.ph-heading {
 }
 
 .ph-benefit-item .fa {
-    background-image: url(../img/prohajj/bg-fitur-default.png);
+    /* background-image: url(../img/prohajj/bg-fitur-default.png); */
     display: block;
     height: 90px;
     background-size: contain;
@@ -339,7 +343,7 @@ h4.ph-heading {
 }
 
 .ph-benefit-item:hover .fa {
-    background-image: url(../img/prohajj/bg-fitur-hover.png);
+    /* background-image: url(../img/prohajj/bg-fitur-hover.png); */
     color: #f6cc53;
 }
 
@@ -363,12 +367,11 @@ h4.ph-heading {
 #go-pemesanan-harga {
     position: relative;
     padding: 120px 0;
-    background: linear-gradient(178deg, #1c1c1d 0%, #57585a 100%);
+    background-image: url("/image/Pattern-Dark.jpg");
 }
 
 #go-pemesanan-harga:before {
     content: " ";
-    background-image: url("../img/prohajj/bottom-background-image.png");
     height: 112px;
     width: 100%;
     display: block;
@@ -381,7 +384,6 @@ h4.ph-heading {
 
 #go-pemesanan-harga:after {
     content: " ";
-    background-image: url("../img/prohajj/bottom-background-image.png");
     height: 112px;
     width: 100%;
     display: block;
@@ -398,7 +400,6 @@ h4.ph-heading {
     height: 100%;
     left: 0;
     top: 0;
-    background-image: url(../img/prohajj/ph-pattern-bg.jpg);
     position: absolute;
     z-index: 1;
     opacity: 0.1;
@@ -411,77 +412,9 @@ h4.ph-heading {
     color: #fff;
 }
 
-#footer {
-    background: linear-gradient(178deg, rgb(0 0 0) 0%, rgb(42 42 42) 100%);
-    padding-top: 100px;
-}
-
-#footer:before {
-    content: " ";
-    background-image: url("../img/prohajj/bottom-background-image.png");
-    height: 112px;
-    width: 100%;
-    display: block;
-    background-repeat: repeat-x;
-    position: absolute;
-    top: 0;
-    transform: rotate(180deg);
-    z-index: 3;
-}
-
-#footer:after {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-image: url(../img/prohajj/ph-pattern-bg.jpg);
-    position: absolute;
-    z-index: 2;
-    opacity: 0.1;
-    background-size: 300px;
-}
-
-#footer-ornament-left,
-#footer-ornament-right {
-    position: absolute;
-    display: block;
-    background-image: url(../img/prohajj/bg-vector.png);
-    width: 100%;
-    height: calc(100% - 80px);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: contain;
-    bottom: 0;
-    z-index: 0;
-    opacity: 0.1;
-}
-
-#footer-ornament-left {
-    left: 0;
-}
-
-#footer-ornament-right {
-    right: 0;
-    transform: scaleX(-1);
-    height: calc(100% - 150px);
-}
-
 .ph-front-section {
     padding: 40px 0;
-}
-
-body.home #footer {
-    position: relative;
-    z-index: 1;
-    margin-top: -100px;
-    padding-top: 160px;
-}
-
-#footer .container {
-    position: relative;
-    z-index: 3;
+    /* background-color: #f9f9f9; */
 }
 
 #go-coba-gratis {
@@ -500,16 +433,18 @@ body.home #footer {
 
 .ph-subheading-title {
     color: #999 !important;
+    font-family: "Poppins", sans-serif;
     text-transform: none !important;
     text-decoration: none !important;
     position: relative;
     display: inline-block;
+    /* margin-top: 10px; */
     padding-bottom: 3px;
 }
 
 .ph-subheading-title:after {
     content: " ";
-    border-top: 2px solid #f6cc53;
+    border-top: 2px solid #6937f4;
     display: inline-block;
     width: 100%;
     bottom: 0;
@@ -659,11 +594,6 @@ body.home #footer {
     padding: 5px 0 0 0 !important;
     border: none !important;
     color: #474747;
-}
-
-#footer-logo-img {
-    max-height: 50px;
-    margin-top: 20px;
 }
 
 body.not-home #main-content {
@@ -871,10 +801,6 @@ body #main-logo #logo-white {
 
     #go-coba-gratis .row {
         padding: 30px 10px;
-    }
-
-    #footer-ornament-right {
-        display: none;
     }
 
     #page-title-container {
