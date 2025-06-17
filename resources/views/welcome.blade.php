@@ -26,12 +26,16 @@
 
             <link rel="stylesheet" href="https://ep.erhj.net/css/000-76ef7fbcd36c96ebf14f981bb2bc090a.css"/>
                 {{-- <link rel="stylesheet" href="https://ep.erhj.net/css/general-lp.css"/>
-       <link rel="stylesheet" href="https://ep.erhj.net/css/prohajj.css"/>
-     <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css"/> --}}
+       <link rel="stylesheet" href="https://ep.erhj.net/css/prohajj.css"/> --}}
+     <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css"/>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+
     </head>
 
-<body class="home prohajj" data-scroll-position="0">
+<body class="home">
 
 <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
 <span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
@@ -53,7 +57,7 @@
 
     <div class="container">
         <a id="main-logo" href="/">
-            <img src="/image/PARTNERSHIP-LOGO-07.png" alt="ProHajj" id="logo-color" />
+            <img src="/image/PARTNERSHIP-LOGO-07.png" alt="Partnership" id="logo-color" />
         </a>
 
         <ul id="nav-menu">
@@ -109,7 +113,6 @@
                 <img src="{{ asset('images/Mockup.png') }}" alt="Mockup">
             </div>
             <div class="col-md-6">
-                <h4 class="align-left">SATU SISTEM BERBAGAI SOLUSI!</h4>
                 <p>PT Partnership menghadirkan solusi digital berbasis teknologi RFID yang dirancang khusus untuk mempermudah pengelolaan aset dan dokumen secara efisien, akurat, dan terintegrasi. Dengan sistem yang mendukung digitalisasi penuh, perusahaan Anda dapat beradaptasi lebih cepat, meningkatkan kontrol operasional, dan bersaing di era yang serba dinamis.</p>
                 <p>Kami menggabungkan RFID dengan solusi manajemen cerdas untuk memastikan setiap aset dan dokumen tercatat secara real-time, aman, dan transparan. Didukung teknologi mutakhir dan fitur lengkap, layanan kami membantu Anda mencatat setiap proses mulai dari pelacakan, distribusi, hingga pemeliharaan, secara otomatis dan terstruktur. Sehiingga mendorong produktivitas dan efisiensi menyeluruh.</p>
             </div>
@@ -117,49 +120,55 @@
     </div>
     </div>
 </div>
-    <div id="ph-front-easy-step" class="ph-front-section">
-    <div class="container center">
+
+<div id="ph-front-easy-step" class="ph-front-section">
+    <div class="container text-center center">
         <div class="card">
-        <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
-        <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID
-        </h4>
+            <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
+            <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID</h4>
 
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="ph-item-langkah-mudah">
-                    <img src="{{ asset('images/Observe.png') }}" alt="Observe">
-                    <h4>Observasi Awal</h4>
-                    <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
+            <div class="row justify-content-center center">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="ph-item-langkah-mudah">
+                        <img src="{{ asset('images/Observe.png') }}" alt="Observe">
+                        <h4>Observasi Awal</h4>
+                        <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="ph-item-langkah-mudah">
+                        <img src="{{ asset('images/Work.png') }}" alt="Working">
+                        <h4>Pengembangan Sistem</h4>
+                        <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="ph-item-langkah-mudah">
-                    <img src="{{ asset('images/Work.png') }}" alt="Working">
-                    <h4>Pengembangan Sistem</h4>
-                    <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12">
-                <div class="ph-item-langkah-mudah">
-                    <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
-                    <h4>Siap Transformasi</h4>
-                    <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+            <div class="row justify-content-center mt-4 center">
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="ph-item-langkah-mudah">
+                        <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
+                        <h4>Pelatihan Tim</h4>
+                        <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="ph-item-langkah-mudah">
-                    <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
-                    <h4>Pelatihan Tim</h4>
-                    <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="ph-item-langkah-mudah">
+                        <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
+                        <h4>Siap Transformasi</h4>
+                        <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+                    </div>
                 </div>
+
+                
             </div>
+
         </div>
     </div>
 </div>
-</div>
+
+
     <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
         <a class="ph-subheading-title">Penerapan RFID</a>
@@ -223,7 +232,7 @@
 </script>
     <div id="ph-front-advantages" class="ph-front-section">
     <div class="container center">
-        <div class="card">
+        <div class="card mb10">
         <a class="ph-subheading-title">Keunggulan Partnership</a>
         <h4 class="ph-heading">Keunggulan Manajemen Asset dan Dokumen Bersama Partnership</h4>
 
@@ -256,8 +265,8 @@
         <div class="container center">
             <a class="ph-subheading-title">Konsultasikan Dengan Kami!</a>
             <h4 class="ph-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
-            <p class="center">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik organisasi, menganalisis alur kerja aset dan dokumen, serta memberikan rekomendasi solusi RFID dan sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan, kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara menyeluruh dengan proses bisnis Anda.</p>
-            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class=" mt-10 btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
+            <p class="center mb20   ">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik organisasi, menganalisis alur kerja aset dan dokumen, serta memberikan rekomendasi solusi RFID dan sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan, kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara menyeluruh dengan proses bisnis Anda.</p>
+            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class="btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
         </div>
     </div>
 </div>
