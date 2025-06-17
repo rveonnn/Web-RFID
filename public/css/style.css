@@ -173,12 +173,6 @@ body {
     z-index: 5;
 }
 
-#main-logo {
-    display: block;
-    width: 175px;
-    margin: 0 auto 30px auto;
-}
-
 #main-logo img {
     margin-top: 10px;
 }
@@ -203,10 +197,6 @@ body {
     margin: 0 5px;
     text-decoration: none;
     color: #595857;
-}
-
-#nav-menu li:last-child {
-    display: none;
 }
 
 #banner-title-1,
@@ -360,7 +350,6 @@ h4.ph-heading {
 .ph-benefit-item .ph-benefit-content {
     padding: 0 20px 20px 20px;
 }
-
 
 .benefit-img {
     width: 100%;

@@ -52,8 +52,7 @@
 <nav id="main-top-navbar" class="">
 
     <div class="container">
-        <a id="main-logo" href="https://prohajj.co.id">
-            {{-- <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="ProHajj" id="logo-white" /> --}}
+        <a id="main-logo" href="/">
             <img src="/image/PARTNERSHIP-LOGO-07.png" alt="ProHajj" id="logo-color" />
         </a>
 
@@ -120,12 +119,12 @@
 </div>
     <div id="ph-front-easy-step" class="ph-front-section">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
         <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID
         </h4>
 
         <div class="row">
-            <!-- Baris pertama: 3 kolom -->
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="ph-item-langkah-mudah">
                     <img src="{{ asset('images/Observe.png') }}" alt="Observe">
@@ -140,6 +139,16 @@
                     <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12">
+                <div class="ph-item-langkah-mudah">
+                    <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
+                    <h4>Siap Transformasi</h4>
+                    <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+                </div>
+            </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="ph-item-langkah-mudah">
                     <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
@@ -148,18 +157,8 @@
                 </div>
             </div>
         </div>
-
-        <!-- Baris kedua: 1 kolom di tengah -->
-        <div class="row">
-            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12">
-                <div class="ph-item-langkah-mudah">
-                    <img src="{{ asset('images/Telecommuting.png') }}" alt="ProHajj">
-                    <h4>Siap Transformasi</h4>
-                    <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
-                </div>
-            </div>
-        </div>
     </div>
+</div>
 </div>
     <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
@@ -224,6 +223,7 @@
 </script>
     <div id="ph-front-advantages" class="ph-front-section">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Keunggulan Partnership</a>
         <h4 class="ph-heading">Keunggulan Manajemen Asset dan Dokumen Bersama Partnership</h4>
 
@@ -257,9 +257,10 @@
             <a class="ph-subheading-title">Konsultasikan Dengan Kami!</a>
             <h4 class="ph-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
             <p class="center">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik organisasi, menganalisis alur kerja aset dan dokumen, serta memberikan rekomendasi solusi RFID dan sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan, kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara menyeluruh dengan proses bisnis Anda.</p>
-            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class="btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
+            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class=" mt-10 btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
         </div>
     </div>
+</div>
 
     <section id="eh-training" class="ph-front-section">
     <div class="container">
@@ -586,22 +587,6 @@
     </div>
 </div>
 
-    <div id="go-coba-gratis">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-xs-12">
-                <a class="ph-subheading-title">Coba Gratis Sekarang</a>
-                <h4 class="ph-heading">100% GRATIS Tanpa Instalasi, Akses Instan, Dapat Dibatalkan Kapanpun</h4>
-            </div>
-            <div class="col-md-6 col-xs-12">
-                <p>Daftarkan perusahaan Anda untuk mencoba 7 hari gratis dan lihat bagaimana fitur kami dapat memberikan keuntungan untuk bisnis Anda.</p>
-                <p style="margin-bottom: 30px;">Maksimalkan performa perusahaan Anda dan dapatkan berbagai keuntungan dengan menggunakan sistem komputer terintegrasi dari ProHajj.</p>
-                <a target="_blank" href="https://demo.prohajj.co.id" class="btn btn-primary">Akses Demo Sistem</a>&nbsp;&nbsp;
-                <a href="https://prohajj.co.id/trial" class="btn btn-primary btn-outline">Coba Gratis Sekarang</a>
-            </div>
-        </div>
-    </div>
-</div>
 
     <input type="hidden" name="is_home" id="is_home" value="1">
 
