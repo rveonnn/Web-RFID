@@ -120,153 +120,98 @@
 </div>
     <div id="ph-front-easy-step" class="ph-front-section">
     <div class="container center">
-        <div class="card">
-        <a class="ph-subheading-title">Transformasi Digital Mudah & Cepat</a>
-        <h4 class="ph-heading">3 Langkah Mudah Transformasi Digital Dengan ProHajj</h4>
+        <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
+        <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID
+        </h4>
 
         <div class="row">
+            <!-- Baris pertama: 3 kolom -->
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="ph-item-langkah-mudah">
-                    <img src="https://ep.erhj.net/img/prohajj/how-1.png" alt="ProHajj">
-                    <h4>Daftarkan Travel Anda</h4>
-                    <p>Pilih paket sesuai kebutuhan Anda, proses pembayaran, dan sistem Anda akan aktif dalam waktu kurang dari 1x24 jam</p>
+                    <img src="{{ asset('images/Observe.png') }}" alt="Observe">
+                    <h4>Observasi Awal</h4>
+                    <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="ph-item-langkah-mudah">
-                    <img src="https://ep.erhj.net/img/prohajj/how-2.png" alt="ProHajj">
-                    <h4>Pelatihan & Implementasi Sistem</h4>
-                    <p>Kami menyediakan pelatihan penggunaan sistem yang telah disusun berdasarkan bidang kerja masing-masing</p>
+                    <img src="{{ asset('images/Work.png') }}" alt="Working">
+                    <h4>Pengembangan Sistem</h4>
+                    <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="ph-item-langkah-mudah">
-                    <img src="https://ep.erhj.net/img/prohajj/how-3.png" alt="ProHajj">
-                    <h4>Siap Transformasi Digital!</h4>
-                    <p>Travel Anda siap untuk bertransformasi digital, siap menjalankan berbagai bisnis proses dengan lebih efektif dan efisien</p>
+                    <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
+                    <h4>Pelatihan Tim</h4>
+                    <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
                 </div>
             </div>
         </div>
-    </div>
+
+        <!-- Baris kedua: 1 kolom di tengah -->
+        <div class="row">
+            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12">
+                <div class="ph-item-langkah-mudah">
+                    <img src="{{ asset('images/Telecommuting.png') }}" alt="ProHajj">
+                    <h4>Siap Transformasi</h4>
+                    <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
     <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
-        <div class="card">
-        <a class="ph-subheading-title">Fitur Terbaik Untuk Bisnis Travel Anda</a>
-        <h4 class="ph-heading">Mengapa Anda Membutuhkan ProHajj Untuk Travel Umrah & Haji Anda?</h4>
+        <a class="ph-subheading-title">Penerapan RFID</a>
+        <h4 class="ph-heading">Teknologi RFID dapat diterapkan pada:</h4>
 
         <div class="row">
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-cubes"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Manajemen Transaksi Lengkap</div>
-                        <div class="ph-benefit-content">
-                            ProHajj dapat menangani transaksi umrah, haji, wisata domestik & internasional dengan detail, rapi, dan terstruktur dengan baik dari perencanaan, pemberangkatan, hingga evaluasi ketika kepulangan
-                        </div>
-                    </div>
+             <div class='col-md-4 col-sm-6 col-xs-12'>
+                <div class="ph-benefit-item benefit-card text-center">
+                    <img src="{{ asset('images/archive.png') }}" alt="Manajemen Transaksi Lengkap" class="benefit-img">
+                    <div class="ph-benefit-title">Dokumen Berharga</div>
                 </div>
             </div>
 
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-tablet"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Dilengkapi Aplikasi Mobile</div>
-                        <div class="ph-benefit-content">
-                            ProHajj dilengkapi dengan aplikasi mobile untuk jamaah yang dapat didownload di PlayStore untuk membantu memaksimalkan penjualan Anda, yang dapat diakses dengan mudah kapanpun & dimanapun
-                        </div>
-                    </div>
+
+             <div class='col-md-4 col-sm-6 col-xs-12'>
+                <div class="ph-benefit-item benefit-card text-center">
+                    <img src="{{ asset('images/Library.png') }}" alt="Manajemen Transaksi Lengkap" class="benefit-img">
+                    <div class="ph-benefit-title">Perpustakaan</div>
                 </div>
             </div>
 
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-credit-card"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Integrasi Payment Gateway</div>
-                        <div class="ph-benefit-content">
-                            ProHajj telah terintegrasi dengan beberapa provider payment gateway, diantaranya : Midtrans, Faspay, Xendit, dan lain sebagainya, yang memudahkan Anda dalam melakukan pengecekan pembayaran dari jamaah
-                        </div>
-                    </div>
+             <div class='col-md-4 col-sm-6 col-xs-12'>
+                <div class="ph-benefit-item benefit-card text-center">
+                    <img src="{{ asset('images/Dokumen.png') }}" alt="Manajemen Transaksi Lengkap" class="benefit-img">
+                    <div class="ph-benefit-title">Arsip Dokumen</div>
                 </div>
             </div>
 
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-server"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Manajemen Dokumen Standar ISO</div>
-                        <div class="ph-benefit-content">
-                            ProHajj telah menerapkan manajemen dokumen administrasi yang mengacu ke standar ISO 9001:2015, sehingga memudahkan berbagai kebutuhan terkait administrasi & dokumentasi travel Anda
-                        </div>
-                    </div>
+             <div class='col-md-4 col-sm-6 col-xs-12'>
+                <div class="ph-benefit-item benefit-card text-center">
+                    <img src="{{ asset('images/SDM.png') }}" alt="Manajemen Transaksi Lengkap" class="benefit-img">
+                    <div class="ph-benefit-title">Manajemen SDM</div>
                 </div>
             </div>
 
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-lock"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Sistem Keamanan Berlapis</div>
-                        <div class="ph-benefit-content">
-                            ProHajj telah menerapkan sistem keamanan dengan acuan standar ISO 27001 terkait keamanan data & sistem informasi tingkat internasional, untuk memastikan data Anda aman dari akses ilegal
-                        </div>
-                    </div>
+             <div class='col-md-4 col-sm-6 col-xs-12'>
+                <div class="ph-benefit-item benefit-card text-center">
+                    <img src="{{ asset('images/Peternakan.png') }}" alt="Manajemen Transaksi Lengkap" class="benefit-img">
+                    <div class="ph-benefit-title">Peternakan</div>
                 </div>
             </div>
 
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-gears"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Pengaturan Custom & Fleksibel</div>
-                        <div class="ph-benefit-content">
-                            Berbagai pengaturan dan dokumen dalam sistem ProHajj dapat diatur dan disesuaikan dengan keinginan & kebutuhan travel Anda, sehingga memudahkan travel Anda dalam bertransformasi digital
-                        </div>
-                    </div>
+             <div class='col-md-4 col-sm-6 col-xs-12'>
+                <div class="ph-benefit-item benefit-card text-center">
+                    <img src="{{ asset('images/Perkebunan.png') }}" alt="Manajemen Transaksi Lengkap" class="benefit-img">
+                    <div class="ph-benefit-title">Perkebunan</div>
                 </div>
             </div>
-
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-money"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Dukungan Metode Pembayaran</div>
-                        <div class="ph-benefit-content">
-                            Sistem ProHajj dilengkapi dengan berbagai metode pembayaran untuk jamaah seperti : tunai, transfer, saldo deposit, program tabungan, payment gateway, virtual account, dan lain sebagainya
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-clipboard"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Laporan Transaksi Sesuai Kebutuhan</div>
-                        <div class="ph-benefit-content">
-                            ProHajj dapat membantu mengorganisir data yang dibutuhkan oleh perusahaan Anda, dan menyusunnya dalam bentuk laporan yang dapat didownload dan mudah dipahami, serta dapat diatur sesuai dengan kebutuhan
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-                <div class="ph-benefit-item benefit-card">
-                    <i class="fa fa-laptop"></i>
-                    <div class="ph-benefit-description">
-                        <div class="ph-benefit-title">Website Responsif & Custom</div>
-                        <div class="ph-benefit-content">
-                            ProHajj sangat memungkinkan perusahaan Anda untuk mengatur tampilan desain website maupun aplikasi mobile perusahaan Anda sesuai dengan keinginan dan kebutuhan Anda dengan sangat mudah
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </div>
 
@@ -279,18 +224,17 @@
 </script>
     <div id="ph-front-advantages" class="ph-front-section">
     <div class="container center">
-        <div class="card">
-        <a class="ph-subheading-title">Keunggulan ProHajj</a>
-        <h4 class="ph-heading">Bersama Kami Maksimalkan Performa Bisnis Travel Anda</h4>
+        <a class="ph-subheading-title">Keunggulan Partnership</a>
+        <h4 class="ph-heading">Keunggulan Manajemen Asset dan Dokumen Bersama Partnership</h4>
 
         <div style="margin-bottom: 50px;" class="row">
             <div class="col-md-5">
-                <img src="https://ep.erhj.net/img/prohajj/mobile-phone.png" alt="ProHajj">
+                <img src="{{ asset('images/Mockup2.png')}}" alt="ProHajj">
             </div>
             <div class="col-md-7">
-                <h4 class="align-left">Kontrol Bisnis Anda Berada Dalam Genggaman Anda</h4>
-                <p>Di era digital ini adalah era dimana hampir segala lini terhubung dengan smartphone. ProHajj membantu memaksimalkan penjualan Anda dengan aplikasi mobile yang dapat didownload di PlayStore dan AppStore</p>
-                <p>Dengan sistem berbasis mobile khusus untuk travel Anda, Anda dapat bebas mengelola perusahaan di mana pun dan kapan pun. Anda juga dapat memonitor data transaksi, data pembayaran, mengelola data manifest, mengubah status transaksi, memproses penjualan, mengatur transaksi dari agen, mitra, atau cabang dalam satu sistem kapanpun dan dimanapun</p>
+                <h4 class="align-left">Custom Software Sesuai Kebutuhan Anda</h4>
+                <p>Partnership Technology menyediakan solusi teknologi canggih yang dirancang untuk mengoptimalkan setiap aspek operasi bisnis Anda. Mulai dari implementasi RFID, sistem pelacakan aset dan dokumen, hingga pengembangan perangkat lunak khusus (custom software), kami menawarkan rangkaian inovasi yang disesuaikan secara tepat dengan kebutuhan dan karakteristik industri Anda.</p>
+                <p>Didukung oleh tim ahli yang berpengalaman, setiap solusi kami dikembangkan dengan pendekatan kolaboratif untuk memastikan integrasi yang mulus, efisiensi proses, dan peningkatan performa secara menyeluruh. Dengan komitmen terhadap kualitas dan keberlanjutan, Partnership Technology menjadi mitra strategis dalam mendukung transformasi digital dan pertumbuhan bisnis jangka panjang Anda.</p>
             </div>
         </div>
 
@@ -305,56 +249,55 @@
             </div>
         </div>
     </div>
+
     </div>
-</div>
-    <div id="go-pemesanan-harga">
-    <div id="go-pemesanan-harga-pattern"></div>
-    <div class="container center">
-        <a class="ph-subheading-title">Daftarkan Travel Anda Sekarang</a>
-        <h4 class="ph-heading">Tertarik Untuk Mendapatkan Layanan Unggulan Kami?</h4>
-        <p class="center">ProHajj menawarkan layanan dengan sistem berlangganan secara lengkap dengan seluruh modul transaksinya. Sistem ini menggunakan teknologi Software as a Service, yang memudahkan Anda dalam mengelola berbagai kebutuhan perusahaan travel Anda dengan fasilitas maksimal dan harga yang lebih terjangkau. Seluruh sistem <b>menggunakan nama dan identitas dari travel Anda</b>, tidak ada nama ProHajj sama sekali didalamnya.
-        </p>
-                    <p style="margin-bottom: 30px;" class="center">Dapatkan sistem terbaik untuk travel Anda hanya dengan harga hanya <b>IDR 249.000,00/Bulan</b></p>
-            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class="btn btn-primary btn-ph-white">Daftar Sekarang</a>&nbsp;&nbsp;
-                <a href="#go-coba-gratis" class="btn btn-primary btn-ph-white btn-outline internal-link">Coba Gratis</a>
+        <div id="go-pemesanan-harga">
+        <div id="go-pemesanan-harga-pattern"></div>
+        <div class="container center">
+            <a class="ph-subheading-title">Konsultasikan Dengan Kami!</a>
+            <h4 class="ph-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
+            <p class="center">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik organisasi, menganalisis alur kerja aset dan dokumen, serta memberikan rekomendasi solusi RFID dan sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan, kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara menyeluruh dengan proses bisnis Anda.</p>
+            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class="btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
+        </div>
     </div>
-</div>
 
     <section id="eh-training" class="ph-front-section">
     <div class="container">
         <div class="card">
         <div class="center">
-            <a class="ph-subheading-title">Dukungan Layanan Sistem</a>
-            <h4 class="ph-heading">Mudah Transformasi Digital Dengan ProHajj</h4>
+            <a class="ph-subheading-title">Perbandingan Sistem</a>
+            <h4 class="ph-heading">Mengapa Memilih RFID Dibanding Sistem Lainnya?</h4>
         </div>
 
         <div class="row" id="eh-training-outer">
-            <div class="col-md-5 col-xs-12">
+            {{-- <div class="col-md-5 col-xs-12">
                 <img src="https://ep.erhj.net/img/prohajj/training.jpg" class="mb10" alt="training ProHajj">
-            </div>
-            <div class="col-md-7 col-xs-12">
-                <p>Transformasi digital terkadang memiliki kendala bagi sebagian bisnis, karena harus penyesuaian dari pola kerja manual ke digital. Untuk membantu bisnis Anda bertransformasi digital dengan mudah, maka ProHajj memberikan solusi sebagai berikut :</p>
-<ul>
-    <li>
-        <div class="eh-training-title">ProHajj Learning Management System</div>
-        <div class="eh-training-desc">E-Learning berupa video dan panduan tertulis yang terdapat di masing-masing sistem Anda</div>
-    </li>
-    <li>
-        <div class="eh-training-title">ProHajj Training Center</div>
-        <div class="eh-training-desc">Pelatihan penggunaan sistem secara offline & online (hybrid) secara langsung dan gratis. Training offline berlokasi di kantor ProHajj, dan online melalui melalui Zoom atau Google Meet</div>
-    </li>
-    <li>
-        <div class="eh-training-title">Training Online Eksklusif</div>
-        <div class="eh-training-desc">Pelatihan penggunaan sistem secara eksklusif melalui Zoom atau Google Meet</div>
-    </li>
-    <li>
-        <div class="eh-training-title">Training Onsite Eksklusif</div>
-        <div class="eh-training-desc">Pelatihan penggunaan sistem secara eksklusif langsung di kantor Anda</div>
-    </li>
-</ul>
+            </div> --}}
+            <div class="col-12 text-justify">
+                <p>Transformasi digital tidak selalu berjalan mulus bagi setiap bisnis, terutama saat beralih dari proses manual ke sistem yang serba otomatis. Untuk itu, PT Partnership menghadirkan solusi manajemen aset dan dokumen berbasis teknologi RFID, yang dirancang agar transisi digital menjadi lebih mudah, efisien, dan terukur. Berikut keunggulan solusi yang kami tawarkan:</p>
+
+            <ul>
+                <li>
+                    <div class="eh-training-title">Efisiensi Waktu</div>
+                    <div class="eh-training-desc">Mampu membaca ratusan hingga ribuan tag dalam hitungan detik, mempercepat proses identifikasi aset.</div>
+                </li>
+                <li>
+                    <div class="eh-training-title">Efisiensi Tenaga</div>
+                    <div class="eh-training-desc">Tag dapat dibaca tanpa harus berhadapan langsung dengan objek, sehingga mempermudah proses kerja di lapangan.</div>
+                </li>
+                <li>
+                    <div class="eh-training-title">Efisiensi Biaya</div>
+                    <div class="eh-training-desc">Tag RFID dapat digunakan kembali dan mengurangi kebutuhan tenaga kerja manual secara signifikan.</div>
+                </li>
+                <li>
+                    <div class="eh-training-title">Kualitas Terjamin</div>
+                    <div class="eh-training-desc">Tag tahan terhadap air dan benturan, serta telah bersertifikasi IP68 untuk perlindungan maksimal terhadap air dan debu.</div>
+                </li>
+            </ul>
+
             </div>
         </div>
-    </div>
+
     </div>
 </section>
 
@@ -483,174 +426,182 @@
 </section>
 <div id="ph-front-faq" class="ph-front-section">
     <div class="container center">
-        <a class="ph-subheading-title">Pertanyaan Tentang ProHajj</a>
+        <a class="ph-subheading-title">Pertanyaan Tentang Partnership</a>
         <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
+            <div id="ph-faq" class="box">
+                <div class="panel panel-default">
+                    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-definisi-rfid">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-definisi-rfid"
+               aria-expanded="true" aria-controls="collapse-definisi-rfid">
+               <span>Apa itu layanan RFID dari PT Partnership?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-definisi-rfid" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-definisi-rfid">
+        <div class="panel-body">
+            <p>RFID (Radio Frequency Identification) adalah teknologi identifikasi otomatis menggunakan gelombang radio. PT Partnership menyediakan sistem RFID yang dapat digunakan untuk pelacakan aset, kontrol inventaris, manajemen dokumen, hingga keamanan akses. Teknologi ini membantu perusahaan melakukan transformasi digital secara efisien dan akurat.</p>
+        </div>
+    </div>
+</div>
 
-        <div id="ph-faq" class="box">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-kelebihan-prohajj">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-kelebihan-prohajj"
-                           aria-expanded="true" aria-controls="collapse-kelebihan-prohajj"><span>Apa kelebihan Prohajj dengan sistem travel lainnya?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-kelebihan-prohajj" class="panel-collapse collapse in"
-                     role="tabpanel" aria-labelledby="heading-kelebihan-prohajj">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Prohajj memiliki berbagai modul transaksi dan manajemen yang dapat memaksimalkan kinerja perusahaan anda, dan terus dikembangkan untuk menjadi lebih baik dari waktu ke waktu. Prohajj merupakan satu solusi untuk berbagai masalah administrasi yang dihadapi oleh perusahaan. Prohajj secara khusus dikembangkan untuk memaksimalkan kinerja perusahaan travel, sistem kami dapat beradaptasi dengan berbagai kebutuhan dari perusahaan travel baik domestik maupun internasional.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-kegunaan-rfid">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-kegunaan-rfid"
+               aria-expanded="false" aria-controls="collapse-kegunaan-rfid">
+               <span>Apa saja yang bisa dikelola dengan sistem RFID PT Partnership?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-kegunaan-rfid" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-kegunaan-rfid">
+        <div class="panel-body">
+            <p>Sistem RFID kami mendukung berbagai kebutuhan bisnis seperti:</p>
+            <ul>
+                <li>Pelacakan dan audit aset tetap</li>
+                <li>Manajemen inventaris gudang</li>
+                <li>Pemantauan dokumen penting secara real-time</li>
+                <li>Kendali akses ruangan/logistik</li>
+                <li>Manajemen peserta/karyawan (ID card berbasis RFID)</li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-ubah-tampilan">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-ubah-tampilan"
-                           aria-expanded="false" aria-controls="collapse-ubah-tampilan"><span>Dapatkah saya merubah tampilan Prohajj?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-ubah-tampilan" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-ubah-tampilan">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Anda dapat merubah tampilan halaman depan Prohajj sesuai dengan kebutuhan anda, baik mulai dari layout halaman hingga pewarnaan. Semua perubahan ini dapat anda lakukan secara mandiri dengan mudah tanpa harus bergantung kepada kami, melalui panel konfigurasi tampilan yang kami sediakan. Anda tidak perlu memahami kode-kode program untuk merubah tampilan, karena kami telah menyediakan berbagai komponen yang dapat anda atur sesuai keinginan dan kebutuhan anda.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-kustom-rfid">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-kustom-rfid"
+               aria-expanded="false" aria-controls="collapse-kustom-rfid">
+               <span>Apakah sistem RFID bisa disesuaikan dengan kebutuhan perusahaan?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-kustom-rfid" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-kustom-rfid">
+        <div class="panel-body">
+            <p>Ya, sistem RFID kami sangat fleksibel. Tim PT Partnership dapat menyesuaikan alur kerja, dashboard, maupun modul pelaporan agar sesuai dengan SOP dan struktur organisasi perusahaan Anda.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-keamanan-data">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-keamanan-data"
-                           aria-expanded="false" aria-controls="collapse-keamanan-data"><span>Apakah data saya aman tersimpan di Prohajj?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-keamanan-data" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-keamanan-data">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Data anda tersimpan dengan aman di server kami. Kami menggunakan sistem backup data secara berkala setiap jam, terenkripsi, dan terdistribusi ke beberapa data penyimpanan kami yang terpisah, sehingga dapat meminimalisir terjadinya hal-hal yang tidak diinginkan apabila terjadi kesalahan pada program atau server.&nbsp; Kami tidak memperjual belikan data anda kepada pihak manapun dengan alasan apapun, karena privasi dan keamanan data perusahaan anda adalah prioritas kami.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-keamanan-rfid">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-keamanan-rfid"
+               aria-expanded="false" aria-controls="collapse-keamanan-rfid">
+               <span>Bagaimana keamanan data dan sistem RFID Partnership?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-keamanan-rfid" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-keamanan-rfid">
+        <div class="panel-body">
+            <p>Sistem RFID kami menggunakan enkripsi dan autentikasi multi-level, didukung dengan infrastruktur server yang dilindungi SSL dan anti-DDOS. Setiap transaksi dicatat dalam log, dan backup dilakukan otomatis untuk mencegah kehilangan data. Kami juga menyediakan pemantauan real-time dan notifikasi keamanan untuk memastikan sistem berjalan stabil.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-harga-murah">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-harga-murah"
-                           aria-expanded="false" aria-controls="collapse-harga-murah"><span>Mengapa harga Prohajj sangat murah jika dibandingkan sistem lainnya?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-harga-murah" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-harga-murah">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Karena sistem Prohajj dikembangkan dengan mengimplementasikan teknologi Software as a Service dengan sangat optimal, diperkuat dengan optimasi tingkat lanjut, agar mencapai sistem yang efektif &amp; efisien. Disamping itu, di sistem Prohajj banyak mengimplementasikan bot dan kecerdasan buatan untuk membantu menangani hal-hal terkait monitoring sistem, perbaikan sistem, penanganan terkait keamanan, dan lain sebagainya, sehingga dapat meminimalisir biaya yang timbul dari sisi operasional.</span></p>
-                        <p><span style="font-weight: 400;">Optimasi dan otomasi tingkat lanjut ini menghasilkan biaya yang jauh lebih rendah, dan performa yang jauh lebih maksimal apabila dibandingkan dengan sistem sejenis selain Prohajj. Dengan menggunakan Prohajj, performa perusahaan Anda akan lebih meningkat, dan biaya operasional perusahaan Anda akan lebih hemat, karena Prohajj juga mengoptimalkan kinerja tim dalam perusahaan Anda.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-dashboard">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-dashboard"
+               aria-expanded="false" aria-controls="collapse-dashboard">
+               <span>Apakah saya bisa melihat status aset secara langsung?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-dashboard" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-dashboard">
+        <div class="panel-body">
+            <p>Ya, sistem kami menyediakan dashboard visualisasi yang menampilkan status, lokasi, dan histori pergerakan setiap aset secara real-time. Anda juga bisa mengakses laporan lengkap dari perangkat desktop atau mobile.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-ubah-alur-kerja">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-ubah-alur-kerja"
-                           aria-expanded="false" aria-controls="collapse-ubah-alur-kerja"><span>Dapatkah saya mengubah alur kerja sistem Prohajj?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-ubah-alur-kerja" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-ubah-alur-kerja">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Anda dapat mengubah alur kerja Prohajj sesuai dengan kebutuhan perusahaan anda. Anda dapat request pada kami untuk menyesuaikan alur Prohajj agar dapat sesuai dengan keinginan dan kebutuhan perusahaan anda.&nbsp;</span></p>
-                        <p><span style="font-weight: 400;">Sistem Prohajj bersifat fleksibel, tetapi tetap mengikuti kaidah dan aturan yang baku sesuai dengan kaidah ilmu di bidangnya, atau mengikuti hukum dan undang-undang yang berlaku tentang transaksi di Indonesia</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-pemasangan">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-pemasangan"
+               aria-expanded="false" aria-controls="collapse-pemasangan">
+               <span>Bagaimana proses pemasangan sistem RFID?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-pemasangan" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-pemasangan">
+        <div class="panel-body">
+            <p>Tim kami akan melakukan survei kebutuhan terlebih dahulu, lalu merancang sistem yang paling efisien. Setelah disetujui, kami akan mengirimkan perangkat (reader, tag, server/software), melakukan instalasi di lokasi Anda, dan memberikan pelatihan penggunaan kepada tim Anda.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-tambah-sistem">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-tambah-sistem"
-                           aria-expanded="false" aria-controls="collapse-tambah-sistem"><span>Dapatkah saya menambahkan sistem baru yang belum ada di Prohajj?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-tambah-sistem" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-tambah-sistem">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Anda dapat melakukan request pada kami untuk menambahkan kebutuhan anda yang belum diakomodir oleh Prohajj. Sistem Prohajj dikembangkan dengan teknologi terbaru dan sistem pengembangan software secara modular, sehingga sangat memungkinan untuk dikembangkan secara berkala dan terus menerus untuk dapat mengakomodir seluruh kebutuhan perusahaan.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-support">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-support"
+               aria-expanded="false" aria-controls="collapse-support">
+               <span>Apakah Partnership menyediakan pelatihan dan support?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-support" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-support">
+        <div class="panel-body">
+            <p>Tentu. Kami memberikan pelatihan gratis baik secara online maupun on-site. Selain itu, tim support kami siap membantu Anda melalui WhatsApp, email, maupun sesi remote apabila terjadi kendala teknis.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-garansi-layanan">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-garansi-layanan"
-                           aria-expanded="false" aria-controls="collapse-garansi-layanan"><span>Apakah Prohajj memberikan garansi layanannya?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-garansi-layanan" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-garansi-layanan">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Kami memberikan garansi life time untuk segala jenis kesalahan pada sistem yang disebabkan oleh kesalahan pada internal program kami atau server Prohajj. Termasuk didalamnya apabila terdapat kesalahan dalam kalkulasi atau tampilan data, inkonsistensi data, dan berbagai kesalahan teknis dari program lainnya. Garansi tidak berlaku untuk kesalahan yang disebabkan oleh faktor human error, seperti kesalahan pada entri data, pengubahan data, maupun penghapusan data.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-implementasi">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-implementasi"
+               aria-expanded="false" aria-controls="collapse-implementasi">
+               <span>Berapa lama waktu implementasi sistem RFID?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-implementasi" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-implementasi">
+        <div class="panel-body">
+            <p>Tergantung kompleksitas dan jumlah titik yang ingin diawasi. Namun, rata-rata proses implementasi RFID bisa diselesaikan dalam waktu 3–10 hari kerja setelah desain sistem disepakati.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-source-code">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-source-code"
-                           aria-expanded="false" aria-controls="collapse-source-code"><span>Dapatkan saya mendapatkan source code Prohajj?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-source-code" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-source-code">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Prohajj hanya menjual layanan dan program dalam bentuk jadi dan siap pakai, sehingga kami tidak menjual source code Prohajj, kecuali dengan kesepakatan dan batasan tertentu antara pihak pembeli dengan Prohajj. Hal ini ditujukan untuk menghindari adanya kesalahan pada program yang diakibatkan oleh pengembangan program diluar pengembangan resmi dari Prohajj.</span></p>
-                    </div>
-                </div>
-            </div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-fitur-tambahan">
+        <h4 class="panel-title accordion-title">
+            <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-fitur-tambahan"
+               aria-expanded="false" aria-controls="collapse-fitur-tambahan">
+               <span>Apakah saya bisa meminta fitur tambahan di sistem RFID?</span>
+            </a>
+        </h4>
+    </div>
+    <div id="collapse-fitur-tambahan" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-fitur-tambahan">
+        <div class="panel-body">
+            <p>Bisa. Kami mengembangkan sistem secara modular, sehingga memungkinkan penambahan fitur sesuai kebutuhan Anda, seperti integrasi ke ERP, export laporan ke PDF/Excel, atau bahkan sistem notifikasi berbasis WhatsApp/email.</p>
+        </div>
+    </div>
+</div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-training-sistem">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-training-sistem"
-                           aria-expanded="false" aria-controls="collapse-training-sistem"><span>Apakah Prohajj menyediakan training terkait penggunaan sistemnya?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-training-sistem" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-training-sistem">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Ya, Prohajj menyediakan training gratis kepada pengguna Prohajj. Adapun rincian training dari Prohajj adalah sebagai berikut:</span></p>
-                        <p><strong>Training Sistem</strong></p>
-                        <p><span style="font-weight: 400;">Materi : Pembuatan paket, transaksi, pembayaran, laporan transaksi, setting data pemberangkatan, dan kuesioner.<br /></span><span style="font-weight: 400;">Peserta : Staf yang melayani transaksi dan pembuatan paket</span></p>
-                        <p><span style="font-weight: 400;">Training dari Prohajj, dapat dilakukan secara online melalui Zoom, atau bisa juga training secara langsung di perusahaan Anda. Disamping training, kami juga menyediakan panduan berupa video dan eBook yang berisi tutorial penggunaan sistem Prohajj, yang dapat diakses dengan mudah, kapanpun, dan dimanapun. Sehingga akan jauh memudahkan Anda dalam menggunakan sistem Prohajj</span></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="heading-sistem-keamanan">
-                    <h4 class="panel-title accordion-title">
-                        <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-sistem-keamanan"
-                           aria-expanded="false" aria-controls="collapse-sistem-keamanan"><span>Bagaimana terkait keamanan di sistem Prohajj?</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-sistem-keamanan" class="panel-collapse collapse"
-                     role="tabpanel" aria-labelledby="heading-sistem-keamanan">
-                    <div class="panel-body">
-                        <p><span style="font-weight: 400;">Di sistem Prohajj, kami menggunakan metode keamanan yang berlapis dari berbagai sisi, baik sisi aplikasi, database, jaringan, maupun server. Prohajj juga didukung oleh tim pengembang yang berpengalaman di bidang keamanan data, untuk memastikan data Anda aman dari penyalahgunaan Data oleh pihak manapun.</span></p>
-                        <p><span style="font-weight: 400;">Dari sisi aplikasi, Prohajj mengimplementasikan anti brute-force, anti SQL Injection, anti remote-injection, sistem log monitoring aktivitas user, dan lain sebagainya. Prohajj juga dilengkapi sistem yang mendeteksi apakah email yang digunakan merupakan email SPAM, mencegah transaksi yang dilakukan oleh bot, dan mengimplementasikan fraud detection yang menggunakan kecerdasan buatan yang ditanamkan dalam sistem untuk mendeteksi adanya gangguan dari pihak luar.</span></p>
-                        <p><span style="font-weight: 400;">Dari sisi jaringan, sistem Prohajj menggunakan SSL 256 bit encryption, sehingga mengamankan data Anda dari penyadapan atau manipulasi data yang menggunakan metode man in the middle (MITM). Disisi lain, dengan menggunakan SSL, sistem Anda akan terdeteksi sebagai sistem yang aman oleh seluruh web browser, sehingga menghindari adanya injeksi iklan atau script yang dapat merugikan sistem Anda, dan juga dapat meningkatkan reputasi sistem Anda dari sudut pandang client Anda.</span></p>
-                        <p><span style="font-weight: 400;">Dari sisi database, sistem Prohajj mengimplementasikan backup otomatis secara berkala setiap jam, terdistribusi secara otomatis di 4 lokasi penyimpanan yang berbeda. Disamping itu, database transaksi Anda juga terpisah dengan database file Anda, sehingga dapat meminimalisir berbagai resiko yang mungkin timbul akibat dari aktivitas hacking maupun penyalahgunaan Data.</span></p>
-                        <p><span style="font-weight: 400;">Dari sisi server, sistem Prohajj menggunakan anti DDOS dari CloudFlare, sehingga akan lebih mengamankan sistem Anda dari pihak-pihak yang bertujuan untuk mengganggu kestabilan sistem Anda.</span></p>
-                        <p><span style="font-weight: 400;">Kami berusaha ekstra untuk terus meningkatkan keamanan dari sisi manapun, sehingga Anda dapat lebih tenang dalam menjalankan manajemen perusahaan Anda melalui sistem Prohajj.</span></p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 </div>
 
-
+    <div id="go-coba-gratis">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <a class="ph-subheading-title">Coba Gratis Sekarang</a>
+                <h4 class="ph-heading">100% GRATIS Tanpa Instalasi, Akses Instan, Dapat Dibatalkan Kapanpun</h4>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <p>Daftarkan perusahaan Anda untuk mencoba 7 hari gratis dan lihat bagaimana fitur kami dapat memberikan keuntungan untuk bisnis Anda.</p>
+                <p style="margin-bottom: 30px;">Maksimalkan performa perusahaan Anda dan dapatkan berbagai keuntungan dengan menggunakan sistem komputer terintegrasi dari ProHajj.</p>
+                <a target="_blank" href="https://demo.prohajj.co.id" class="btn btn-primary">Akses Demo Sistem</a>&nbsp;&nbsp;
+                <a href="https://prohajj.co.id/trial" class="btn btn-primary btn-outline">Coba Gratis Sekarang</a>
+            </div>
+        </div>
+    </div>
+</div>
 
     <input type="hidden" name="is_home" id="is_home" value="1">
 
