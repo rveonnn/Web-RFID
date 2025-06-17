@@ -1,7 +1,0 @@
-@import "tailwindcss";
-@source "../views";
-
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

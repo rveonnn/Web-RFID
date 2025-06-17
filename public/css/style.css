@@ -475,7 +475,8 @@ h4.ph-heading {
 }
 
 #ph-front-welcome {
-    padding-top: 250px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .ph-item-langkah-mudah {
@@ -634,7 +635,7 @@ body #main-logo #logo-white {
     background: none !important;
     color: unset !important;
     border-radius: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 #responsive-toggler {
@@ -893,3 +894,5 @@ body #main-logo #logo-white {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
