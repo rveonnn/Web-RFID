@@ -58,7 +58,7 @@
 
         <ul id="nav-menu">
             <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link active">Fitur & Layanan</a></li>
-            <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Pemesanan & Harga</a></li>
+            <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Pemesanan</a></li>
             <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Dukungan Layanan</a></li>
         </ul>
         <a onclick="frontResponsiveToggler()" id="responsive-toggler" class="hidden-lg hidden-md hidden-sm"><i class="fa fa-bars"></i></a>
@@ -139,16 +139,6 @@
                     <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12">
-                <div class="ph-item-langkah-mudah">
-                    <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
-                    <h4>Siap Transformasi</h4>
-                    <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
-                </div>
-            </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="ph-item-langkah-mudah">
                     <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
@@ -156,12 +146,20 @@
                     <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
                 </div>
             </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ph-item-langkah-mudah">
+                <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
+                <h4>Siap Transformasi</h4>
+                <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+            </div>
         </div>
     </div>
 </div>
 </div>
+
     <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Penerapan RFID</a>
         <h4 class="ph-heading">Teknologi RFID dapat diterapkan pada:</h4>
 
@@ -213,6 +211,7 @@
         </div>
     </div>
 </div>
+</div>
 
 <script>
     $(document).ready(function () {
@@ -257,7 +256,7 @@
             <a class="ph-subheading-title">Konsultasikan Dengan Kami!</a>
             <h4 class="ph-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
             <p class="center">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik organisasi, menganalisis alur kerja aset dan dokumen, serta memberikan rekomendasi solusi RFID dan sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan, kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara menyeluruh dengan proses bisnis Anda.</p>
-            <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5" class=" mt-10 btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
+            <a href="" class=" mt-10 btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
         </div>
     </div>
 </div>
@@ -427,6 +426,7 @@
 </section>
 <div id="ph-front-faq" class="ph-front-section">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Pertanyaan Tentang Partnership</a>
         <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
             <div id="ph-faq" class="box">
@@ -581,7 +581,7 @@
         </div>
     </div>
 </div>
-
+                </div>
             </div>
         </div>
     </div>
@@ -693,18 +693,8 @@
                         rights
                         reserved</small>
 
-                    <a href="https://partnership.co.id"
-                        class="col-12 col-md-2 d-flex align-items-center justify-content-center mb-3 pt-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                        <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main" height="32px">
-                    </a>
 
-                    <div class="col-12 col-md-5 text-md-end text-center">
-                        <a href="#" class="text-white" style="text-decoration:none"><small>Syarat &
-                                Ketentuan</small></a>
-                        <a href="#" class="text-white"
-                            style="text-decoration:none; margin-left: 12px"><small>Kebijakan
-                                Privasi</small></a>
-                    </div>
+
                 </div>
             </div>
             </div>
@@ -773,48 +763,6 @@
     });
 </script>
 
-
-<div id="popup-subsriber">
-    <div id="popup-subsriber-absolute">
-        <div id="popup-subsriber-overlay-close" onclick="closePopupSubscriber()"></div>
-        <div id="popup-subsriber-inner">
-            <div id="popup-subsriber-content">
-                <div id="popup-subsriber-title">Assalamualaikum</div>
-                <div id="popup-intro">Apakah Anda ingin mendapatkan informasi terbaru dan promo harga khusus dari kami? Jika iya, mohon informasikan email dan nomor handphone Anda pada kami</div>
-                <form id="popup-form-subscription" onsubmit="return false;">
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Nama Lengkap</span>
-                            <input class="form-control" type="text" name="nama" id="nama" placeholder="Nama Lengkap Anda..." autocomplete="off" required="required">
-                        </div>
-                    </div>
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Nama Travel</span>
-                            <input class="form-control" type="text" name="perusahaan" id="perusahaan" placeholder="Nama Travel Anda ..." autocomplete="off">
-                        </div>
-                    </div>
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Email</span>
-                            <input class="form-control" type="email" name="email" id="email" placeholder="Email Anda..." autocomplete="off" required="required">
-                        </div>
-                    </div>
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Nomor Handphone</span>
-                            <input class="form-control" type="text" name="no_handphone" id="no_handphone" placeholder="Nomor Handphone Anda..." autocomplete="off" required="required">
-                        </div>
-                    </div>
-
-                    <button class="btn btn-primary btn-block" type="submit">Ya, Saya Mau</button>
-                    <a onclick="closePopupSubscriber()" class="btn btn-danger btn-block">Mohon Maaf, Lain Kali Saja</a>
-                    <input type="hidden" name="_token" value="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 <input type="hidden" name="is_production" id="is_production" value="1">
 
 <!-- </body></html> -->
