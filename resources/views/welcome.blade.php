@@ -232,7 +232,7 @@
         }, 1000);
     })
 </script>
-    <div id="ph-front-advantages" class="ph-front-section">
+    <div id="ph-front-advantages" class="ph-front-section mb">
     <div class="container center">
         <div class="card mb10">
         <a class="ph-subheading-title">Keunggulan Partnership</a>
