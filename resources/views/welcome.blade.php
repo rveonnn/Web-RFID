@@ -236,7 +236,7 @@
         }, 1000);
     })
 </script>
-    <div id="ph-front-advantages" class="ph-front-section mb">
+    <div id="ph-front-advantages" class="ph-front-section">
     <div class="container center">
         <div class="card mb10">
         <a class="ph-subheading-title">Keunggulan Partnership</a>
@@ -620,9 +620,10 @@
 
         <!-- Main Footer -->
         <footer>
+            {{-- <div class="card-footer"> --}}
             <div class=" bg-black h-100" style="height: 70svh; color: #FFFFFF;padding-bottom: 40px">
-                <div class="card-footer">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 pb-2 mb-2">
+                
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 pb-2 mb-2" id="main-footer">
                     <div class="col-8 col-md-5 mb-3">
                         <a href="https://partnership.co.id"
                             class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
@@ -694,36 +695,26 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row pb-3 pt-4">
-                    <div class="col-12 text-md-end text-center">
-                        <a href="https://www.instagram.com/partnership.co.id/" target="_blank" class="text-white"
-                            style="margin-left: 12px"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                        <a href="https://www.youtube.com/@partnershipsolution" target="_blank" class="text-white"
-                            style="margin-left: 12px"><i class="fa-brands fa-youtube fa-xl"></i></a>
-                    </div>
-                </div>
-                <div class="row py-3 text-white border-top mt-2">
-                    <small class="col-12 col-md-5 text-white text-md-start text-center">&copy; 2025 PT Partnership
-                        Procurement
-                        Solution. All
-                        rights
-                        reserved</small>
+
+                <div class="row py-3 text-white border-top mt-2 ">
+                    <div class="col-12 col-md-5 text-white text-md-start text-center fs-6 fs-md-5">
+    © 2025 PT Partnership Procurement Solution. All rights reserved
+</div>
+
 
                     <a href="https://partnership.co.id"
                         class="col-12 col-md-2 d-flex align-items-center justify-content-center mb-3 pt-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                        <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main" style="max-height: 40px; max-width: 150px; height: auto; width: auto;>
+                        <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main" style="max-height: 30px; max-width: 30px; height: auto; width: auto;">
                     </a>
 
-                    <div class="col-12 col-md-5 text-md-end text-center">
-                        <a href="#" class="text-white" style="text-decoration:none"><small>Syarat &
-                                Ketentuan</small></a>
-                        <a href="#" class="text-white"
-                            style="text-decoration:none; margin-left: 12px"><small>Kebijakan
-                                Privasi</small></a>
-                    </div>
+                    <div class="col-12 col-md-5 text-md-end text-center fs-6 fs-md-5">
+    <a href="#" class="text-white text-decoration-none">Syarat & Ketentuan</a>
+    <a href="#" class="text-white text-decoration-none ms-3">Kebijakan Privasi</a>
+</div>
+
                 </div>
             </div>
-            </div>
+            {{-- </div> --}}
         </footer>
 
 <input type="hidden" name="_token" value="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
