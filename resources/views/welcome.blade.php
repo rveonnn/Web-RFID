@@ -133,37 +133,37 @@
             <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
             <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID</h4>
 
-            <div class="row justify-content-center center">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
                     <div class="ph-item-langkah-mudah">
                         <img src="{{ asset('images/Observe.png') }}" alt="Observe">
                         <h4>Observasi Awal</h4>
                         <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
                     <div class="ph-item-langkah-mudah">
                         <img src="{{ asset('images/Work.png') }}" alt="Working">
                         <h4>Pengembangan Sistem</h4>
                         <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
                     </div>
                 </div>
-
-
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
                     <div class="ph-item-langkah-mudah">
                         <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
                         <h4>Pelatihan Tim</h4>
                         <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
                     <div class="ph-item-langkah-mudah">
                         <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
                         <h4>Siap Transformasi</h4>
                         <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
                     </div>
                 </div>
+            </div>
+
 
 
             </div>
@@ -606,14 +606,7 @@
 
     <input type="hidden" name="is_home" id="is_home" value="1">
 
-    <script>
-        function openWACTA() {
-            var status = $('#ctc-chat-box').attr('status');
-            if (status !== 'display') {
-                toggleWhatsapp();
-            }
-        }
-    </script>
+
 
 
 
@@ -738,47 +731,8 @@
 <script> console.log('server : eh-metal'); </script>
 
 
-<div class="whatsapp" type="icon" style="bottom: -100px;" id="ctc-chat-box" status="hidden">
-    <img src="https://ep.erhj.net/img/whatsapp-icon.png" alt="messenger icon" onclick="toggleWhatsapp()" id="ctc-chat-icon" />
-    <div onclick="toggleWhatsapp()" id="ctc-chat-header">
-        <img src="https://ep.erhj.net/img/whatsapp-logo.svg" alt="messenger icon"> <span>Chat Dengan Kami</span>
-    </div>
-    <div id="ctc-chat-body">
-        <div id="ctc-chat-body-inner">
-                            <a onclick="openWhatsappContact()" target="_blank" href="https://api.whatsapp.com/send?phone=6281296952901&text=Assalamualaikum%0D%0ASaya%20ingin%20menanyakan%20tentang%20ProHajj" class="ctc-contact-list ctc-whatsapp">
-                    <div class="ctc-cp-title">Annisa</div>
-                    <div class="ctc-cp-number">6281296952901</div>
-                    <span class="ctc-cp-chat">Chat</span>
-                </a>
-                    </div>
-    </div>
-</div>
 
-<script>
-    function openWhatsappContact() {
-        try {
-            fbq('track', 'Contact', {contact: 'whatsapp'});
-        } catch (e) {
-            console.log(e);
-        }
-    }
 
-    function toggleWhatsapp() {
-        var chatBox = $('#ctc-chat-box');
-        var status = chatBox.attr('status');
-        if(status !== 'hidden'){
-            chatBox.attr('status', 'hidden');
-        } else{
-            chatBox.attr('status', 'display');
-        }
-    }
-
-    $(document).ready(function () {
-       setTimeout(function () {
-           $('#ctc-chat-box').animate({bottom: '0px'}, 1000);
-       }, 1000);
-    });
-</script>
 
 <input type="hidden" name="is_production" id="is_production" value="1">
 
