@@ -13,6 +13,12 @@
     <link href="https://ep.erhj.net/img/favicon-prohajj.png" rel="apple-touch-icon">
     <script src="https://ep.erhj.net/script/jquery-3.6.0.min.js"></script>
 
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+
 
     <link rel="stylesheet" data-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="preconnect" data-href="https://fonts.googleapis.com">
@@ -142,9 +148,7 @@
                         <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="row justify-content-center mt-4 center">
 
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="ph-item-langkah-mudah">
@@ -616,10 +620,10 @@
             <div class=" bg-black h-100" style="height: 70svh; color: #FFFFFF;padding-bottom: 40px">
                 <div class="card-footer">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 pb-2 mb-2">
-                    <div class="col-12 col-md-5 mb-3">
+                    <div class="col-8 col-md-5 mb-3">
                         <a href="https://partnership.co.id"
                             class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                            <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="logo_main" height="32px">
+                            <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="logo_main" style="max-height: 80px; max-width: 300px; height: auto; width: auto;">
                         </a>
                         <p class="text-secondary"><strong>Kantor Pusat</strong></p>
                         <ul class="nav flex-column">
@@ -704,7 +708,7 @@
 
                     <a href="https://partnership.co.id"
                         class="col-12 col-md-2 d-flex align-items-center justify-content-center mb-3 pt-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                        <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main" height="32px">
+                        <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main" style="max-height: 40px; max-width: 150px; height: auto; width: auto;>
                     </a>
 
                     <div class="col-12 col-md-5 text-md-end text-center">
