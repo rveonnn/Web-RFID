@@ -315,6 +315,9 @@ h4.ph-heading {
     background-color: #fff;
     border-radius: 10px;
     margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .ph-benefit-item .fa {
@@ -410,7 +413,7 @@ h4.ph-heading {
 }
 
 .ph-front-section {
-    padding: 40px 0;
+    padding: 40px 10;
     /* background-color: #f9f9f9; */
 }
 
@@ -449,18 +452,6 @@ h4.ph-heading {
     left: 0;
 }
 
-#main-top-navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    padding: 10px 0;
-    box-shadow: 0 10px 25px 0 rgb(18 18 18 / 5%);
-    -webkit-box-shadow: 0 10px 25px 0 rgb(18 18 18 / 5%);
-    z-index: 5;
-}
-
 #main-top-navbar #main-logo {
     display: block;
     float: left;
@@ -481,15 +472,6 @@ h4.ph-heading {
 #main-top-navbar #nav-menu li a.active {
     background-color: #fff;
     color: #474747;
-}
-
-#main-top-navbar #nav-menu li:last-child {
-    display: inline-block;
-}
-
-#main-top-navbar #nav-menu li:last-child a {
-    background-color: #474747;
-    color: #fff;
 }
 
 #ph-front-welcome {

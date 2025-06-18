@@ -68,7 +68,7 @@
 
         <ul id="nav-menu">
             <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link active">Fitur & Layanan</a></li>
-            <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Pemesanan & Harga</a></li>
+            <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Pemesanan</a></li>
             <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Dukungan Layanan</a></li>
         </ul>
         <a onclick="frontResponsiveToggler()" id="responsive-toggler" class="hidden-lg hidden-md hidden-sm"><i class="fa fa-bars"></i></a>
@@ -165,7 +165,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
 
         </div>
@@ -175,6 +175,7 @@
 
     <div id="feature-section" class="backdrop:blur-md">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Penerapan RFID</a>
         <h4 class="ph-heading">Teknologi RFID dapat diterapkan pada:</h4>
 
@@ -225,6 +226,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <script>
@@ -440,6 +442,7 @@
 </section>
 <div id="ph-front-faq" class="ph-front-section">
     <div class="container center">
+        <div class="card">
         <a class="ph-subheading-title">Pertanyaan Tentang Partnership</a>
         <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
             <div id="ph-faq" class="box">
@@ -594,7 +597,7 @@
         </div>
     </div>
 </div>
-
+                </div>
             </div>
         </div>
     </div>
@@ -786,48 +789,6 @@
     });
 </script>
 
-
-<div id="popup-subsriber">
-    <div id="popup-subsriber-absolute">
-        <div id="popup-subsriber-overlay-close" onclick="closePopupSubscriber()"></div>
-        <div id="popup-subsriber-inner">
-            <div id="popup-subsriber-content">
-                <div id="popup-subsriber-title">Assalamualaikum</div>
-                <div id="popup-intro">Apakah Anda ingin mendapatkan informasi terbaru dan promo harga khusus dari kami? Jika iya, mohon informasikan email dan nomor handphone Anda pada kami</div>
-                <form id="popup-form-subscription" onsubmit="return false;">
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Nama Lengkap</span>
-                            <input class="form-control" type="text" name="nama" id="nama" placeholder="Nama Lengkap Anda..." autocomplete="off" required="required">
-                        </div>
-                    </div>
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Nama Travel</span>
-                            <input class="form-control" type="text" name="perusahaan" id="perusahaan" placeholder="Nama Travel Anda ..." autocomplete="off">
-                        </div>
-                    </div>
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Email</span>
-                            <input class="form-control" type="email" name="email" id="email" placeholder="Email Anda..." autocomplete="off" required="required">
-                        </div>
-                    </div>
-                    <div class="popup-form-item">
-                        <div class="input-group">
-                            <span class="input-group-addon">Nomor Handphone</span>
-                            <input class="form-control" type="text" name="no_handphone" id="no_handphone" placeholder="Nomor Handphone Anda..." autocomplete="off" required="required">
-                        </div>
-                    </div>
-
-                    <button class="btn btn-primary btn-block" type="submit">Ya, Saya Mau</button>
-                    <a onclick="closePopupSubscriber()" class="btn btn-danger btn-block">Mohon Maaf, Lain Kali Saja</a>
-                    <input type="hidden" name="_token" value="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
 <input type="hidden" name="is_production" id="is_production" value="1">
 
 <!-- </body></html> -->
