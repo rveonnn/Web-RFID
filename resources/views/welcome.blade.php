@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
 
-    <link rel='icon' href="/image/favicon.ico" type='image/x-icon'>
+    <link rel='icon' href="/images/favicon.ico" type='image/x-icon'>
     <script src="https://ep.erhj.net/script/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
@@ -49,7 +49,7 @@
 
         <div class="container">
             <a id="main-logo" href="/">
-                <img src="/image/PARTNERSHIP-LOGO-07.png" alt="Partnership" id="logo-color" />
+                <img src="/images/PARTNERSHIP-LOGO-07.png" alt="Partnership" id="logo-color" />
             </a>
 
             <ul id="nav-menu">
@@ -75,11 +75,10 @@
                 <div class="col-sm-7 col-xs-12">
                     <div id="banner-title-1">Digitalisasi pengelolaan asset dan dokumen anda lebih mudah dan terkontrol
                         dengan teknologi RFID.</div>
-                    <div id="banner-title-2">RFID memudahkan proses identifikasi, pencatatan, dan pemeliharaan aset yang
-                        Anda kelola. Setiap perubahan status, penambahan, distribusi, hingga pemeliharaan aset dapat
-                        terdokumentasi secara otomatis dan akurat.</div>
+                    <div id="banner-title-2">Teknologi RFID memberikan kemudahan signifikan dalam proses identifikasi, pencatatan, dan pemeliharaan berbagai jenis aset yang Anda kelola. Setiap perubahan status aset seperti penambahan, distribusi, perpindahan lokasi, serta aktivitas pemeliharaan akan tercatat secara otomatis, akurat, dan real-time. Hal ini membantu meminimalkan risiko kesalahan akibat pencatatan manual dan secara langsung meningkatkan efisiensi operasional perusahaan Anda.</div>
                     <div id="banner-title-3">
-                        <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi Kami</a>&nbsp;&nbsp;
+                        <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi
+                            Kami</a>&nbsp;&nbsp;
                     </div>
                 </div>
             </div>
@@ -366,130 +365,38 @@
                     secara maksimal, ProHajj didukung oleh tim yang kompeten di bidangnya masing-masing, sehingga dapat
                     membantu bisnis Anda bertransformasi digital secara menyeluruh dengan mudah dan cepat</p>
                 <div id="photo-slider">
-                    <a id="xaf333ce68272fbad71f7fda178c8b0e01d5e6fc1"
-                        href="https://prohajj.co.id/super-team#xb6692ea5df920cad691c20319a6fffd7a4a766b8"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/ZPOtSv51KbPZd9AtdDSJsOo34EcYTRwcO7gwlgaE.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">YUSUF</div>
-                        <div class="lstf-label">THE FOUNDER</div>
+                    <a class="list-super-team-front">
+                        <img src="{{ asset('images/Team1.jpg') }}" alt="super-team"
+                            style="background-image:{{ asset('images/TeamBG.jpg') }}">
+                        <div class="lstf-nama">Surya Dinata Halim</div>
+                        <div class="lstf-label">Officer Divisi Technology</div>
                     </a>
-                    <a id="x5963da0e87273cab35f3705cb4d7d198b32233b2"
-                        href="https://prohajj.co.id/super-team#xedc10c00d8e6e26af72eb3d0aa3f86c48d54cdc1"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/nXErSSmxPPurWQuLbKm0qIV2wcSpSj1DuCLXIsEQ.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">DINDA</div>
-                        <div class="lstf-label">THE CONSULTANT</div>
+
+                    <a class="list-super-team-front">
+                        <img src="{{ asset('images/Team2.jpg') }}" alt="super-team"
+                            style="background-image: {{ asset('images/TeamBG.jpg') }}">
+                        <div class="lstf-nama">Maulidannur Lubis</div>
+                        <div class="lstf-label">Officer Divisi Technology</div>
                     </a>
-                    <a id="xc8067935377be0e029ba90a5c06036ffeac14941"
-                        href="https://prohajj.co.id/super-team#xbab750c63a16012fe1e06fd51c0f4954fb54b098"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/d1zb73h7SlbD6K34Vw5mBJUGVu3NZoe3Ja72oL7i.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">NAJWA</div>
-                        <div class="lstf-label">THE MANAGER</div>
+
+                    <a class="list-super-team-front">
+                        <img src="{{ asset('images/Team3.jpg') }}" alt="super-team"
+                            style="background-image: {{ asset('images/TeamBG.jpg') }}">
+                        <div class="lstf-nama">Irfan Juliana</div>
+                        <div class="lstf-label">Officer Divisi Technology</div>
                     </a>
-                    <a id="xc0667416928ddfec62e377d1f6641cb01da6c3d6"
-                        href="https://prohajj.co.id/super-team#x3b8be1ddb4d49fc85d469a4ae81ba0d8fec52157"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/aktPqAAO2TgXJNGzomsxUrjxUKA0GC5LlX4ztKTM.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">RIVALDI</div>
-                        <div class="lstf-label">THE ARTIST</div>
+
+                    <a class="list-super-team-front">
+                        <img src="{{ asset('images/Team4.jpg') }}" alt="super-team"
+                            style="background-image: {{ asset('images/TeamBG.jpg') }}">
+                        <div class="lstf-nama">Suhaefi Fauzian</div>
+                        <div class="lstf-label">Officer Divisi Technology</div>
                     </a>
-                    <a id="x9eba00588b6ba56a97581f72104501472a6234d2"
-                        href="https://prohajj.co.id/super-team#x4133aae6eb4eb007c49649c9acb27fb7a3d13476"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/zyMaHRqKNqmohfyA2BsWhCccjOxO1t4rOIIxAVBE.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">BUDI</div>
-                        <div class="lstf-label">THE SCIENTIST</div>
-                    </a>
-                    <a id="x63ce6ff4a0ed15a98648fbe6022fbc3e7e4cbf10"
-                        href="https://prohajj.co.id/super-team#x9bc8d5789d9a97e335bc3a1700b281325cb59f12"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/oXOVyx0JfXuuo5MFCZgIs6HMUd6ej4OXjwQehwmF.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">INKA</div>
-                        <div class="lstf-label">THE EDITOR</div>
-                    </a>
-                    <a id="xa237f9a57245824f888931410d6d49484aa908a9"
-                        href="https://prohajj.co.id/super-team#x9d985188444175d30c709f634f65967f67f1ae22"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/ZpWOFET8Kse6cNSCxr7gMszArf6UUeE0Rl4tJDUk.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">LUTFI</div>
-                        <div class="lstf-label">THE PRODUCER</div>
-                    </a>
-                    <a id="x24805fb2f43b8bc233333305d3067c595da396a5"
-                        href="https://prohajj.co.id/super-team#xa8ea727efa91da5f634e7aeca47e4bb862432c39"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/L6eMCoeZ4A5Y3shq90BlHtklzOYvdP7WJys6JH9S.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">ANNISA</div>
-                        <div class="lstf-label">THE DEALMAKER</div>
-                    </a>
-                    <a id="x533a2c8a72bdf32868db94e78ffa691f73bcb627"
-                        href="https://prohajj.co.id/super-team#xde35063a36ff0e4fbdb75c337589668ad4de8374"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/Wi3z596hwj6q04xxx6fFec4SSMcYwPuGt1CHQYVf.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">LUSY</div>
-                        <div class="lstf-label">THE ACCELERATOR</div>
-                    </a>
-                    <a id="x8e19eb87e20a6a6c66ad590c5902f19ba077436e"
-                        href="https://prohajj.co.id/super-team#xa65152f5adc31a90dcd4d4130f69f9a98c424d0c"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/vOSX2fjq2NaJdhSosXvquPVXyonpPZwvD3zGVNkz.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">IMAM</div>
-                        <div class="lstf-label">THE CHALLENGER</div>
-                    </a>
-                    <a id="x176e1fce2078e74b3553127bcf783d18eeb84b91"
-                        href="https://prohajj.co.id/super-team#xd56d196e44d15d5866067c456ab63ae19a677075"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/AuWilKsgC9FKZ021BAnvi10czyOKlN9LJBSWMn2o.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">RIRI</div>
-                        <div class="lstf-label">THE CHAMPION</div>
-                    </a>
-                    <a id="xef72b3cae7518195219eb1b387d99205baeb42de"
-                        href="https://prohajj.co.id/super-team#x47077c7cdd6c7822a07096245e1a47034c683618"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1722905388-GsHAHdcHdu.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">NABILA</div>
-                        <div class="lstf-label">-</div>
-                    </a>
-                    <a id="xd06b924750311757bd34b591ea550e8b94ff141b"
-                        href="https://prohajj.co.id/super-team#xd2a8a1bde5eba1942d457a555cf2c0dc034aacd8"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1722905351-S8OdZY0Rfj.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">AINI</div>
-                        <div class="lstf-label">-</div>
-                    </a>
-                    <a id="x270e1eee970054ca8efb5e87038c36b417bb9bdd"
-                        href="https://prohajj.co.id/super-team#x2ea436590bc564734c4ecf4e0a5179e67eaf7ae0"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1745569842-hg1sYkdE1M.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">ROSA</div>
-                        <div class="lstf-label">-</div>
-                    </a>
-                    <a id="x2f06e1168f3302b0f9a6eadf19e0cc40c8f040e4"
-                        href="https://prohajj.co.id/super-team#xd7e94e1f1485e03015d366e46ad19ce7e0857d3a"
-                        class="list-super-team-front">
-                        <img style="background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1745569870-h8Zr5oQeB4.webp')"
-                            src="https://ep.erhj.net/img/super-team.png" alt="super-team">
-                        <div class="lstf-nama">ZAHRA</div>
-                        <div class="lstf-label">-</div>
-                    </a>
+
                 </div>
             </div>
 
-            <style>
+            {{-- <style>
                 #xaf333ce68272fbad71f7fda178c8b0e01d5e6fc1:hover img {
                     background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/SiBFySm0P9MDERpls4dKtzq7WPSCwZi7B1HWoBRS.webp') !important;
                 }
@@ -549,7 +456,7 @@
                 #x2f06e1168f3302b0f9a6eadf19e0cc40c8f040e4:hover img {
                     background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1745569872-1zqRm5QYWL.webp') !important;
                 }
-            </style>
+            </style> --}}
 
             <script>
                 $(document).ready(function() {
@@ -609,9 +516,9 @@
                             </div>
                             <div id="collapse-kegunaan-rfid" class="panel-collapse collapse" role="tabpanel"
                                 aria-labelledby="heading-kegunaan-rfid">
-                                <div class="panel-body">
+                                <div class="panel-body text-start">
                                     <p>Sistem RFID kami mendukung berbagai kebutuhan bisnis seperti:</p>
-                                    <ul>
+                                    <ul class="text-start">
                                         <li>Pelacakan dan audit aset tetap</li>
                                         <li>Manajemen inventaris gudang</li>
                                         <li>Pemantauan dokumen penting secara real-time</li>
@@ -782,7 +689,7 @@
                 <div class="col-8 col-md-5 mb-3 ps-3">
                     <a href="https://partnership.co.id"
                         class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                        <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="logo_main"
+                        <img src="/images/PARTNERSHIP-LOGO-WHITE-07.png" alt="logo_main"
                             style="max-height: 80px; max-width: 300px; height: auto; width: auto;">
                     </a>
                     <p class="text-secondary"><strong>Kantor Pusat</strong></p>
@@ -859,7 +766,8 @@
 
 
                 <a href="https://partnership.co.id"
-                    class="col-12 col-md-2 d-flex align-items-center justify-content-center mb-3 pt-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center mb-3 pt-2 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                    style="opacity: 0">
                     <img src="https://partnership.co.id/assets/img/logo/icon_p_white.png" alt="icon_main"
                         style="max-height: 30px; max-width: 30px; height: auto; width: auto;">
                 </a>
