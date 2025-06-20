@@ -36,21 +36,10 @@
     <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
 
 </head>
 
 <body class="home">
-
-    <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    <span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    </span>
-    <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    <span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    </span>
 
     <div id="ph-main-heading" class="home">
         <div id="ph-main-heading-overlay"></div>
@@ -93,7 +82,7 @@
                         Anda kelola. Setiap perubahan status, penambahan, distribusi, hingga pemeliharaan aset dapat
                         terdokumentasi secara otomatis dan akurat.</div>
                     <div id="banner-title-3">
-                        <a onclick="toggleWhatsapp()" class="btn btn-primary btn-ph-white">Hubungi Kami</a>&nbsp;&nbsp;
+                        <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi Kami</a>&nbsp;&nbsp;
                     </div>
                 </div>
             </div>
@@ -318,7 +307,7 @@
                     sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan,
                     kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara
                     menyeluruh dengan proses bisnis Anda.</p>
-                <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5"
+                <a href="https://wa.me/6281318554360""
                     class="btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
             </div>
         </div>
@@ -799,8 +788,7 @@
     <!-- Main Footer -->
     <footer>
         {{-- <div class="card-footer"> --}}
-        <div class=" bg-black h-100" style="height: 70svh; color: #FFFFFF;padding-bottom: 40px">
-
+        <div class="bg-black" style="color: #FFFFFF; padding-bottom: 40px;">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 pb-2 mb-2" id="main-footer">
                 <div class="col-8 col-md-5 mb-3">
                     <a href="https://partnership.co.id"
