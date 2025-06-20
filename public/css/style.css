@@ -72,12 +72,19 @@ p {
     margin: 30px 20px;
 }
 
-.card-footer {
+footer {
     background-image: url("/image/Pattern-Dark.jpg");
     /* border-radius: 15px; */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    padding-left: 20px;
     height: max-content;
+    max-height: 600px;
+}
+
+#main-footer {
+    padding-bottom: 150px;
+    padding-top: 30px;
 }
 
 body {
@@ -416,7 +423,7 @@ h4.ph-heading {
 }
 
 .ph-front-section {
-    padding: 40px 10;
+    padding: 30px 10px;
     /* background-color: #f9f9f9; */
 }
 
@@ -661,7 +668,7 @@ body #main-logo #logo-white {
 }
 
 #front-super-team {
-    padding: 40px 0 20px;
+    padding: 30px 0 20px;
 }
 
 @media (max-width: 1024px) {
