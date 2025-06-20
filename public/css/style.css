@@ -73,7 +73,7 @@ p {
 }
 
 footer {
-    background-image: url("/image/Pattern-Dark.jpg");
+    background-image: url("/images/Pattern-Dark.jpg");
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
     padding-left: 20px;
@@ -91,7 +91,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     font-weight: 400;
-    background-image: url("/image/Pattern-Light.jpg");
+    background-image: url("/images/Pattern-Light.jpg");
     color: #4a4a4a;
 }
 
@@ -128,7 +128,7 @@ body {
     width: 100%;
     min-height: 720px;
     z-index: 0;
-    background-image: url("/image/Pattern-Dark.jpg");
+    background-image: url("/images/Pattern-Dark.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -377,7 +377,7 @@ h4.ph-heading {
 #go-pemesanan-harga {
     position: relative;
     padding: 120px 0;
-    background-image: url("/image/Pattern-Dark.jpg");
+    background-image: url("/images/Pattern-Dark.jpg");
 }
 
 #go-pemesanan-harga:before {
@@ -586,6 +586,17 @@ h4.ph-heading {
     padding: 5px 0 0 0 !important;
     border: none !important;
     color: #474747;
+}
+
+.panel-body ul {
+    padding-left: 1.25rem;
+    list-style-position: outside;
+    text-align: left;
+}
+
+.panel-body li {
+    display: list-item;
+    text-align: left;
 }
 
 body.not-home #main-content {
