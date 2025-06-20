@@ -10,7 +10,6 @@
     <meta name="csrf-token" content="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
 
     <link rel='icon' href="/image/favicon.ico" type='image/x-icon'>
-    <link href="https://ep.erhj.net/img/favicon-prohajj.png" rel="apple-touch-icon">
     <script src="https://ep.erhj.net/script/jquery-3.6.0.min.js"></script>
 
 <link
@@ -31,8 +30,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
             <link rel="stylesheet" href="https://ep.erhj.net/css/000-76ef7fbcd36c96ebf14f981bb2bc090a.css"/>
-                {{-- <link rel="stylesheet" href="https://ep.erhj.net/css/general-lp.css"/>
-       <link rel="stylesheet" href="https://ep.erhj.net/css/prohajj.css"/> --}}
      <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css"/>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
@@ -43,14 +40,7 @@
 
 <body class="home">
 
-<link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-<span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-    <link itemprop="url" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-</span>
-<link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-<span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-  <link itemprop="url" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-</span>
+
 
     <div id="ph-main-heading" class="home">
     <div id="ph-main-heading-overlay"></div>
@@ -75,10 +65,6 @@
     </div>
 </nav>
 
-
-    <div id="page-title-container">
-        <h1>Aplikasi Travel Umrah & Haji Terbaik</h1>
-    </div>
 
     <div id="ph-front-welcome">
     <div class="container">
@@ -286,9 +272,7 @@
         </div>
 
         <div class="row" id="eh-training-outer">
-            {{-- <div class="col-md-5 col-xs-12">
-                <img src="https://ep.erhj.net/img/prohajj/training.jpg" class="mb10" alt="training ProHajj">
-            </div> --}}
+
             <div class="col-12 text-justify">
                 <p>Transformasi digital tidak selalu berjalan mulus bagi setiap bisnis, terutama saat beralih dari proses manual ke sistem yang serba otomatis. Untuk itu, PT Partnership menghadirkan solusi manajemen aset dan dokumen berbasis teknologi RFID, yang dirancang agar transisi digital menjadi lebih mudah, efisien, dan terukur. Berikut keunggulan solusi yang kami tawarkan:</p>
 
