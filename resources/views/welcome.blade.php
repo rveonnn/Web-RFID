@@ -53,7 +53,7 @@
             </a>
 
             <ul id="nav-menu">
-                <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link active">Fitur
+                <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link">Fitur
                         & Layanan</a></li>
                 <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga"
                         class="menu internal-link">Pemesanan</a></li>
@@ -276,19 +276,18 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-7">
-                        <h4 class="align-left">Garansi Kualitas & Layanan 100%</h4>
-                        <p>Kami memberikan 100% GRATIS penggunaan sistem ProHajj selama 1 tahun bagi Anda, apabila Anda
-                            berhasil menemukan sistem manajemen travel yang lebih lengkap, lebih baik, dan lebih detail,
-                            dengan harga yang lebih murah dari ProHajj.</p>
-                        <p>Disamping itu, kami juga memberikan garansi seumur hidup (lifetime) untuk perbaikan sistem
-                            apabila terjadi kesalahan (error atau bug) dari sisi sistem ProHajj. Garansi 100% uang
-                            kembali juga akan kami berikan apabila terjadi kebocoran atau penyalahgunaan data dari
-                            sistem yang Anda gunakan, karena bagi kami, privasi dan keamanan data adalah nomor satu.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img style="max-height: 250px;" src="https://ep.erhj.net/img/prohajj/garansi.png"
-                            alt="ProHajj">
+                    <div class="">
+                        {{-- <h4 class="align-left"></h4> --}}
+                        <p><strong>Solusi Lengkap dari A-Z,</strong> Kami menyediakan perangkat RFID (tag, reader, gateway) berkualitas industri, lengkap dengan sistem manajemen aset berbasis cloud maupun lokal yang bisa disesuaikan dengan kebutuhan Anda.
+
+                        <strong>Cepat, Efisien, Minim Kesalahan,</strong> Dengan teknologi RFID, pelacakan dan pencatatan aset jadi lebih otomatis, cepat, dan presisi, jauh lebih baik dibanding metode manual atau barcode.
+
+                        <strong>Akses Mudah, Real-Time Monitoring,</strong> Pantau status dan lokasi aset Anda kapan saja dan di mana saja, melalui dashboard yang intuitif dan user-friendly.
+
+                        <strong>Keamanan Data & Integrasi Sistem,</strong> Sistem kami dilengkapi dengan enkripsi data dan kontrol akses, serta mendukung integrasi dengan ERP, sistem inventaris, maupun aplikasi internal perusahaan Anda.
+
+                        <strong>Dukungan Purna Jual & Custom Development,</strong> Kami tak hanya menjual produk — kami hadir dengan dukungan teknis, instalasi, pelatihan, hingga pengembangan aplikasi sesuai alur kerja unik bisnis Anda.
+                    </p>
                     </div>
                 </div>
             </div>
@@ -780,7 +779,7 @@
         {{-- <div class="card-footer"> --}}
         <div class="bg-black" style="color: #FFFFFF; padding-bottom: 40px;">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 mt-5 pb-2 mb-2" id="main-footer">
-                <div class="col-8 col-md-5 mb-3">
+                <div class="col-8 col-md-5 mb-3 ps-3">
                     <a href="https://partnership.co.id"
                         class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
                         <img src="/image/PARTNERSHIP-LOGO-WHITE-07.png" alt="logo_main"
@@ -853,7 +852,7 @@
                 </div>
             </div>
 
-            <div class="row py-3 text-white border-top mt-2 ">
+            <div class="row py-3 text-white border-top mt-2 " id="bottom-footer">
                 <div class="col-12 col-md-5 text-white text-md-start text-center fs-6 fs-md-5">
                     © 2025 PT Partnership Procurement Solution. All rights reserved
                 </div>

@@ -6,36 +6,12 @@ div {
     line-height: 1.5;
 }
 
-/* #copyright {
-    background: rgba(0, 0, 0, 0.4);
-    color: #bdbdbd;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    margin-top: 40px;
-    position: relative;
-    z-index: 1;
-} */
-
 p {
     text-align: justify;
 }
 
 .benefit-item {
     margin-bottom: 20px;
-}
-
-.benefit-item .fa {
-    display: block;
-    float: left;
-    font-size: 25px;
-    width: 45px;
-    color: #fff;
-    border-radius: 50%;
-    height: 45px;
-    text-align: center;
-    line-height: 45px;
-    background-color: #007bd2;
 }
 
 .benefit-item .benefit-description {
@@ -81,10 +57,13 @@ footer {
     max-height: none; /* hilangkan batas tinggi */
 }
 
-
 #main-footer {
     padding-bottom: 150px;
     padding-top: 30px;
+    margin-left: 20px;
+}
+
+#bottom-footer {
 }
 
 body {
@@ -107,7 +86,7 @@ body {
 
 :root {
     --primary: #474747;
-    --primary-hover: #2d2d2d;
+    --primary-hover: #1c0a3a;
 }
 
 .btn-primary {
@@ -133,32 +112,7 @@ body {
     background-position: center;
 }
 
-/* #ph-main-heading:before {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    /* background: linear-gradient(178deg, rgb(0 0 0) 0%, rgb(86 86 86) 100%);
-}*/
-
-/* #ph-main-heading:after {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    z-index: 2;
-    opacity: 0.1;
-    background-size: 400px;
-} */
-
 #ph-main-heading-bottom {
-    /* background-image: url(../img/prohajj/ph-bottom-background-image.png); */
     position: absolute;
     width: 100%;
     height: 100px;
@@ -180,6 +134,20 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 10px 25px 0 rgb(18 18 18 / 5%);
     z-index: 5;
+}
+
+#nav-menu li a {
+    text-transform: uppercase;
+    padding: 7px 25px;
+    border-radius: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #595857;
+}
+
+#nav-menu li a:hover {
+    background-color: #474747;
+    color: #fff;
 }
 
 #main-logo img {
@@ -263,9 +231,6 @@ body {
     border-color: #fff !important;
 }
 
-#ph-front-intro {
-}
-
 #ph-front-intro p {
     font-size: 16px;
     padding: 0 50px;
@@ -310,9 +275,6 @@ h4.ph-heading {
     margin-top: 20px;
 }
 
-#feature-section {
-}
-
 #feature-section p {
     font-size: 16px;
 }
@@ -331,7 +293,6 @@ h4.ph-heading {
 }
 
 .ph-benefit-item .fa {
-    /* background-image: url(../img/prohajj/bg-fitur-default.png); */
     display: block;
     height: 90px;
     background-size: contain;
@@ -358,14 +319,15 @@ h4.ph-heading {
 
 .benefit-img {
     width: 100%;
-    height: 200px; /* kamu bisa sesuaikan tinggi ini */
+    height: 200px;
     object-fit: cover;
-    border-radius: 8px; /* opsional: biar sudutnya membulat */
+    border-radius: 8px;
 }
 
 #go-pemesanan-harga {
     position: relative;
     padding: 120px 0;
+
     background-image: url("/image/Pattern-Dark.jpg");
 }
 
@@ -412,7 +374,7 @@ h4.ph-heading {
 }
 
 .ph-front-section {
-    padding: 30px 10px;
+    padding: 30px 0px;
     /* background-color: #f9f9f9; */
 }
 
@@ -466,11 +428,6 @@ h4.ph-heading {
 #main-top-navbar #nav-menu li a {
     padding: 7px 15px;
     margin: 0 2.5px;
-}
-
-#main-top-navbar #nav-menu li a.active {
-    background-color: #fff;
-    color: #474747;
 }
 
 #ph-front-welcome {
@@ -541,7 +498,7 @@ h4.ph-heading {
 #ph-faq .panel .panel-heading .panel-title a[aria-expanded="true"],
 #ph-faq .panel .panel-heading .panel-title a:hover {
     color: #fff !important;
-    background-color: #474747 !important;
+    background-color: #0d1b2a !important;
 }
 
 #ph-faq .panel .panel-heading .panel-title a {
@@ -679,7 +636,7 @@ body #main-logo #logo-white {
     #main-top-navbar #nav-menu li:last-child {
         display: none;
     }
-    
+
     #main-top-navbar #nav-menu {
         display: none; /* SEMBUNYIKAN default menu di mobile */
     }
@@ -758,15 +715,6 @@ body #main-logo #logo-white {
 
     #ph-main-heading {
         min-height: 810px;
-    }
-
-    #main-top-navbar {
-        padding: 10px 0;
-    }
-
-    #main-logo {
-        margin: 0;
-        width: 200px;
     }
 
     #ph-front-welcome {
