@@ -12,7 +12,6 @@
 
     <link rel='icon' href="/image/favicon.ico" type='image/x-icon'>
     <script src="https://ep.erhj.net/script/jquery-3.6.0.min.js"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 
@@ -31,8 +30,6 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="https://ep.erhj.net/css/000-76ef7fbcd36c96ebf14f981bb2bc090a.css" />
-    {{-- <link rel="stylesheet" href="https://ep.erhj.net/css/general-lp.css"/>
-       <link rel="stylesheet" href="https://ep.erhj.net/css/prohajj.css"/> --}}
     <link rel="stylesheet" href="https://ep.erhj.net/css/slick.css" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
@@ -42,15 +39,6 @@
 </head>
 
 <body class="home">
-
-    <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    <span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    </span>
-    <link class="hidden" itemprop="thumbnailUrl" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    <span class="hidden" itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="url" href="https://ep.erhj.net/img/prohajj/og-image.jpg">
-    </span>
 
     <div id="ph-main-heading" class="home">
         <div id="ph-main-heading-overlay"></div>
@@ -272,7 +260,7 @@
 
                 <div style="margin-bottom: 50px;" class="row">
                     <div class="col-md-5">
-                        <img src="{{ asset('images/Mockup2.png') }}" alt="ProHajj">
+                        <img src="{{ asset('images/Mockup2.png') }}" alt="Partnership">
                     </div>
                     <div class="col-md-7">
                         <h4 class="align-left">Custom Software Sesuai Kebutuhan Anda</h4>
@@ -318,7 +306,7 @@
                     sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan,
                     kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara
                     menyeluruh dengan proses bisnis Anda.</p>
-                <a href="https://prohajj.co.id/order/checkout/ph-default/753e86c5d916d85200a2e2cd04be4ae7c81554b5"
+                <a href=""
                     class="btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
             </div>
         </div>
@@ -333,9 +321,6 @@
                 </div>
 
                 <div class="row" id="eh-training-outer">
-                    {{-- <div class="col-md-5 col-xs-12">
-                <img src="https://ep.erhj.net/img/prohajj/training.jpg" class="mb10" alt="training ProHajj">
-            </div> --}}
                     <div class="col-12 text-justify">
                         <p>Transformasi digital tidak selalu berjalan mulus bagi setiap bisnis, terutama saat beralih
                             dari proses manual ke sistem yang serba otomatis. Untuk itu, PT Partnership menghadirkan
@@ -757,7 +742,7 @@
                                 aria-labelledby="heading-implementasi">
                                 <div class="panel-body">
                                     <p>Tergantung kompleksitas dan jumlah titik yang ingin diawasi. Namun, rata-rata
-                                        proses implementasi RFID bisa diselesaikan dalam waktu 3–10 hari kerja setelah
+                                        proses implementasi RFID bisa diselesaikan dalam waktu 3-10 hari kerja setelah
                                         desain sistem disepakati.</p>
                                 </div>
                             </div>
@@ -790,10 +775,6 @@
 
 
     <input type="hidden" name="is_home" id="is_home" value="1">
-
-
-
-
 
 
     <!-- Main Footer -->
@@ -897,34 +878,12 @@
         {{-- </div> --}}
     </footer>
 
-    <input type="hidden" name="_token" value="kPJcvGF0mGFjLd5Cm7hMaPHognipwepkdGCHbgv8">
-    <input type="hidden" name="base_currency" id="base_currency" value="idr">
-    <input type="hidden" name="timezone_set" id="timezone_set" value="Asia/Jakarta">
-    <input type="hidden" name="timezone" id="timezone">
-    <input type="hidden" name="current_url" id="current_url" value="https://prohajj.co.id">
-    <textarea class="hidden" name="script_map" id="script_map">eyJjaG9zZW4iOiJodHRwczpcL1wvcHJvaGFqai5jby5pZFwvc2NyaXB0XC9jaG9zZW4uanF1ZXJ5Lm1pbi5qcyIsInZlZ2FzIjoiaHR0cHM6XC9cL3Byb2hhamouY28uaWRcL3NjcmlwdFwvdmVnYXMubWluLmpzIiwiY29udGVudHNsaWRlciI6Imh0dHBzOlwvXC9wcm9oYWpqLmNvLmlkXC9zY3JpcHRcL2NvbnRlbnRzbGlkZXIuanMiLCJkYXRhdGFibGVzIjoiaHR0cHM6XC9cL3Byb2hhamouY28uaWRcL3NjcmlwdFwvZGF0YXRhYmxlcy5taW4uanMiLCJsZWFmbGV0IjoiaHR0cHM6XC9cL3Byb2hhamouY28uaWRcL3BsdWdpblwvbGVhZmxldFwvbGVhZmxldC5qcyIsImFjY291bnRpbmciOiJodHRwczpcL1wvcHJvaGFqai5jby5pZFwvc2NyaXB0XC9hY2NvdW50aW5nLm1pbi5qcyIsImRhdGV0aW1lcGlja2VyIjoiaHR0cHM6XC9cL3Byb2hhamouY28uaWRcL3NjcmlwdFwvZmxhdHBpY2tyLmpzIiwianN0eiI6Imh0dHBzOlwvXC9wcm9oYWpqLmNvLmlkXC9zY3JpcHRcL2pzdHoubWluLmpzIiwibW9tZW50IjoiaHR0cHM6XC9cL3Byb2hhamouY28uaWRcL3NjcmlwdFwvbW9tZW50Lm1pbi5qcyIsImNvdW50ZG93biI6Imh0dHBzOlwvXC9wcm9oYWpqLmNvLmlkXC9zY3JpcHRcL2pxdWVyeS5jb3VudGRvd24ubWluLmpzIiwibGlnaHRib3giOiJodHRwczpcL1wvcHJvaGFqai5jby5pZFwvc2NyaXB0XC9saWdodGJveC5qcyIsImZlYXRoZXJsaWdodCI6Imh0dHBzOlwvXC9wcm9oYWpqLmNvLmlkXC9zY3JpcHRcL2ZlYXRoZXJsaWdodC5qcyIsInRpbnltY2UiOiJodHRwczpcL1wvcHJvaGFqai5jby5pZFwvcGx1Z2luXC90aW55bWNlXC90aW55bWNlLm1pbi5qcyJ9</textarea>
-
-    <div id='loading-overlay'></div>
-    <div class="hidden" id='global-temp'></div>
-    <div class="device-xs visible-xs"></div>
-    <div class="device-sm visible-sm"></div>
-    <div class="device-md visible-md"></div>
-    <div class="device-lg visible-lg"></div>
-    <a onclick="scrollToTop()" class="btn btn-primary" id="scroll-to-top-btn"><i class="fa fa-chevron-up"></i></a>
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="https://ep.erhj.net/script/000-6022605adae29e581f248ff82550d226.js"></script>
-    <script src="https://ep.erhj.net/script/prohajj.js"></script>
     <script src="https://ep.erhj.net/script/slick.min.js"></script>
     <script>
         console.log('server : eh-metal');
     </script>
-
-
-
-
-
-    <input type="hidden" name="is_production" id="is_production" value="1">
 
     <!-- </body></html> -->
     <script>
