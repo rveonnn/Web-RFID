@@ -195,6 +195,24 @@ body {
 #banner-title-4 {
 }
 
+/* Umum: Tampilan bagus untuk desktop */
+.list-super-team-front {
+    width: auto;
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* Mobile: Perbaiki tampilan agar 1 foto 1 baris */
+@media (max-width: 576px) {
+    .list-super-team-front {
+        width: 100% !important;
+        max-width: 250px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+    }
+}
+
+
 #ph-front-welcome {
     padding: 30px 0;
 }
@@ -425,9 +443,17 @@ h4.ph-heading {
     padding-bottom: 100px;
 }
 
-.ph-item-langkah-mudah {
-    /* max-width: 200px; */
-    /* max-height: 200px; */
+.image-wrapper {
+    width: 100%;
+    max-width: 300px; /* Atur ukuran maksimum sesuai kebutuhan */
+    margin: 0 auto;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .ph-item-langkah-mudah h4 {
