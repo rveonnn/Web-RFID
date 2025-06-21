@@ -29,7 +29,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('css/base.css') }}">  
+    <link rel="stylesheet" href="{{ asset('css/base.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
@@ -73,7 +73,7 @@
                     <img src="{{ asset('images/RFIDReader.png') }}" alt="Reader">
                 </div>
                 <div class="col-sm-7 col-xs-12">
-                    <div id="banner-title-1">Digitalisasi pengelolaan asset dan dokumen anda lebih mudah dan terkontrol
+                    <div id="banner-title-1">Digitalisasi pengelolaan aset, dokumen & barang berharga anda lebih mudah dan terkontrol
                         dengan teknologi RFID.</div>
                     <div id="banner-title-2">Teknologi RFID memberikan kemudahan signifikan dalam proses identifikasi, pencatatan, dan pemeliharaan berbagai jenis aset yang Anda kelola. Setiap perubahan status aset seperti penambahan, distribusi, perpindahan lokasi, serta aktivitas pemeliharaan akan tercatat secara otomatis, akurat, dan real-time. Hal ini membantu meminimalkan risiko kesalahan akibat pencatatan manual dan secara langsung meningkatkan efisiensi operasional perusahaan Anda.</div>
                     <div id="banner-title-3">
@@ -88,10 +88,10 @@
     <div id="ph-front-intro" class="ph-front-section ">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Solusi pengelolaan asset dan dokumen anda</a>
+                <a class="ph-subheading-title">Solusi pengelolaan manajemen informasi berbasis RFID</a>
                 <h4 class="ph-heading">Membantu pengelolaan aset dan dokumen Anda secara efisien
                 </h4>
-                <p class="center">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, hingga pengelolaan
+                <p class="center">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, sumber daya manusia, hewan ternak, perkebunan, hingga pengelolaan
                     acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci utama. Teknologi RFID
                     (Radio Frequency Identification) hadir sebagai solusi modern yang mampu menggantikan sistem manual
                     yang lambat dan rentan kesalahan. Melalui kemampuan membaca data secara otomatis tanpa perlu kontak
@@ -142,31 +142,28 @@
                         <div class="ph-item-langkah-mudah">
                             <img src="{{ asset('images/Observe.png') }}" alt="Observe">
                             <h4>Observasi Awal</h4>
-                            <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
+                            <p>Kami melakukan observasi lapangan dan analisis mendalam untuk memahami kondisi terkini dalam pengelolaan aset dan dokumen, guna merancang solusi yang paling sesuai dengan kebutuhan Anda.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-12 mb-4">
                         <div class="ph-item-langkah-mudah">
                             <img src="{{ asset('images/Work.png') }}" alt="Working">
                             <h4>Pengembangan Sistem</h4>
-                            <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi
-                                Anda.</p>
+                            <p>Kami desain dan bangun sistem pengelolaan manajemen informasi berbasis RFID yang disesuaikan dengan kebutuhan spesifik organisasi, perusahaan, lembaga ataupun bisnis Anda.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-12 mb-4">
                         <div class="ph-item-langkah-mudah">
                             <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
                             <h4>Pelatihan Tim</h4>
-                            <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan
-                                transformasi.</p>
+                            <p>Kami menyediakan pelatihan penggunaan dan pengelolaan sistem manajemen informasi berbasis RFID, serta memberikan fasilitasi pendampingan agar tim Anda siap menjalankan transformasi.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-12 mb-4">
                         <div class="ph-item-langkah-mudah">
                             <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
                             <h4>Siap Transformasi</h4>
-                            <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju
-                                pengelolaan berbasis RFID.</p>
+                            <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan aset berbasis RFID yang lebih efisien dan terintegrasi.</p>
                         </div>
                     </div>
                 </div>
@@ -225,6 +222,30 @@
                             <img src="{{ asset('images/Peternakan.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
                             <div class="ph-benefit-title">Peternakan</div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6 col-xs-12'>
+                        <div class="ph-benefit-item benefit-card text-center">
+                            <img src="{{ asset('images/Kendaraan.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                                class="benefit-img">
+                            <div class="ph-benefit-title">Kendaraan</div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6 col-xs-12'>
+                        <div class="ph-benefit-item benefit-card text-center">
+                            <img src="{{ asset('images/Apparel.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                                class="benefit-img">
+                            <div class="ph-benefit-title">Apparek</div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6 col-xs-12'>
+                        <div class="ph-benefit-item benefit-card text-center">
+                            <img src="{{ asset('images/Warehouse.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                                class="benefit-img">
+                            <div class="ph-benefit-title">Warehouse</div>
                         </div>
                     </div>
 
@@ -357,7 +378,7 @@
         <div class="container">
             <div class="card">
                 <div class="center">
-                    <a class="ph-subheading-title">ProHajj Super Team</a>
+                    <a class="ph-subheading-title">Partnership Tech Team</a>
                     <h4 class="ph-heading">Dukungan Profesional Dari Tim Yang Handal</h4>
                 </div>
 
@@ -478,7 +499,7 @@
     <div id="ph-front-faq" class="ph-front-section">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Pertanyaan Tentang Partnership</a>
+                <a class="ph-subheading-title">Pertanyaan Sekitar RFID</a>
                 <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
                 <div id="ph-faq" class="box">
                     <div class="panel panel-default">
