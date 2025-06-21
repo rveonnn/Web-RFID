@@ -75,7 +75,13 @@
                 <div class="col-sm-7 col-xs-12">
                     <div id="banner-title-1">Digitalisasi pengelolaan asset dan dokumen anda lebih mudah dan terkontrol
                         dengan teknologi RFID.</div>
-                    <div id="banner-title-2">Teknologi RFID memberikan kemudahan signifikan dalam proses identifikasi, pencatatan, dan pemeliharaan berbagai jenis aset yang Anda kelola. Setiap perubahan status aset seperti penambahan, distribusi, perpindahan lokasi, serta aktivitas pemeliharaan akan tercatat secara otomatis, akurat, dan real-time. Hal ini membantu meminimalkan risiko kesalahan akibat pencatatan manual dan secara langsung meningkatkan efisiensi operasional perusahaan Anda.</div>
+                    <div id="banner-title-2">
+                        Teknologi RFID memberikan kemudahan dalam mengelola aset secara lebih efisien dan akurat. Proses
+                        identifikasi, pencatatan, hingga pemeliharaan aset dapat dilakukan secara otomatis dan
+                        real-time. Setiap perubahan, seperti penambahan, distribusi, atau perpindahan lokasi aset,
+                        tercatat dengan baik tanpa perlu pencatatan manual, sehingga meminimalkan kesalahan dan
+                        mendukung operasional yang lebih optimal.
+                    </div>
                     <div id="banner-title-3">
                         <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi
                             Kami</a>&nbsp;&nbsp;
@@ -91,13 +97,13 @@
                 <a class="ph-subheading-title">Solusi pengelolaan asset dan dokumen anda</a>
                 <h4 class="ph-heading">Membantu pengelolaan aset dan dokumen Anda secara efisien
                 </h4>
-                <p class="center">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, hingga pengelolaan
+                <p class="justify">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, hingga pengelolaan
                     acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci utama. Teknologi RFID
                     (Radio Frequency Identification) hadir sebagai solusi modern yang mampu menggantikan sistem manual
                     yang lambat dan rentan kesalahan. Melalui kemampuan membaca data secara otomatis tanpa perlu kontak
                     langsung, RFID memungkinkan proses identifikasi dan pelacakan berlangsung lebih cepat, akurat, dan
                     hemat tenaga.</p>
-                <p class="center">Keunggulan lain dari RFID adalah kemampuannya menyimpan informasi yang lebih banyak
+                <p class="justify">Keunggulan lain dari RFID adalah kemampuannya menyimpan informasi yang lebih banyak
                     dibandingkan barcode, serta fleksibilitas penggunaannya di berbagai kondisi lingkungan. Dengan
                     mengadopsi RFID, sebuah sistem tidak hanya menjadi lebih canggih, tetapi juga lebih responsif
                     terhadap kebutuhan zaman yang serba cepat dan dinamis.</p>
@@ -130,52 +136,54 @@
         </div>
     </div>
 
-    <div id="ph-front-easy-step" class="ph-front-section">
-        <div class="container text-center center">
-            <div class="card">
-                <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
-                <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID
-                </h4>
+<div id="ph-front-easy-step" class="ph-front-section">
+    <div class="container text-center center">
+        <div class="card">
+            <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
+            <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID</h4>
 
-                <div class="row justify-content-center text-center">
-                    <div class="col-md-6 col-sm-6 col-12 mb-4">
-                        <div class="ph-item-langkah-mudah">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
+                    <div class="ph-item-langkah-mudah">
+                        <div class="image-wrapper">
                             <img src="{{ asset('images/Observe.png') }}" alt="Observe">
-                            <h4>Observasi Awal</h4>
-                            <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-12 mb-4">
-                        <div class="ph-item-langkah-mudah">
-                            <img src="{{ asset('images/Work.png') }}" alt="Working">
-                            <h4>Pengembangan Sistem</h4>
-                            <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi
-                                Anda.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-12 mb-4">
-                        <div class="ph-item-langkah-mudah">
-                            <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
-                            <h4>Pelatihan Tim</h4>
-                            <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan
-                                transformasi.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-12 mb-4">
-                        <div class="ph-item-langkah-mudah">
-                            <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
-                            <h4>Siap Transformasi</h4>
-                            <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju
-                                pengelolaan berbasis RFID.</p>
-                        </div>
+                        <h4>Observasi Awal</h4>
+                        <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
                     </div>
                 </div>
-
-
-
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
+                    <div class="ph-item-langkah-mudah">
+                        <div class="image-wrapper">
+                            <img src="{{ asset('images/Work.png') }}" alt="Working">
+                        </div>
+                        <h4>Pengembangan Sistem</h4>
+                        <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
+                    <div class="ph-item-langkah-mudah">
+                        <div class="image-wrapper">
+                            <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
+                        </div>
+                        <h4>Pelatihan Tim</h4>
+                        <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-12 mb-4">
+                    <div class="ph-item-langkah-mudah">
+                        <div class="image-wrapper">
+                            <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
+                        </div>
+                        <h4>Siap Transformasi</h4>
+                        <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+                    </div>
+                </div>
             </div>
-
         </div>
+    </div>
+</div>
+
     </div>
     </div>
 
@@ -277,16 +285,25 @@
                 <div class="row">
                     <div class="">
                         {{-- <h4 class="align-left"></h4> --}}
-                        <p><strong>Solusi Lengkap dari A-Z,</strong> Kami menyediakan perangkat RFID (tag, reader, gateway) berkualitas industri, lengkap dengan sistem manajemen aset berbasis cloud maupun lokal yang bisa disesuaikan dengan kebutuhan Anda.
+                        <p><strong>Solusi Lengkap dari A-Z,</strong> Kami menyediakan perangkat RFID (tag, reader,
+                            gateway) berkualitas industri, lengkap dengan sistem manajemen aset berbasis cloud maupun
+                            lokal yang bisa disesuaikan dengan kebutuhan Anda.
 
-                        <strong>Cepat, Efisien, Minim Kesalahan,</strong> Dengan teknologi RFID, pelacakan dan pencatatan aset jadi lebih otomatis, cepat, dan presisi, jauh lebih baik dibanding metode manual atau barcode.
+                            <strong>Cepat, Efisien, Minim Kesalahan,</strong> Dengan teknologi RFID, pelacakan dan
+                            pencatatan aset jadi lebih otomatis, cepat, dan presisi, jauh lebih baik dibanding metode
+                            manual atau barcode.
 
-                        <strong>Akses Mudah, Real-Time Monitoring,</strong> Pantau status dan lokasi aset Anda kapan saja dan di mana saja, melalui dashboard yang intuitif dan user-friendly.
+                            <strong>Akses Mudah, Real-Time Monitoring,</strong> Pantau status dan lokasi aset Anda kapan
+                            saja dan di mana saja, melalui dashboard yang intuitif dan user-friendly.
 
-                        <strong>Keamanan Data & Integrasi Sistem,</strong> Sistem kami dilengkapi dengan enkripsi data dan kontrol akses, serta mendukung integrasi dengan ERP, sistem inventaris, maupun aplikasi internal perusahaan Anda.
+                            <strong>Keamanan Data & Integrasi Sistem,</strong> Sistem kami dilengkapi dengan enkripsi
+                            data dan kontrol akses, serta mendukung integrasi dengan ERP, sistem inventaris, maupun
+                            aplikasi internal perusahaan Anda.
 
-                        <strong>Dukungan Purna Jual & Custom Development,</strong> Kami tak hanya menjual produk — kami hadir dengan dukungan teknis, instalasi, pelatihan, hingga pengembangan aplikasi sesuai alur kerja unik bisnis Anda.
-                    </p>
+                            <strong>Dukungan Purna Jual & Custom Development,</strong> Kami tak hanya menjual produk —
+                            kami hadir dengan dukungan teknis, instalasi, pelatihan, hingga pengembangan aplikasi sesuai
+                            alur kerja unik bisnis Anda.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -302,8 +319,8 @@
                     sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan,
                     kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara
                     menyeluruh dengan proses bisnis Anda.</p>
-                <a href="https://wa.me/6281318554360"
-                    class="btn btn-primary btn-ph-white">Hubungi Sekarang</a>&nbsp;&nbsp;
+                <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi
+                    Sekarang</a>&nbsp;&nbsp;
             </div>
         </div>
     </div>
@@ -382,86 +399,24 @@
                     <a class="list-super-team-front">
                         <img src="{{ asset('images/Team3.jpg') }}" alt="super-team"
                             style="background-image: {{ asset('images/TeamBG.jpg') }}">
-                        <div class="lstf-nama">Irfan Juliana</div>
+                        <div class="lstf-nama">Suhaefi Fauzian</div>
                         <div class="lstf-label">Officer Divisi Technology</div>
                     </a>
 
                     <a class="list-super-team-front">
                         <img src="{{ asset('images/Team4.jpg') }}" alt="super-team"
                             style="background-image: {{ asset('images/TeamBG.jpg') }}">
-                        <div class="lstf-nama">Suhaefi Fauzian</div>
+                        <div class="lstf-nama">Irfan Juliana</div>
                         <div class="lstf-label">Officer Divisi Technology</div>
                     </a>
 
                 </div>
             </div>
 
-            {{-- <style>
-                #xaf333ce68272fbad71f7fda178c8b0e01d5e6fc1:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/SiBFySm0P9MDERpls4dKtzq7WPSCwZi7B1HWoBRS.webp') !important;
-                }
-
-                #x5963da0e87273cab35f3705cb4d7d198b32233b2:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/iSpWV1c7zsruogUlefT5YJ5uPJsMkeh9ZTd4Bmcd.webp') !important;
-                }
-
-                #xc8067935377be0e029ba90a5c06036ffeac14941:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/G1BuJQnkU7d6CsZ3yGRsCEB5BS2gxFokocEghhJu.webp') !important;
-                }
-
-                #xc0667416928ddfec62e377d1f6641cb01da6c3d6:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/IZCdVlLOvuJRqW3B4m58YE2P6yLmbDNZK9LenssN.webp') !important;
-                }
-
-                #x9eba00588b6ba56a97581f72104501472a6234d2:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/XsE0FwxrS5shdBemCTSQg024NOg8WeSMbScX5hQj.webp') !important;
-                }
-
-                #x63ce6ff4a0ed15a98648fbe6022fbc3e7e4cbf10:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/pYyS1MEu2gjfPkDCjpuy8UYmOBayBCYm7IVUSnSF.webp') !important;
-                }
-
-                #xa237f9a57245824f888931410d6d49484aa908a9:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/eIG6P91kUlJzB9I0ZvTVFBSLERLSURGtKYufVjS1.webp') !important;
-                }
-
-                #x24805fb2f43b8bc233333305d3067c595da396a5:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/XrQ7Vs0cco7a1iUwqn6OwZbVbM8z08cY5gmO3gZr.webp') !important;
-                }
-
-                #x533a2c8a72bdf32868db94e78ffa691f73bcb627:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/9eqYEc9F30m7w7PnboxPJDOBgviabILnmYeVu9Jy.webp') !important;
-                }
-
-                #x8e19eb87e20a6a6c66ad590c5902f19ba077436e:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/10wVuM6qZzh3npSlPchlLBTSu84vcRJW9jA08PDg.webp') !important;
-                }
-
-                #x176e1fce2078e74b3553127bcf783d18eeb84b91:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/yw9KKzwE1iVAS6G8x7pbGP19VuRbmNfKmZkZoSjs.webp') !important;
-                }
-
-                #xef72b3cae7518195219eb1b387d99205baeb42de:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1722905390-fswgQp3J7s.webp') !important;
-                }
-
-                #xd06b924750311757bd34b591ea550e8b94ff141b:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1722905354-yDSgl5kilE.webp') !important;
-                }
-
-                #x270e1eee970054ca8efb5e87038c36b417bb9bdd:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1745569844-Ng33BCUWb5.webp') !important;
-                }
-
-                #x2f06e1168f3302b0f9a6eadf19e0cc40c8f040e4:hover img {
-                    background-image: url('https://bb71d2eac085c69b0.nos.wjv-1.neo.id/eh-storage/1745569872-1zqRm5QYWL.webp') !important;
-                }
-            </style> --}}
-
             <script>
                 $(document).ready(function() {
                     var widths = $('#photo-slider').outerWidth();
-                    var count = parseInt(widths / 210);
+                    var count = 4     //parseInt(widths / 210);
 
                     $('#photo-slider').slick({
                         slidesToShow: count,
