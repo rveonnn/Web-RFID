@@ -60,7 +60,7 @@ footer {
 #main-footer {
     padding-bottom: 150px;
     padding-top: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 #bottom-footer {
@@ -154,6 +154,11 @@ body {
     margin-top: 10px;
 }
 
+#hover :hover {
+    background-color: #1c0a3a;
+    color: #fff;
+}
+
 #nav-menu {
     display: inline-block;
     margin: 0 auto;
@@ -211,7 +216,6 @@ body {
         text-align: center;
     }
 }
-
 
 #ph-front-welcome {
     padding: 30px 0;
@@ -465,12 +469,6 @@ h4.ph-heading {
 
 .ph-item-langkah-mudah p {
     text-align: center;
-}
-
-#scroll-to-top-btn:hover,
-#scroll-to-top-btn {
-    background: #474747 !important;
-    border: 1px solid #474747 !important;
 }
 
 #go-coba-gratis .btn {
