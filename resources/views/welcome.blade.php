@@ -29,7 +29,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('css/base.css') }}">  
+    <link rel="stylesheet" href="{{ asset('css/base.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
@@ -73,12 +73,12 @@
                     <img src="{{ asset('images/RFIDReader.png') }}" alt="Reader">
                 </div>
                 <div class="col-sm-7 col-xs-12">
-                    <div id="banner-title-1">Digitalisasi pengelolaan asset dan dokumen anda lebih mudah dan terkontrol
-                        dengan teknologi RFID.</div>
+                        <div id="banner-title-1">Digitalisasi Pengelolaan aset, Dokumen & Barang Berharga Anda Lebih Mudah dan Terkontrol
+                            Dengan Teknologi RFID.</div>
                     <div id="banner-title-2">
                         Teknologi RFID memberikan kemudahan dalam mengelola aset secara lebih efisien dan akurat. Proses
                         identifikasi, pencatatan, hingga pemeliharaan aset dapat dilakukan secara otomatis dan
-                        real-time. Setiap perubahan, seperti penambahan, distribusi, atau perpindahan lokasi aset,
+                        real-time. Setiap perubahan seperti penambahan, distribusi, atau perpindahan lokasi aset
                         tercatat dengan baik tanpa perlu pencatatan manual, sehingga meminimalkan kesalahan dan
                         mendukung operasional yang lebih optimal.
                     </div>
@@ -94,11 +94,11 @@
     <div id="ph-front-intro" class="ph-front-section ">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Solusi pengelolaan asset dan dokumen anda</a>
-                <h4 class="ph-heading">Membantu pengelolaan aset dan dokumen Anda secara efisien
+                <a class="ph-subheading-title">Solusi Pengelolaan Manajemen Informasi Berbasis RFID</a>
+                <h4 class="ph-heading">Membantu Pengelolaan Aset, Dokumen & Barang Berharga Anda Secara Efisien
                 </h4>
-                <p class="justify">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, hingga pengelolaan
-                    acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci utama. Teknologi RFID
+                <p class="justify">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, sumber daya manusia, hewan ternak, perkebunan
+                    hingga pengelolaan acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci utama. Teknologi RFID
                     (Radio Frequency Identification) hadir sebagai solusi modern yang mampu menggantikan sistem manual
                     yang lambat dan rentan kesalahan. Melalui kemampuan membaca data secara otomatis tanpa perlu kontak
                     langsung, RFID memungkinkan proses identifikasi dan pelacakan berlangsung lebih cepat, akurat, dan
@@ -114,7 +114,7 @@
         <div class="container center">
             <div class="card">
                 <a class="ph-subheading-title">Telah Hadir Solusi Untuk Anda</a>
-                <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Pengelolaan Asset & Dokumen</h4>
+                <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Pengelolaan Aset, Dokumen & Barang Berharga</h4>
 
                 <div class="row">
                     <div class="col-md-6">
@@ -122,11 +122,10 @@
                     </div>
                     <div class="col-md-6">
                         <p>PT Partnership menghadirkan solusi digital berbasis teknologi RFID yang dirancang khusus
-                            untuk mempermudah pengelolaan aset dan dokumen secara efisien, akurat, dan terintegrasi.
+                            untuk mempermudah pengelolaan aset, dokumen & barang berharga secara efisien, akurat, dan terintegrasi.
                             Dengan sistem yang mendukung digitalisasi penuh, perusahaan Anda dapat beradaptasi lebih
                             cepat, meningkatkan kontrol operasional, dan bersaing di era yang serba dinamis.</p>
-                        <p>Kami menggabungkan RFID dengan solusi manajemen cerdas untuk memastikan setiap aset dan
-                            dokumen tercatat secara real-time, aman, dan transparan. Didukung teknologi mutakhir dan
+                        <p>Kami menggabungkan RFID dengan solusi manajemen cerdas untuk memastikan setiap aset, dokumen & barang berharga tercatat secara real-time, aman, dan transparan. Didukung teknologi mutakhir dan
                             fitur lengkap, layanan kami membantu Anda mencatat setiap proses mulai dari pelacakan,
                             distribusi, hingga pemeliharaan, secara otomatis dan terstruktur. Sehiingga mendorong
                             produktivitas dan efisiensi menyeluruh.</p>
@@ -140,7 +139,7 @@
     <div class="container text-center center">
         <div class="card">
             <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
-            <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset dan Dokumen dengan Teknologi RFID</h4>
+            <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset, Dokumen & Barang Berharga dengan Teknologi RFID</h4>
 
             <div class="row justify-content-center text-center">
                 <div class="col-md-6 col-sm-6 col-12 mb-4">
@@ -149,7 +148,8 @@
                             <img src="{{ asset('images/Observe.png') }}" alt="Observe">
                         </div>
                         <h4>Observasi Awal</h4>
-                        <p>Kami lakukan kunjungan dan analisis kondisi pengelolaan aset & dokumen saat ini.</p>
+                        <p>Kami menganalisis kondisi aktual pengelolaan aset, dokumen, dan barang berharga Anda untuk merancang solusi yang tepat, sesuai kebutuhan dan karakteristik operasional Anda.
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12 mb-4">
@@ -158,7 +158,7 @@
                             <img src="{{ asset('images/Work.png') }}" alt="Working">
                         </div>
                         <h4>Pengembangan Sistem</h4>
-                        <p>Kami desain dan bangun sistem RFID yang disesuaikan dengan kebutuhan spesifik organisasi Anda.</p>
+                        <p>Kami desain dan bangun sistem pengelolaan manajemen informasi berbasis RFID yang disesuaikan dengan kebutuhan spesifik organisasi, perusahaan, lembaga ataupun bisnis Anda.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12 mb-4">
@@ -167,16 +167,17 @@
                             <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
                         </div>
                         <h4>Pelatihan Tim</h4>
-                        <p>Kami berikan pelatihan penggunaan sistem RFID agar tim Anda siap menjalankan transformasi.</p>
+                        <p>Kami menyediakan pelatihan penggunaan dan pengelolaan sistem manajemen informasi berbasis RFID, serta memberikan fasilitasi pendampingan agar tim Anda siap menjalankan transformasi.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-12 mb-4">
                     <div class="ph-item-langkah-mudah">
                         <div class="image-wrapper">
-                            <img src="{{ asset('images/Telecommuting.png') }}" alt="Partnership">
+                            <img src="{{ asset('images/Telecommuting.png') }}" alt="Telecommuting">
                         </div>
                         <h4>Siap Transformasi</h4>
-                        <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan berbasis RFID.</p>
+                        <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan aset berbasis RFID yang lebih efisien dan terintegrasi.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -184,15 +185,12 @@
     </div>
 </div>
 
-    </div>
-    </div>
-
 
     <div id="feature-section" class="backdrop:blur-md">
         <div class="container center">
             <div class="card">
                 <a class="ph-subheading-title">Penerapan RFID</a>
-                <h4 class="ph-heading">Teknologi RFID dapat diterapkan pada:</h4>
+                <h4 class="ph-heading">Teknologi RFID Dapat Diterapkan Pada:</h4>
 
                 <div class="row">
                     <div class='col-md-4 col-sm-6 col-xs-12'>
@@ -238,6 +236,30 @@
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
                         <div class="ph-benefit-item benefit-card text-center">
+                            <img src="{{ asset('images/Kendaraan.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                                class="benefit-img">
+                            <div class="ph-benefit-title">Kendaraan</div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6 col-xs-12'>
+                        <div class="ph-benefit-item benefit-card text-center">
+                            <img src="{{ asset('images/Apparel.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                                class="benefit-img">
+                            <div class="ph-benefit-title">Apparel / Garmen</div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6 col-xs-12'>
+                        <div class="ph-benefit-item benefit-card text-center">
+                            <img src="{{ asset('images/Warehouse.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                                class="benefit-img">
+                            <div class="ph-benefit-title">Warehouse</div>
+                        </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6 col-xs-12'>
+                        <div class="ph-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Perkebunan.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
                             <div class="ph-benefit-title">Perkebunan</div>
@@ -261,7 +283,7 @@
         <div class="container center">
             <div class="card mb10">
                 <a class="ph-subheading-title">Keunggulan Partnership</a>
-                <h4 class="ph-heading">Keunggulan Manajemen Asset dan Dokumen Bersama Partnership</h4>
+                <h4 class="ph-heading">Keunggulan Manajemen Aset, Dokumen & Barang Berharga Bersama Partnership</h4>
 
                 <div style="margin-bottom: 50px;" class="row">
                     <div class="col-md-5">
@@ -271,7 +293,7 @@
                         <h4 class="align-left">Custom Software Sesuai Kebutuhan Anda</h4>
                         <p>Partnership Technology menyediakan solusi teknologi canggih yang dirancang untuk
                             mengoptimalkan setiap aspek operasi bisnis Anda. Mulai dari implementasi RFID, sistem
-                            pelacakan aset dan dokumen, hingga pengembangan perangkat lunak khusus (custom software),
+                            pelacakan aset, dokumen & barang berharga hingga pengembangan perangkat lunak khusus (custom software),
                             kami menawarkan rangkaian inovasi yang disesuaikan secara tepat dengan kebutuhan dan
                             karakteristik industri Anda.</p>
                         <p>Didukung oleh tim ahli yang berpengalaman, setiap solusi kami dikembangkan dengan pendekatan
@@ -315,7 +337,7 @@
                 <a class="ph-subheading-title">Konsultasikan Dengan Kami!</a>
                 <h4 class="ph-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
                 <p class="center mb20   ">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik
-                    organisasi, menganalisis alur kerja aset dan dokumen, serta memberikan rekomendasi solusi RFID dan
+                    organisasi, menganalisis alur kerja aset, dokumen & barang berharga serta memberikan rekomendasi solusi RFID dan
                     sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan,
                     kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara
                     menyeluruh dengan proses bisnis Anda.</p>
@@ -337,7 +359,7 @@
                     <div class="col-12 text-justify">
                         <p>Transformasi digital tidak selalu berjalan mulus bagi setiap bisnis, terutama saat beralih
                             dari proses manual ke sistem yang serba otomatis. Untuk itu, PT Partnership menghadirkan
-                            solusi manajemen aset dan dokumen berbasis teknologi RFID, yang dirancang agar transisi
+                            solusi manajemen aset, dokumen & barang berharga berbasis teknologi RFID, yang dirancang agar transisi
                             digital menjadi lebih mudah, efisien, dan terukur. Berikut keunggulan solusi yang kami
                             tawarkan:</p>
 
@@ -374,7 +396,7 @@
         <div class="container">
             <div class="card">
                 <div class="center">
-                    <a class="ph-subheading-title">ProHajj Super Team</a>
+                    <a class="ph-subheading-title">Partnership Tech Team</a>
                     <h4 class="ph-heading">Dukungan Profesional Dari Tim Yang Handal</h4>
                 </div>
 
@@ -431,28 +453,33 @@
         </div>
     </section>
     <div id="ph-front-faq" class="ph-front-section">
-    <div class="container center">
-        <div class="card">
-            <a class="ph-subheading-title">Pertanyaan Tentang Partnership</a>
-            <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
-            <div id="ph-faq" class="box">
-                <div class="panel panel-default">
-
-                    <!-- 1 -->
+        <div class="container center">
+            <div class="card">
+                <a class="ph-subheading-title">Pertanyaan Sekitar RFID</a>
+                <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
+                <div id="ph-faq" class="box">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading-1">
-                            <h4 class="panel-title accordion-title">
-                                <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                                    <span>Apa itu RFID dan bagaimana cara kerjanya?</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
-                            <div class="panel-body">
-                                <p>RFID (Radio Frequency Identification) adalah teknologi identifikasi otomatis yang menggunakan gelombang radio untuk membaca dan menulis data dari tag RFID tanpa kontak fisik langsung. Sistem ini terdiri dari tag (penanda), reader (pembaca), dan software untuk mengelola data.</p>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-definisi-rfid">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#ph-faq"
+                                        href="#collapse-definisi-rfid" aria-expanded="true"
+                                        aria-controls="collapse-definisi-rfid">
+                                        <span>Apa itu layanan RFID dari PT Partnership?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-definisi-rfid" class="panel-collapse collapse in" role="tabpanel"
+                                aria-labelledby="heading-definisi-rfid">
+                                <div class="panel-body">
+                                    <p>RFID (Radio Frequency Identification) adalah teknologi identifikasi otomatis
+                                        menggunakan gelombang radio. PT Partnership menyediakan sistem RFID yang dapat
+                                        digunakan untuk pelacakan aset, kontrol inventaris, manajemen dokumen, hingga
+                                        keamanan akses. Teknologi ini membantu perusahaan melakukan transformasi digital
+                                        secara efisien dan akurat.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
                     <!-- 2 -->
                     <div class="panel panel-default">
@@ -746,7 +773,7 @@
                         </li>
                     </ul>
                     <p class="text-secondary"><strong>Partner Care</strong></p>
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-column" id="hover">
                         <li class="nav-item mb-2"><a href="https://wa.me/6281318554360" target="_blank"
                                 class="nav-link p-0 text-white"><i class="fa-brands fa-whatsapp fa-xl me-2"></i>
                                 0813 1855 4360 - Admin</a>
@@ -758,7 +785,7 @@
 
                 <div class="col-4 col-md-2 mb-3">
                     <h5 style="color: #0055FF"><strong>Info Perusahaan</strong></h5>
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-column" id="hover">
                         <li class="nav-item mb-2"><a href="https://partnership.co.id/about-us"
                                 class="nav-link p-0 text-white">Tentang
                                 kami</a>
@@ -773,7 +800,7 @@
 
                 <div class="col-4 col-md-2 mb-3">
                     <h5 style="color: #0055FF"><strong>Partnership</strong></h5>
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-column" id="hover">
                         <li class="nav-item mb-2"><a href="https://partnership.co.id/project/gallery"
                                 class="nav-link p-0 text-white">Project
                                 Gallery</a>
@@ -788,7 +815,7 @@
 
                 <div class="col-4 col-md-2 mb-3">
                     <h5 style="color: #0055FF"><strong>Get in touch</strong></h5>
-                    <ul class="nav flex-column">
+                    <ul class="nav flex-column" id="hover">
                         <li class="nav-item mb-2"><a href="https://partnership.co.id/contact-us"
                                 class="nav-link p-0 text-white">Hubungi
                                 kami</a>
