@@ -379,7 +379,7 @@
                 </div>
 
                 <p class="center mb10">Untuk memastikan seluruh produk dan layanan yang Anda dapatkan dapat digunakan
-                    secara maksimal, ProHajj didukung oleh tim yang kompeten di bidangnya masing-masing, sehingga dapat
+                    secara maksimal, Partnership didukung oleh tim yang kompeten di bidangnya masing-masing, sehingga dapat
                     membantu bisnis Anda bertransformasi digital secara menyeluruh dengan mudah dan cepat</p>
                 <div id="photo-slider">
                     <a class="list-super-team-front">
