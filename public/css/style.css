@@ -63,8 +63,6 @@ footer {
     /* margin-left: 20px; */
 }
 
-#bottom-footer {
-}
 
 body {
     font-size: 14px;
@@ -99,7 +97,7 @@ body {
     border-color: var(--primary-hover) !important;
 }
 
-#ph-main-heading {
+#pr-main-heading {
     display: block;
     position: absolute;
     left: 0;
@@ -112,7 +110,7 @@ body {
     background-position: center;
 }
 
-#ph-main-heading-bottom {
+#pr-main-heading-bottom {
     position: absolute;
     width: 100%;
     height: 100px;
@@ -194,12 +192,6 @@ body {
     margin-bottom: 30px;
 }
 
-#banner-title-3 {
-}
-
-#banner-title-4 {
-}
-
 /* Umum: Tampilan bagus untuk desktop */
 .list-super-team-front {
     width: auto;
@@ -217,11 +209,11 @@ body {
     }
 }
 
-#ph-front-welcome {
+#pr-front-welcome {
     padding: 30px 0;
 }
 
-.btn-ph-white {
+.btn-pr-white {
     padding: 9px 30px;
     background-color: #fff !important;
     color: #474747 !important;
@@ -234,27 +226,27 @@ body {
     display: inline-block !important;
 }
 
-.btn.btn-ph-white:hover {
+.btn.btn-pr-white:hover {
     color: #fff !important;
 }
 
-.btn-ph-white.btn-outline {
+.btn-pr-white.btn-outline {
     background-color: transparent !important;
     color: #fff !important;
     border-color: #fff !important;
 }
 
-#ph-front-intro p {
+#pr-front-intro p {
     font-size: 16px;
     padding: 0 50px;
 }
 
-#ph-front-intro img {
+#pr-front-intro img {
     width: 800px;
     margin-bottom: 30px;
 }
 
-h4.ph-heading {
+h4.pr-heading {
     font-size: 30px;
     margin: 10px 0 30px 0;
     line-height: 1.3;
@@ -263,11 +255,11 @@ h4.ph-heading {
     font-style: normal;
 }
 
-.ph-bg-gray {
+.pr-bg-gray {
     background: #f9f9f9;
 }
 
-.ph-bg-gray:before {
+.pr-bg-gray:before {
     content: " ";
     height: 112px;
     width: 100%;
@@ -277,7 +269,7 @@ h4.ph-heading {
     margin-bottom: 20px;
 }
 
-.ph-bg-gray:after {
+.pr-bg-gray:after {
     content: " ";
     height: 112px;
     width: 100%;
@@ -290,7 +282,7 @@ h4.ph-heading {
     font-size: 16px;
 }
 
-.ph-benefit-item {
+.pr-benefit-item {
     display: block;
     width: 100%;
     border: 1px solid #eee;
@@ -303,7 +295,7 @@ h4.ph-heading {
     font-style: normal;
 }
 
-.ph-benefit-item .fa {
+.pr-benefit-item .fa {
     display: block;
     height: 90px;
     background-size: contain;
@@ -317,14 +309,14 @@ h4.ph-heading {
     transition: 0.3s all;
 }
 
-.ph-benefit-item .ph-benefit-title {
+.pr-benefit-item .pr-benefit-title {
     font-weight: bold;
     font-size: 16px;
     padding: 0 20px;
     margin: 10px 0;
 }
 
-.ph-benefit-item .ph-benefit-content {
+.pr-benefit-item .pr-benefit-content {
     padding: 0 20px 20px 20px;
 }
 
@@ -383,7 +375,7 @@ h4.ph-heading {
     color: #fff;
 }
 
-.ph-front-section {
+.pr-front-section {
     padding: 30px 0px;
     /* background-color: #f9f9f9; */
 }
@@ -402,7 +394,7 @@ h4.ph-heading {
     background-color: #fff;
 }
 
-.ph-subheading-title {
+.pr-subheading-title {
     color: #999 !important;
     font-family: "Poppins", sans-serif;
     text-transform: none !important;
@@ -413,7 +405,7 @@ h4.ph-heading {
     padding-bottom: 3px;
 }
 
-.ph-subheading-title:after {
+.pr-subheading-title:after {
     content: " ";
     border-top: 2px solid #6937f4;
     display: inline-block;
@@ -440,7 +432,7 @@ h4.ph-heading {
     margin: 0 2.5px;
 }
 
-#ph-front-welcome {
+#pr-front-welcome {
     padding-top: 150px;
     padding-bottom: 100px;
 }
@@ -458,14 +450,14 @@ h4.ph-heading {
     object-fit: contain;
 }
 
-.ph-item-langkah-mudah h4 {
+.pr-item-langkah-mudah h4 {
     margin: 20px 0 10px;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
 }
 
-.ph-item-langkah-mudah p {
+.pr-item-langkah-mudah p {
     text-align: center;
 }
 
@@ -488,32 +480,32 @@ h4.ph-heading {
     color: #474747 !important;
 }
 
-#ph-faq {
+#pr-faq {
     margin-bottom: 40px;
 }
 
-#ph-faq .panel {
+#pr-faq .panel {
     margin-bottom: 10px;
     background-color: transparent !important;
 }
 
-#ph-faq .panel .panel-heading {
+#pr-faq .panel .panel-heading {
     padding: 0;
     background: none;
     border: none;
 }
 
-#ph-faq .panel .panel-heading .panel-title a[aria-expanded="true"] {
+#pr-faq .panel .panel-heading .panel-title a[aria-expanded="true"] {
     border-radius: 4px 4px 0 0;
 }
 
-#ph-faq .panel .panel-heading .panel-title a[aria-expanded="true"],
-#ph-faq .panel .panel-heading .panel-title a:hover {
+#pr-faq .panel .panel-heading .panel-title a[aria-expanded="true"],
+#pr-faq .panel .panel-heading .panel-title a:hover {
     color: #fff !important;
     background-color: #0d1b2a !important;
 }
 
-#ph-faq .panel .panel-heading .panel-title a {
+#pr-faq .panel .panel-heading .panel-title a {
     display: block;
     text-align: left;
     text-transform: none;
@@ -524,19 +516,19 @@ h4.ph-heading {
     font-size: 15px;
 }
 
-#ph-faq .panel .panel-heading .panel-title a span {
+#pr-faq .panel .panel-heading .panel-title a span {
     position: relative;
     z-index: 2;
 }
 
-#ph-faq .panel .panel-collapse {
+#pr-faq .panel .panel-collapse {
     background-color: #fafafa;
     padding: 10px;
     border-radius: 0 0 5px 5px;
     transition: 0.3s all;
 }
 
-#ph-faq .panel .panel-collapse .panel-body {
+#pr-faq .panel .panel-collapse .panel-body {
     text-transform: none;
     padding: 5px 0 0 0 !important;
     border: none !important;
@@ -574,7 +566,7 @@ body.not-home #main-content {
     margin-bottom: 20px;
 }
 
-body.not-home #ph-main-heading {
+body.not-home #pr-main-heading {
     min-height: 400px;
 }
 
@@ -646,13 +638,13 @@ body #main-logo #logo-white {
         font-size: 15px;
     }
 
-    h4.ph-heading {
+    h4.pr-heading {
         font-size: 25px;
     }
 }
 
 @media (max-width: 768px) {
-    #ph-front-welcome {
+    #pr-front-welcome {
         margin-bottom: 50px;
     }
 
@@ -730,25 +722,25 @@ body #main-logo #logo-white {
         padding: 0;
     }
 
-    #ph-front-welcome img {
+    #pr-front-welcome img {
         display: block;
         max-width: 200px;
         margin: 20px auto;
     }
 
-    #ph-main-heading {
+    #pr-main-heading {
         min-height: 810px;
     }
 
-    #ph-front-welcome {
+    #pr-front-welcome {
         padding-top: 90px;
     }
 
-    #ph-front-intro p {
+    #pr-front-intro p {
         padding: 0;
     }
 
-    .ph-item-langkah-mudah {
+    .pr-item-langkah-mudah {
         margin-bottom: 50px;
     }
 
