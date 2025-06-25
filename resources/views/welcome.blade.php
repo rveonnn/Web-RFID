@@ -38,11 +38,11 @@
 
 <body class="home">
 
-    <div id="ph-main-heading" class="home">
-        <div id="ph-main-heading-overlay"></div>
-        <div id="ph-main-heading-pattern"></div>
-        <div id="ph-main-heading-tree"></div>
-        <div id="ph-main-heading-bottom"></div>
+    <div id="pr-main-heading" class="home">
+        <div id="pr-main-heading-overlay"></div>
+        <div id="pr-main-heading-pattern"></div>
+        <div id="pr-main-heading-tree"></div>
+        <div id="pr-main-heading-bottom"></div>
     </div>
 
     <nav id="main-top-navbar" class="">
@@ -53,12 +53,12 @@
             </a>
 
             <ul id="nav-menu">
-                <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link">Fitur
-                        & Layanan</a></li>
-                <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga"
-                        class="menu internal-link">Pemesanan</a></li>
-                <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Dukungan
-                        Layanan</a></li>
+                <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link">Penerapan
+                    </a></li>
+                <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga" class="menu internal-link">Kontak</a>
+                </li>
+                <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Kelebihan
+                        RFID</a></li>
             </ul>
             <a onclick="frontResponsiveToggler()" id="responsive-toggler" class="hidden-lg hidden-md hidden-sm"><i
                     class="fa fa-bars"></i></a>
@@ -66,15 +66,16 @@
     </nav>
 
 
-    <div id="ph-front-welcome">
+    <div id="pr-front-welcome">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-xs-12">
                     <img src="{{ asset('images/RFIDReader.png') }}" alt="Reader">
                 </div>
                 <div class="col-sm-7 col-xs-12">
-                        <div id="banner-title-1">Digitalisasi Pengelolaan aset, Dokumen & Barang Berharga Anda Lebih Mudah dan Terkontrol
-                            Dengan Teknologi RFID.</div>
+                    <div id="banner-title-1">Digitalisasi Pengelolaan aset, Dokumen & Barang Berharga Anda Lebih Mudah
+                        dan Terkontrol
+                        Dengan Teknologi RFID.</div>
                     <div id="banner-title-2">
                         Teknologi RFID memberikan kemudahan dalam mengelola aset secara lebih efisien dan akurat. Proses
                         identifikasi, pencatatan, hingga pemeliharaan aset dapat dilakukan secara otomatis dan
@@ -83,7 +84,7 @@
                         mendukung operasional yang lebih optimal.
                     </div>
                     <div id="banner-title-3">
-                        <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi
+                        <a href="https://wa.me/6281318554360" class="btn btn-primary btn-pr-white">Hubungi
                             Kami</a>&nbsp;&nbsp;
                     </div>
                 </div>
@@ -91,14 +92,16 @@
         </div>
     </div>
 
-    <div id="ph-front-intro" class="ph-front-section ">
+    <div id="pr-front-intro" class="pr-front-section ">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Solusi Pengelolaan Manajemen Informasi Berbasis RFID</a>
-                <h4 class="ph-heading">Membantu Pengelolaan Aset, Dokumen & Barang Berharga Anda Secara Efisien
+                <a class="pr-subheading-title">Solusi Pengelolaan Manajemen Informasi Berbasis RFID</a>
+                <h4 class="pr-heading">Membantu Pengelolaan Aset, Dokumen & Barang Berharga Anda Secara Efisien
                 </h4>
-                <p class="justify">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, sumber daya manusia, hewan ternak, perkebunan
-                    hingga pengelolaan acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci utama. Teknologi RFID
+                <p class="justify">Dalam berbagai bidang seperti logistik, kesehatan, manufaktur, sumber daya manusia,
+                    hewan ternak, perkebunan
+                    hingga pengelolaan acara berskala besar, efisiensi dan kecepatan pengolahan data menjadi kunci
+                    utama. Teknologi RFID
                     (Radio Frequency Identification) hadir sebagai solusi modern yang mampu menggantikan sistem manual
                     yang lambat dan rentan kesalahan. Melalui kemampuan membaca data secara otomatis tanpa perlu kontak
                     langsung, RFID memungkinkan proses identifikasi dan pelacakan berlangsung lebih cepat, akurat, dan
@@ -110,11 +113,12 @@
             </div>
         </div>
     </div>
-    <div id="ph-front-solution">
+    <div id="pr-front-solution">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Telah Hadir Solusi Untuk Anda</a>
-                <h4 class="ph-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Pengelolaan Aset, Dokumen & Barang Berharga</h4>
+                <a class="pr-subheading-title">Telah Hadir Solusi Untuk Anda</a>
+                <h4 class="pr-heading">Terdepan Dalam Inovasi Untuk Sistem Manajemen Pengelolaan Aset, Dokumen & Barang
+                    Berharga</h4>
 
                 <div class="row">
                     <div class="col-md-6">
@@ -122,10 +126,13 @@
                     </div>
                     <div class="col-md-6">
                         <p>PT Partnership menghadirkan solusi digital berbasis teknologi RFID yang dirancang khusus
-                            untuk mempermudah pengelolaan aset, dokumen & barang berharga secara efisien, akurat, dan terintegrasi.
+                            untuk mempermudah pengelolaan aset, dokumen & barang berharga secara efisien, akurat, dan
+                            terintegrasi.
                             Dengan sistem yang mendukung digitalisasi penuh, perusahaan Anda dapat beradaptasi lebih
                             cepat, meningkatkan kontrol operasional, dan bersaing di era yang serba dinamis.</p>
-                        <p>Kami menggabungkan RFID dengan solusi manajemen cerdas untuk memastikan setiap aset, dokumen & barang berharga tercatat secara real-time, aman, dan transparan. Didukung teknologi mutakhir dan
+                        <p>Kami menggabungkan RFID dengan solusi manajemen cerdas untuk memastikan setiap aset, dokumen
+                            & barang berharga tercatat secara real-time, aman, dan transparan. Didukung teknologi
+                            mutakhir dan
                             fitur lengkap, layanan kami membantu Anda mencatat setiap proses mulai dari pelacakan,
                             distribusi, hingga pemeliharaan, secara otomatis dan terstruktur. Sehiingga mendorong
                             produktivitas dan efisiensi menyeluruh.</p>
@@ -135,134 +142,141 @@
         </div>
     </div>
 
-<div id="ph-front-easy-step" class="ph-front-section">
-    <div class="container text-center center">
-        <div class="card">
-            <a class="ph-subheading-title">Transformasi Dengan Mudah & Cepat</a>
-            <h4 class="ph-heading">4 Langkah Mudah Transformasi Pengelolaan Aset, Dokumen & Barang Berharga dengan Teknologi RFID</h4>
+    <div id="pr-front-easy-step" class="pr-front-section">
+        <div class="container text-center center">
+            <div class="card">
+                <a class="pr-subheading-title">Transformasi Dengan Mudah & Cepat</a>
+                <h4 class="pr-heading">4 Langkah Mudah Transformasi Pengelolaan Aset, Dokumen & Barang Berharga dengan
+                    Teknologi RFID</h4>
 
-            <div class="row justify-content-center text-center">
-                <div class="col-md-6 col-sm-6 col-12 mb-4">
-                    <div class="ph-item-langkah-mudah">
-                        <div class="image-wrapper">
-                            <img src="{{ asset('images/Observe.png') }}" alt="Observe">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="pr-item-langkah-mudah">
+                            <div class="image-wrapper">
+                                <img src="{{ asset('images/Observe.png') }}" alt="Observe">
+                            </div>
+                            <h4>Observasi Awal</h4>
+                            <p>Kami menganalisis kondisi aktual pengelolaan aset, dokumen, dan barang berharga Anda
+                                untuk merancang solusi yang tepat, sesuai kebutuhan dan karakteristik operasional Anda.
+                            </p>
                         </div>
-                        <h4>Observasi Awal</h4>
-                        <p>Kami menganalisis kondisi aktual pengelolaan aset, dokumen, dan barang berharga Anda untuk merancang solusi yang tepat, sesuai kebutuhan dan karakteristik operasional Anda.
-                        </p>
                     </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-12 mb-4">
-                    <div class="ph-item-langkah-mudah">
-                        <div class="image-wrapper">
-                            <img src="{{ asset('images/Work.png') }}" alt="Working">
+                    <div class="col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="pr-item-langkah-mudah">
+                            <div class="image-wrapper">
+                                <img src="{{ asset('images/Work.png') }}" alt="Working">
+                            </div>
+                            <h4>Pengembangan Sistem</h4>
+                            <p>Kami desain dan bangun sistem pengelolaan manajemen informasi berbasis RFID yang
+                                disesuaikan dengan kebutuhan spesifik organisasi, perusahaan, lembaga ataupun bisnis
+                                Anda.</p>
                         </div>
-                        <h4>Pengembangan Sistem</h4>
-                        <p>Kami desain dan bangun sistem pengelolaan manajemen informasi berbasis RFID yang disesuaikan dengan kebutuhan spesifik organisasi, perusahaan, lembaga ataupun bisnis Anda.</p>
                     </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-12 mb-4">
-                    <div class="ph-item-langkah-mudah">
-                        <div class="image-wrapper">
-                            <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
+                    <div class="col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="pr-item-langkah-mudah">
+                            <div class="image-wrapper">
+                                <img src="{{ asset('images/Workshop.png') }}" alt="Workshop">
+                            </div>
+                            <h4>Pelatihan Tim</h4>
+                            <p>Kami menyediakan pelatihan penggunaan dan pengelolaan sistem manajemen informasi berbasis
+                                RFID, serta memberikan fasilitasi pendampingan agar tim Anda siap menjalankan
+                                transformasi.</p>
                         </div>
-                        <h4>Pelatihan Tim</h4>
-                        <p>Kami menyediakan pelatihan penggunaan dan pengelolaan sistem manajemen informasi berbasis RFID, serta memberikan fasilitasi pendampingan agar tim Anda siap menjalankan transformasi.</p>
                     </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-12 mb-4">
-                    <div class="ph-item-langkah-mudah">
-                        <div class="image-wrapper">
-                            <img src="{{ asset('images/Telecommuting.png') }}" alt="Telecommuting">
-                        </div>
-                        <h4>Siap Transformasi</h4>
-                        <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju pengelolaan aset berbasis RFID yang lebih efisien dan terintegrasi.</p>
+                    <div class="col-md-6 col-sm-6 col-12 mb-4">
+                        <div class="pr-item-langkah-mudah">
+                            <div class="image-wrapper">
+                                <img src="{{ asset('images/Telecommuting.png') }}" alt="Telecommuting">
+                            </div>
+                            <h4>Siap Transformasi</h4>
+                            <p>Dengan sistem yang telah terpasang dan tim yang terlatih, Anda siap melangkah menuju
+                                pengelolaan aset berbasis RFID yang lebih efisien dan terintegrasi.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
 
 
     <div id="feature-section" class="backdrop:blur-md">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Penerapan RFID</a>
-                <h4 class="ph-heading">Teknologi RFID Dapat Diterapkan Pada:</h4>
+                <a class="pr-subheading-title">Penerapan RFID</a>
+                <h4 class="pr-heading">Teknologi RFID Dapat Diterapkan Pada:</h4>
 
                 <div class="row">
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/archive.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Dokumen Berharga</div>
+                            <div class="pr-benefit-title">Dokumen Berharga</div>
                         </div>
                     </div>
 
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Library.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Perpustakaan</div>
+                            <div class="pr-benefit-title">Perpustakaan</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Dokumen.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Arsip Dokumen</div>
+                            <div class="pr-benefit-title">Arsip Dokumen</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/SDM.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Manajemen SDM</div>
+                            <div class="pr-benefit-title">Manajemen SDM</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Peternakan.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Peternakan</div>
+                            <div class="pr-benefit-title">Peternakan</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Kendaraan.jpg') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Kendaraan</div>
+                            <div class="pr-benefit-title">Kendaraan</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Apparel.jpg') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Apparel / Garmen</div>
+                            <div class="pr-benefit-title">Apparel / Garmen</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Warehouse.jpg') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Warehouse</div>
+                            <div class="pr-benefit-title">Warehouse</div>
                         </div>
                     </div>
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
-                        <div class="ph-benefit-item benefit-card text-center">
+                        <div class="pr-benefit-item benefit-card text-center">
                             <img src="{{ asset('images/Perkebunan.png') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
-                            <div class="ph-benefit-title">Perkebunan</div>
+                            <div class="pr-benefit-title">Perkebunan</div>
                         </div>
                     </div>
                 </div>
@@ -279,11 +293,11 @@
             }, 1000);
         })
     </script>
-    <div id="ph-front-advantages" class="ph-front-section">
+    <div id="pr-front-advantages" class="pr-front-section">
         <div class="container center">
             <div class="card mb10">
-                <a class="ph-subheading-title">Keunggulan Partnership</a>
-                <h4 class="ph-heading">Keunggulan Manajemen Aset, Dokumen & Barang Berharga Bersama Partnership</h4>
+                <a class="pr-subheading-title">Keunggulan Partnership</a>
+                <h4 class="pr-heading">Keunggulan Manajemen Aset, Dokumen & Barang Berharga Bersama Partnership</h4>
 
                 <div style="margin-bottom: 50px;" class="row">
                     <div class="col-md-5">
@@ -293,7 +307,8 @@
                         <h4 class="align-left">Custom Software Sesuai Kebutuhan Anda</h4>
                         <p>Partnership Technology menyediakan solusi teknologi canggih yang dirancang untuk
                             mengoptimalkan setiap aspek operasi bisnis Anda. Mulai dari implementasi RFID, sistem
-                            pelacakan aset, dokumen & barang berharga hingga pengembangan perangkat lunak khusus (custom software),
+                            pelacakan aset, dokumen & barang berharga hingga pengembangan perangkat lunak khusus (custom
+                            software),
                             kami menawarkan rangkaian inovasi yang disesuaikan secara tepat dengan kebutuhan dan
                             karakteristik industri Anda.</p>
                         <p>Didukung oleh tim ahli yang berpengalaman, setiap solusi kami dikembangkan dengan pendekatan
@@ -334,32 +349,34 @@
         <div id="go-pemesanan-harga">
             <div id="go-pemesanan-harga-pattern"></div>
             <div class="container center">
-                <a class="ph-subheading-title">Konsultasikan Dengan Kami!</a>
-                <h4 class="ph-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
+                <a class="pr-subheading-title">Konsultasikan Dengan Kami!</a>
+                <h4 class="pr-heading">Tertarik Untuk Transformasi Ke RFID?</h4>
                 <p class="center mb20   ">Tim ahli kami siap mendampingi Anda dalam memahami kebutuhan spesifik
-                    organisasi, menganalisis alur kerja aset, dokumen & barang berharga serta memberikan rekomendasi solusi RFID dan
+                    organisasi, menganalisis alur kerja aset, dokumen & barang berharga serta memberikan rekomendasi
+                    solusi RFID dan
                     sistem manajemen yang paling tepat. Dengan pendekatan konsultatif dan berbasis pengalaman lapangan,
                     kami membantu Anda membangun sistem yang tidak hanya efisien, tetapi juga terintegrasi secara
                     menyeluruh dengan proses bisnis Anda.</p>
-                <a href="https://wa.me/6281318554360" class="btn btn-primary btn-ph-white">Hubungi
+                <a href="https://wa.me/6281318554360" class="btn btn-primary btn-pr-white">Hubungi
                     Sekarang</a>&nbsp;&nbsp;
             </div>
         </div>
     </div>
 
-    <section id="eh-training" class="ph-front-section">
+    <section id="eh-training" class="pr-front-section">
         <div class="container">
             <div class="card">
                 <div class="center">
-                    <a class="ph-subheading-title">Perbandingan Sistem</a>
-                    <h4 class="ph-heading">Mengapa Memilih RFID Dibanding Sistem Lainnya?</h4>
+                    <a class="pr-subheading-title">Perbandingan Sistem</a>
+                    <h4 class="pr-heading">Mengapa Memilih RFID Dibanding Sistem Lainnya?</h4>
                 </div>
 
                 <div class="row" id="eh-training-outer">
                     <div class="col-12 text-justify">
                         <p>Transformasi digital tidak selalu berjalan mulus bagi setiap bisnis, terutama saat beralih
                             dari proses manual ke sistem yang serba otomatis. Untuk itu, PT Partnership menghadirkan
-                            solusi manajemen aset, dokumen & barang berharga berbasis teknologi RFID, yang dirancang agar transisi
+                            solusi manajemen aset, dokumen & barang berharga berbasis teknologi RFID, yang dirancang
+                            agar transisi
                             digital menjadi lebih mudah, efisien, dan terukur. Berikut keunggulan solusi yang kami
                             tawarkan:</p>
 
@@ -392,16 +409,17 @@
             </div>
     </section>
 
-    <section id="front-super-team" class="ph-front-section">
+    <section id="front-super-team" class="pr-front-section">
         <div class="container">
             <div class="card">
                 <div class="center">
-                    <a class="ph-subheading-title">Partnership Tech Team</a>
-                    <h4 class="ph-heading">Dukungan Profesional Dari Tim Yang Handal</h4>
+                    <a class="pr-subheading-title">Partnership Tech Team</a>
+                    <h4 class="pr-heading">Dukungan Profesional Dari Tim Yang Handal</h4>
                 </div>
 
                 <p class="center mb10">Untuk memastikan seluruh produk dan layanan yang Anda dapatkan dapat digunakan
-                    secara maksimal, Partnership didukung oleh tim yang kompeten di bidangnya masing-masing, sehingga dapat
+                    secara maksimal, Partnership didukung oleh tim yang kompeten di bidangnya masing-masing, sehingga
+                    dapat
                     membantu bisnis Anda bertransformasi digital secara menyeluruh dengan mudah dan cepat</p>
                 <div id="photo-slider">
                     <a class="list-super-team-front">
@@ -438,7 +456,7 @@
             <script>
                 $(document).ready(function() {
                     var widths = $('#photo-slider').outerWidth();
-                    var count = 4     //parseInt(widths / 210);
+                    var count = 4 //parseInt(widths / 210);
 
                     $('#photo-slider').slick({
                         slidesToShow: count,
@@ -452,17 +470,17 @@
 
         </div>
     </section>
-    <div id="ph-front-faq" class="ph-front-section">
+    <div id="pr-front-faq" class="pr-front-section">
         <div class="container center">
             <div class="card">
-                <a class="ph-subheading-title">Pertanyaan Sekitar RFID</a>
-                <h4 class="ph-heading">Pertanyaan Yang Sering Kami Terima</h4>
-                <div id="ph-faq" class="box">
+                <a class="pr-subheading-title">Pertanyaan Sekitar RFID</a>
+                <h4 class="pr-heading">Pertanyaan Yang Sering Kami Terima</h4>
+                <div id="pr-faq" class="box">
                     <div class="panel panel-default">
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-definisi-rfid">
                                 <h4 class="panel-title accordion-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#ph-faq"
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
                                         href="#collapse-definisi-rfid" aria-expanded="true"
                                         aria-controls="collapse-definisi-rfid">
                                         <span>Apa itu layanan RFID dari PT Partnership?</span>
@@ -481,266 +499,325 @@
                             </div>
                         </div>
 
-                    <!-- 2 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading-2">
-                            <h4 class="panel-title accordion-title">
-                                <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                                    <span>Apa saja yang bisa dikelola dengan sistem RFID PT Partnership?</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
-                            <div class="panel-body text-start">
-                                <p>Sistem RFID kami mendukung berbagai kebutuhan, seperti:</p>
-                                <ul>
-                                    <li>Pelacakan dan audit aset tetap</li>
-                                    <li>Manajemen inventaris gudang</li>
-                                    <li>Pemantauan dokumen penting secara real-time</li>
-                                    <li>Kendali akses ruangan/logistik</li>
-                                    <li>Manajemen peserta/karyawan (ID card berbasis RFID)</li>
-                                    <li>Sistem monitoring ternak dan perkebunan</li>
-                                    <li>Pelacakan kendaraan dan pajak daerah</li>
-                                    <li>Proyek kustom lainnya</li>
-                                </ul>
+                        <!-- 2 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-2">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                        <span>Apa saja yang bisa dikelola dengan sistem RFID PT Partnership?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-2" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-2">
+                                <div class="panel-body text-start">
+                                    <p>Sistem RFID kami mendukung berbagai kebutuhan, seperti:</p>
+                                    <ul>
+                                        <li>Pelacakan dan audit aset tetap</li>
+                                        <li>Manajemen inventaris gudang</li>
+                                        <li>Pemantauan dokumen penting secara real-time</li>
+                                        <li>Kendali akses ruangan/logistik</li>
+                                        <li>Manajemen peserta/karyawan (ID card berbasis RFID)</li>
+                                        <li>Sistem monitoring ternak dan perkebunan</li>
+                                        <li>Pelacakan kendaraan dan pajak daerah</li>
+                                        <li>Proyek kustom lainnya</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- 3 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading-3">
-                            <h4 class="panel-title accordion-title">
-                                <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                                    <span>Perangkat RFID apa saja yang tersedia?</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3">
-                            <div class="panel-body">
-                                <ul>
-                                    <li><strong>RFID Tag:</strong> Passive, Active, Semi-Passive (Low, High, dan UHF)</li>
-                                    <li><strong>RFID Reader:</strong> Fixed, handheld, dan reader yang bisa diintegrasikan</li>
-                                    <li><strong>Antena & aksesoris pendukung lainnya</strong></li>
-                                </ul>
+                        <!-- 3 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-3">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                        <span>Perangkat RFID apa saja yang tersedia?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-3" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-3">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><strong>RFID Tag:</strong> Passive, Active, Semi-Passive (Low, High, dan
+                                            UHF)</li>
+                                        <li><strong>RFID Reader:</strong> Fixed, handheld, dan reader yang bisa
+                                            diintegrasikan</li>
+                                        <li><strong>Antena & aksesoris pendukung lainnya</strong></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- 4 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading-4">
-                            <h4 class="panel-title accordion-title">
-                                <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
-                                    <span>Apakah sistem RFID bisa disesuaikan dengan sistem perusahaan saya?</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4">
-                            <div class="panel-body">
-                                <p>Ya, sistem kami mendukung integrasi dengan sistem Anda yang sudah ada melalui API, serta dapat disesuaikan dengan kebutuhan SOP dan alur kerja perusahaan.</p>
+                        <!-- 4 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-4">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                                        <span>Apakah sistem RFID bisa disesuaikan dengan sistem perusahaan saya?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-4" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-4">
+                                <div class="panel-body">
+                                    <p>Ya, sistem kami mendukung integrasi dengan sistem Anda yang sudah ada melalui
+                                        API, serta dapat disesuaikan dengan kebutuhan SOP dan alur kerja perusahaan.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- 5 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="heading-5">
-                            <h4 class="panel-title accordion-title">
-                                <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
-                                    <span>Bagaimana keamanan data dan sistem RFID Anda?</span>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5">
-                            <div class="panel-body">
-                                <p>Kami menggunakan sistem keamanan berlapis seperti enkripsi dan autentikasi multi-level, infrastruktur server SSL & anti-DDOS, backup otomatis dan pencatatan log transaksi, serta pemantauan real-time dan notifikasi keamanan.</p>
+                        <!-- 5 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-5">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                                        <span>Bagaimana keamanan data dan sistem RFID Anda?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-5" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-5">
+                                <div class="panel-body">
+                                    <p>Kami menggunakan sistem keamanan berlapis seperti enkripsi dan autentikasi
+                                        multi-level, infrastruktur server SSL & anti-DDOS, backup otomatis dan
+                                        pencatatan log transaksi, serta pemantauan real-time dan notifikasi keamanan.
+                                    </p>
+                                </div>
                             </div>
                         </div>
+
+                        <!-- FAQ 6 sampai 16 disisipkan di sini -->
+                        <!-- 6 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-6">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                                        <span>Apakah tersedia pelatihan, support, dan instalasi?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-6" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-6">
+                                <div class="panel-body">
+                                    <p>Tentu, kami menyediakan instalasi & konfigurasi perangkat, pelatihan online
+                                        maupun on-site secara gratis, dan dukungan teknis via WhatsApp, email, serta
+                                        sesi remote jika diperlukan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 7 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-7">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+                                        <span>Berapa lama proses implementasi sistem RFID?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-7" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-7">
+                                <div class="panel-body">
+                                    <p>Durasi implementasi tergantung pada kompleksitas dan lokasi. Umumnya, pengiriman
+                                        tergantung jenis perangkat dan lokasi, sedangkan instalasi & implementasi
+                                        memakan waktu sekitar 3–10 hari kerja setelah desain disepakati.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 8 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-8">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
+                                        <span>Apakah RFID Anda bisa digunakan di lingkungan ekstrem (outdoor,
+                                            pabrik)?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-8" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-8">
+                                <div class="panel-body">
+                                    <p>Ya, kami menyediakan perangkat RFID (tag dan reader) yang tahan air, panas,
+                                        kotoran, serta cuaca ekstrem — cocok untuk pabrik, peternakan, gudang, dan area
+                                        outdoor lainnya.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 9 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-9">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
+                                        <span>Apakah ada garansi dan layanan purna jual?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-9" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-9">
+                                <div class="panel-body">
+                                    <p>Ya, semua perangkat RFID kami bergaransi resmi. Kami juga menyediakan layanan
+                                        after-sales berupa dukungan teknis, perbaikan, serta pembaruan aplikasi bila
+                                        dibutuhkan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 10 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-10">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-10" aria-expanded="false" aria-controls="collapse-10">
+                                        <span>Apakah saya bisa meminta fitur tambahan di sistem RFID?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-10" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-10">
+                                <div class="panel-body">
+                                    <p>Bisa. Sistem kami bersifat modular dan mendukung penambahan fitur baru seperti
+                                        integrasi ke ERP, export laporan ke PDF/Excel, dan notifikasi berbasis
+                                        WhatsApp/email.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 11 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-11">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
+                                        <span>Bagaimana saya bisa mendapatkan konsultasi terlebih dahulu?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-11" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-11">
+                                <div class="panel-body">
+                                    <p>Silakan hubungi kami melalui formulir kontak atau WhatsApp di website. Kami siap
+                                        memberikan konsultasi awal tanpa biaya.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 12 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-12">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
+                                        <span>Apakah Anda menerima pesanan dalam jumlah kecil?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-12" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-12">
+                                <div class="panel-body">
+                                    <p>Kami melayani pemesanan dalam skala kecil maupun besar, baik untuk uji coba,
+                                        pilot project, atau implementasi skala penuh.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 13 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-13">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-13" aria-expanded="false" aria-controls="collapse-13">
+                                        <span>Bagaimana jika ada masalah teknis di kemudian hari?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-13" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-13">
+                                <div class="panel-body">
+                                    <p>PT Partnership menyediakan layanan dukungan teknis berkelanjutan. Tim support
+                                        kami siap membantu melalui WhatsApp, email, maupun sesi remote. Kami juga
+                                        menyediakan panduan troubleshooting serta layanan maintenance berkala.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 14 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-14">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-14" aria-expanded="false" aria-controls="collapse-14">
+                                        <span>Bagaimana cara kerja sistem RFID yang ditawarkan?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-14" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-14">
+                                <div class="panel-body">
+                                    <p>Sistem RFID dari PT Partnership terdiri dari RFID tag, reader, dan software
+                                        backend. Tag yang melekat pada aset akan dipindai oleh reader menggunakan
+                                        gelombang radio. Informasi dari reader diteruskan ke sistem dan ditampilkan
+                                        secara real-time melalui dashboard untuk pelacakan dan manajemen aset.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 15 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-15">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-15" aria-expanded="false" aria-controls="collapse-15">
+                                        <span>Bagaimana jika terjadi kehilangan tag atau kerusakan alat?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-15" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-15">
+                                <div class="panel-body">
+                                    <p>Jika terjadi kehilangan atau kerusakan tag, kami menyediakan layanan penggantian
+                                        tag sesuai konfigurasi. Kami juga menyediakan perangkat cadangan dan layanan
+                                        servis atau penggantian reader bila mengalami gangguan teknis.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 16 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="heading-16">
+                                <h4 class="panel-title accordion-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#pr-faq"
+                                        href="#collapse-16" aria-expanded="false" aria-controls="collapse-16">
+                                        <span>Bisakah sistem RFID digunakan di luar ruangan atau tempat keras seperti
+                                            pabrik atau gudang?</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse-16" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="heading-16">
+                                <div class="panel-body">
+                                    <p>Bisa. Kami menyediakan perangkat RFID yang tahan terhadap kondisi ekstrem seperti
+                                        debu, air, suhu tinggi, dan getaran — cocok digunakan di pabrik, gudang, dan
+                                        area outdoor lainnya.</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-
-                    <!-- FAQ 6 sampai 16 disisipkan di sini -->
-                    <!-- 6 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-6">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
-        <span>Apakah tersedia pelatihan, support, dan instalasi?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-6">
-    <div class="panel-body">
-      <p>Tentu, kami menyediakan instalasi & konfigurasi perangkat, pelatihan online maupun on-site secara gratis, dan dukungan teknis via WhatsApp, email, serta sesi remote jika diperlukan.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 7 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-7">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
-        <span>Berapa lama proses implementasi sistem RFID?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-7">
-    <div class="panel-body">
-      <p>Durasi implementasi tergantung pada kompleksitas dan lokasi. Umumnya, pengiriman tergantung jenis perangkat dan lokasi, sedangkan instalasi & implementasi memakan waktu sekitar 3–10 hari kerja setelah desain disepakati.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 8 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-8">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-8" aria-expanded="false" aria-controls="collapse-8">
-        <span>Apakah RFID Anda bisa digunakan di lingkungan ekstrem (outdoor, pabrik)?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8">
-    <div class="panel-body">
-      <p>Ya, kami menyediakan perangkat RFID (tag dan reader) yang tahan air, panas, kotoran, serta cuaca ekstrem — cocok untuk pabrik, peternakan, gudang, dan area outdoor lainnya.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 9 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-9">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-9" aria-expanded="false" aria-controls="collapse-9">
-        <span>Apakah ada garansi dan layanan purna jual?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-9">
-    <div class="panel-body">
-      <p>Ya, semua perangkat RFID kami bergaransi resmi. Kami juga menyediakan layanan after-sales berupa dukungan teknis, perbaikan, serta pembaruan aplikasi bila dibutuhkan.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 10 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-10">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-10" aria-expanded="false" aria-controls="collapse-10">
-        <span>Apakah saya bisa meminta fitur tambahan di sistem RFID?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-10">
-    <div class="panel-body">
-      <p>Bisa. Sistem kami bersifat modular dan mendukung penambahan fitur baru seperti integrasi ke ERP, export laporan ke PDF/Excel, dan notifikasi berbasis WhatsApp/email.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 11 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-11">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
-        <span>Bagaimana saya bisa mendapatkan demo atau konsultasi?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-11">
-    <div class="panel-body">
-      <p>Silakan hubungi kami melalui formulir kontak atau WhatsApp di website. Kami siap memberikan demo gratis dan konsultasi awal tanpa biaya.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 12 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-12">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
-        <span>Apakah Anda menerima pesanan dalam jumlah kecil?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-12">
-    <div class="panel-body">
-      <p>Kami melayani pemesanan dalam skala kecil maupun besar, baik untuk uji coba, pilot project, atau implementasi skala penuh.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 13 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-13">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-13" aria-expanded="false" aria-controls="collapse-13">
-        <span>Bagaimana jika ada masalah teknis di kemudian hari?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-13">
-    <div class="panel-body">
-      <p>PT Partnership menyediakan layanan dukungan teknis berkelanjutan. Tim support kami siap membantu melalui WhatsApp, email, maupun sesi remote. Kami juga menyediakan panduan troubleshooting serta layanan maintenance berkala.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 14 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-14">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-14" aria-expanded="false" aria-controls="collapse-14">
-        <span>Bagaimana cara kerja sistem RFID yang ditawarkan?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-14">
-    <div class="panel-body">
-      <p>Sistem RFID dari PT Partnership terdiri dari RFID tag, reader, dan software backend. Tag yang melekat pada aset akan dipindai oleh reader menggunakan gelombang radio. Informasi dari reader diteruskan ke sistem dan ditampilkan secara real-time melalui dashboard untuk pelacakan dan manajemen aset.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 15 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-15">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-15" aria-expanded="false" aria-controls="collapse-15">
-        <span>Bagaimana jika terjadi kehilangan tag atau kerusakan alat?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-15">
-    <div class="panel-body">
-      <p>Jika terjadi kehilangan atau kerusakan tag, kami menyediakan layanan penggantian tag sesuai konfigurasi. Kami juga menyediakan perangkat cadangan dan layanan servis atau penggantian reader bila mengalami gangguan teknis.</p>
-    </div>
-  </div>
-</div>
-
-<!-- 16 -->
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading-16">
-    <h4 class="panel-title accordion-title">
-      <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-16" aria-expanded="false" aria-controls="collapse-16">
-        <span>Bisakah sistem RFID digunakan di luar ruangan atau tempat keras seperti pabrik atau gudang?</span>
-      </a>
-    </h4>
-  </div>
-  <div id="collapse-16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-16">
-    <div class="panel-body">
-      <p>Bisa. Kami menyediakan perangkat RFID yang tahan terhadap kondisi ekstrem seperti debu, air, suhu tinggi, dan getaran — cocok digunakan di pabrik, gudang, dan area outdoor lainnya.</p>
-    </div>
-  </div>
-</div>
-
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
