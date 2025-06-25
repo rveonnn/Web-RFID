@@ -53,12 +53,11 @@
             </a>
 
             <ul id="nav-menu">
-                <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link">Fitur
-                        & Layanan</a></li>
+                <li><a onclick="closeResponsiveMenu();" href="#feature-section" class="menu internal-link">Penerapan
+                    </a></li>
                 <li><a onclick="closeResponsiveMenu();" href="#go-pemesanan-harga"
-                        class="menu internal-link">Pemesanan</a></li>
-                <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Dukungan
-                        Layanan</a></li>
+                        class="menu internal-link">Kontak</a></li>
+                <li><a onclick="closeResponsiveMenu();" href="#eh-training" class="menu internal-link">Kelebihan RFID</a></li>
             </ul>
             <a onclick="frontResponsiveToggler()" id="responsive-toggler" class="hidden-lg hidden-md hidden-sm"><i
                     class="fa fa-bars"></i></a>
@@ -645,13 +644,13 @@
   <div class="panel-heading" role="tab" id="heading-11">
     <h4 class="panel-title accordion-title">
       <a role="button" data-toggle="collapse" data-parent="#ph-faq" href="#collapse-11" aria-expanded="false" aria-controls="collapse-11">
-        <span>Bagaimana saya bisa mendapatkan demo atau konsultasi?</span>
+        <span>Bagaimana saya bisa mendapatkan konsultasi terlebih dahulu?</span>
       </a>
     </h4>
   </div>
   <div id="collapse-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-11">
     <div class="panel-body">
-      <p>Silakan hubungi kami melalui formulir kontak atau WhatsApp di website. Kami siap memberikan demo gratis dan konsultasi awal tanpa biaya.</p>
+      <p>Silakan hubungi kami melalui formulir kontak atau WhatsApp di website. Kami siap memberikan konsultasi awal tanpa biaya.</p>
     </div>
   </div>
 </div>

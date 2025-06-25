@@ -269,7 +269,6 @@ h4.ph-heading {
 
 .ph-bg-gray:before {
     content: " ";
-    /* background-image: url("../img/prohajj/bottom-background-image.png"); */
     height: 112px;
     width: 100%;
     display: block;
@@ -280,7 +279,6 @@ h4.ph-heading {
 
 .ph-bg-gray:after {
     content: " ";
-    /* background-image: url("../img/prohajj/bottom-background-image.png"); */
     height: 112px;
     width: 100%;
     display: block;
