@@ -250,7 +250,7 @@
 
                     <div class='col-md-4 col-sm-6 col-xs-12'>
                         <div class="pr-benefit-item benefit-card text-center">
-                            <img src="{{ asset('images/Kendaraan.jpg') }}" alt="Manajemen Transaksi Lengkap"
+                            <img src="{{ asset('images/Kendaraann.jpg') }}" alt="Manajemen Transaksi Lengkap"
                                 class="benefit-img">
                             <div class="pr-benefit-title">Kendaraan</div>
                         </div>
